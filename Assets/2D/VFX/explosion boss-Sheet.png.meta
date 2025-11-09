@@ -1,0 +1,4660 @@
+fileFormatVersion: 2
+guid: e6512c435f3064f449e7b98175b390fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1784047406296828145
+    second: explosion boss-Sheet_0
+  - first:
+      213: 1096847121460010177
+    second: explosion boss-Sheet_1
+  - first:
+      213: -6262858797652562720
+    second: explosion boss-Sheet_2
+  - first:
+      213: 8712579264025396013
+    second: explosion boss-Sheet_3
+  - first:
+      213: -1702943834304157179
+    second: explosion boss-Sheet_4
+  - first:
+      213: -8492017803479909501
+    second: explosion boss-Sheet_5
+  - first:
+      213: 1132608506903351219
+    second: explosion boss-Sheet_6
+  - first:
+      213: 5804052464438627826
+    second: explosion boss-Sheet_7
+  - first:
+      213: -266509627557774679
+    second: explosion boss-Sheet_8
+  - first:
+      213: -7094244849368229481
+    second: explosion boss-Sheet_9
+  - first:
+      213: 8265523631048643802
+    second: explosion boss-Sheet_10
+  - first:
+      213: 5770540841095790803
+    second: explosion boss-Sheet_11
+  - first:
+      213: 1298473998428663440
+    second: explosion boss-Sheet_12
+  - first:
+      213: 3116091355343572634
+    second: explosion boss-Sheet_13
+  - first:
+      213: 8992431377600249254
+    second: explosion boss-Sheet_14
+  - first:
+      213: -4488882942883101977
+    second: explosion boss-Sheet_15
+  - first:
+      213: 7288242229249680459
+    second: explosion boss-Sheet_16
+  - first:
+      213: 1966451667394110876
+    second: explosion boss-Sheet_17
+  - first:
+      213: -9113136513983040019
+    second: explosion boss-Sheet_18
+  - first:
+      213: -1542985839626458523
+    second: explosion boss-Sheet_19
+  - first:
+      213: 7187115716330851001
+    second: explosion boss-Sheet_20
+  - first:
+      213: 7599809043143516603
+    second: explosion boss-Sheet_21
+  - first:
+      213: -1714047660856138153
+    second: explosion boss-Sheet_22
+  - first:
+      213: -1118950976145100194
+    second: explosion boss-Sheet_23
+  - first:
+      213: 9217190927989461940
+    second: explosion boss-Sheet_24
+  - first:
+      213: -5118130865604858024
+    second: explosion boss-Sheet_25
+  - first:
+      213: -2786432046117295394
+    second: explosion boss-Sheet_26
+  - first:
+      213: 2855930728458308770
+    second: explosion boss-Sheet_27
+  - first:
+      213: -8362302113709095460
+    second: explosion boss-Sheet_28
+  - first:
+      213: 681773153728001626
+    second: explosion boss-Sheet_29
+  - first:
+      213: -5340339853737310161
+    second: explosion boss-Sheet_30
+  - first:
+      213: 7187461238187773042
+    second: explosion boss-Sheet_31
+  - first:
+      213: -5146261931010049108
+    second: explosion boss-Sheet_32
+  - first:
+      213: -2219822271538222954
+    second: explosion boss-Sheet_33
+  - first:
+      213: -4672608196788588331
+    second: explosion boss-Sheet_34
+  - first:
+      213: -8480964868037403209
+    second: explosion boss-Sheet_35
+  - first:
+      213: 1880851230157113958
+    second: explosion boss-Sheet_36
+  - first:
+      213: -9167860313580809002
+    second: explosion boss-Sheet_37
+  - first:
+      213: 6184849911711871272
+    second: explosion boss-Sheet_38
+  - first:
+      213: 4516103528322175672
+    second: explosion boss-Sheet_39
+  - first:
+      213: 8824129144323234818
+    second: explosion boss-Sheet_40
+  - first:
+      213: -4149771381677577183
+    second: explosion boss-Sheet_41
+  - first:
+      213: 1855054812373356213
+    second: explosion boss-Sheet_42
+  - first:
+      213: 7701116842853427493
+    second: explosion boss-Sheet_43
+  - first:
+      213: 8042772241384398096
+    second: explosion boss-Sheet_44
+  - first:
+      213: -2977987978850365113
+    second: explosion boss-Sheet_45
+  - first:
+      213: -7325980632044749253
+    second: explosion boss-Sheet_46
+  - first:
+      213: -8362667947218575373
+    second: explosion boss-Sheet_47
+  - first:
+      213: 7556624142571866280
+    second: explosion boss-Sheet_48
+  - first:
+      213: -4331159047596994598
+    second: explosion boss-Sheet_49
+  - first:
+      213: -3808049976248777573
+    second: explosion boss-Sheet_50
+  - first:
+      213: 3160436429447784819
+    second: explosion boss-Sheet_51
+  - first:
+      213: 1708911616307634505
+    second: explosion boss-Sheet_52
+  - first:
+      213: 7650973855815391553
+    second: explosion boss-Sheet_53
+  - first:
+      213: 145264907909481160
+    second: explosion boss-Sheet_54
+  - first:
+      213: 4264298859529978607
+    second: explosion boss-Sheet_55
+  - first:
+      213: -6295131601833093733
+    second: explosion boss-Sheet_56
+  - first:
+      213: -5505968774329817528
+    second: explosion boss-Sheet_57
+  - first:
+      213: 7067810268210876871
+    second: explosion boss-Sheet_58
+  - first:
+      213: -2979019139607874183
+    second: explosion boss-Sheet_59
+  - first:
+      213: -2602248441135168865
+    second: explosion boss-Sheet_60
+  - first:
+      213: 9182760280811971692
+    second: explosion boss-Sheet_61
+  - first:
+      213: -8076149155111608843
+    second: explosion boss-Sheet_62
+  - first:
+      213: -7673360328628308267
+    second: explosion boss-Sheet_63
+  - first:
+      213: -5604561619449552734
+    second: explosion boss-Sheet_64
+  - first:
+      213: 9037580480233103451
+    second: explosion boss-Sheet_65
+  - first:
+      213: -8899488538315243023
+    second: explosion boss-Sheet_66
+  - first:
+      213: 2252361510037711595
+    second: explosion boss-Sheet_67
+  - first:
+      213: 5453149614434358724
+    second: explosion boss-Sheet_68
+  - first:
+      213: -5624363028592580612
+    second: explosion boss-Sheet_69
+  - first:
+      213: 9087001358205557435
+    second: explosion boss-Sheet_70
+  - first:
+      213: -6232791622005350781
+    second: explosion boss-Sheet_71
+  - first:
+      213: -5216300330061591538
+    second: explosion boss-Sheet_72
+  - first:
+      213: -4315235790390511276
+    second: explosion boss-Sheet_73
+  - first:
+      213: 2031169123953135678
+    second: explosion boss-Sheet_74
+  - first:
+      213: -4184214825673852346
+    second: explosion boss-Sheet_75
+  - first:
+      213: 683988214944197846
+    second: explosion boss-Sheet_76
+  - first:
+      213: 8098038952426343827
+    second: explosion boss-Sheet_77
+  - first:
+      213: -4994286532567741799
+    second: explosion boss-Sheet_78
+  - first:
+      213: 8737317213645142928
+    second: explosion boss-Sheet_79
+  - first:
+      213: 5509748515713585928
+    second: explosion boss-Sheet_80
+  - first:
+      213: 5780539948006520864
+    second: explosion boss-Sheet_81
+  - first:
+      213: -837884320431123786
+    second: explosion boss-Sheet_82
+  - first:
+      213: -7078246171741120531
+    second: explosion boss-Sheet_83
+  - first:
+      213: -8046892328817879450
+    second: explosion boss-Sheet_84
+  - first:
+      213: 8189419004996109327
+    second: explosion boss-Sheet_85
+  - first:
+      213: -2327626377856134748
+    second: explosion boss-Sheet_86
+  - first:
+      213: 268770218597054366
+    second: explosion boss-Sheet_87
+  - first:
+      213: 2444509985555593993
+    second: explosion boss-Sheet_88
+  - first:
+      213: 2505514179948907868
+    second: explosion boss-Sheet_89
+  - first:
+      213: -5673805724528681761
+    second: explosion boss-Sheet_90
+  - first:
+      213: 763110843743196754
+    second: explosion boss-Sheet_91
+  - first:
+      213: -3674833668489990982
+    second: explosion boss-Sheet_92
+  - first:
+      213: 1582664990658119117
+    second: explosion boss-Sheet_93
+  - first:
+      213: -5741692692215874737
+    second: explosion boss-Sheet_94
+  - first:
+      213: -3575210635138526334
+    second: explosion boss-Sheet_95
+  - first:
+      213: 3908947589115767865
+    second: explosion boss-Sheet_96
+  - first:
+      213: -3780150568355523019
+    second: explosion boss-Sheet_97
+  - first:
+      213: -3633999104953737872
+    second: explosion boss-Sheet_98
+  - first:
+      213: 2252843633758847855
+    second: explosion boss-Sheet_99
+  - first:
+      213: -2168207464412820994
+    second: explosion boss-Sheet_100
+  - first:
+      213: 2086172596107518041
+    second: explosion boss-Sheet_101
+  - first:
+      213: 4945319148829666829
+    second: explosion boss-Sheet_102
+  - first:
+      213: -2495448206848102776
+    second: explosion boss-Sheet_103
+  - first:
+      213: -8565227096135881333
+    second: explosion boss-Sheet_104
+  - first:
+      213: -7368602227432357724
+    second: explosion boss-Sheet_105
+  - first:
+      213: 2474134622761441063
+    second: explosion boss-Sheet_106
+  - first:
+      213: -2456870385130404092
+    second: explosion boss-Sheet_107
+  - first:
+      213: -4598018574153573225
+    second: explosion boss-Sheet_108
+  - first:
+      213: -5400403650088237231
+    second: explosion boss-Sheet_109
+  - first:
+      213: -4365623347636613973
+    second: explosion boss-Sheet_110
+  - first:
+      213: 8231396803993354562
+    second: explosion boss-Sheet_111
+  - first:
+      213: 7362177227830959946
+    second: explosion boss-Sheet_112
+  - first:
+      213: -1631508125159564386
+    second: explosion boss-Sheet_113
+  - first:
+      213: -6845005869251858783
+    second: explosion boss-Sheet_114
+  - first:
+      213: -7971338161033891328
+    second: explosion boss-Sheet_115
+  - first:
+      213: 9071120374975780228
+    second: explosion boss-Sheet_116
+  - first:
+      213: 6265834437008204648
+    second: explosion boss-Sheet_117
+  - first:
+      213: 6715105361636805080
+    second: explosion boss-Sheet_118
+  - first:
+      213: 2004779073513248127
+    second: explosion boss-Sheet_119
+  - first:
+      213: 654726725555766104
+    second: explosion boss-Sheet_120
+  - first:
+      213: -8721515952649665228
+    second: explosion boss-Sheet_121
+  - first:
+      213: -771909407974123272
+    second: explosion boss-Sheet_122
+  - first:
+      213: -871347046530364679
+    second: explosion boss-Sheet_123
+  - first:
+      213: 3888720782613148808
+    second: explosion boss-Sheet_124
+  - first:
+      213: 2609197612636010992
+    second: explosion boss-Sheet_125
+  - first:
+      213: -403070462773755722
+    second: explosion boss-Sheet_126
+  - first:
+      213: 4646022677988165487
+    second: explosion boss-Sheet_127
+  - first:
+      213: -9195822461783207032
+    second: explosion boss-Sheet_128
+  - first:
+      213: 9150989508213870493
+    second: explosion boss-Sheet_129
+  - first:
+      213: 1409100613914890537
+    second: explosion boss-Sheet_130
+  - first:
+      213: -2354344772384883273
+    second: explosion boss-Sheet_131
+  - first:
+      213: -5614499141259720829
+    second: explosion boss-Sheet_132
+  - first:
+      213: 967105493035502720
+    second: explosion boss-Sheet_133
+  - first:
+      213: -8706552151209295482
+    second: explosion boss-Sheet_134
+  - first:
+      213: -9173034810443464766
+    second: explosion boss-Sheet_135
+  - first:
+      213: 8424632681713544823
+    second: explosion boss-Sheet_136
+  - first:
+      213: 881403658906808841
+    second: explosion boss-Sheet_137
+  - first:
+      213: 7071288918988852197
+    second: explosion boss-Sheet_138
+  - first:
+      213: 4737088768036758871
+    second: explosion boss-Sheet_139
+  - first:
+      213: 12905472020436804
+    second: explosion boss-Sheet_140
+  - first:
+      213: 1983412868531582731
+    second: explosion boss-Sheet_141
+  - first:
+      213: -7247334034675502904
+    second: explosion boss-Sheet_142
+  - first:
+      213: -5659079080343759043
+    second: explosion boss-Sheet_143
+  - first:
+      213: -7061005825033856318
+    second: explosion boss-Sheet_144
+  - first:
+      213: -6004867310093827773
+    second: explosion boss-Sheet_145
+  - first:
+      213: 9163527781537905921
+    second: explosion boss-Sheet_146
+  - first:
+      213: 2425301418247466861
+    second: explosion boss-Sheet_147
+  - first:
+      213: 6738819542917234398
+    second: explosion boss-Sheet_148
+  - first:
+      213: -473790487936207123
+    second: explosion boss-Sheet_149
+  - first:
+      213: -1390694091327496382
+    second: explosion boss-Sheet_150
+  - first:
+      213: -2265921494164125551
+    second: explosion boss-Sheet_151
+  - first:
+      213: 1763241150559931557
+    second: explosion boss-Sheet_152
+  - first:
+      213: 8234238972129032067
+    second: explosion boss-Sheet_153
+  - first:
+      213: 905233987937106382
+    second: explosion boss-Sheet_154
+  - first:
+      213: -1833508155219941109
+    second: explosion boss-Sheet_155
+  - first:
+      213: -7166530446548266438
+    second: explosion boss-Sheet_156
+  - first:
+      213: 4233024112874792698
+    second: explosion boss-Sheet_157
+  - first:
+      213: -3417785152903019707
+    second: explosion boss-Sheet_158
+  - first:
+      213: 5493821050937953890
+    second: explosion boss-Sheet_159
+  - first:
+      213: 5871946023936479120
+    second: explosion boss-Sheet_160
+  - first:
+      213: -3671685884988065087
+    second: explosion boss-Sheet_161
+  - first:
+      213: 3937216802357945575
+    second: explosion boss-Sheet_162
+  - first:
+      213: -8202503522583233663
+    second: explosion boss-Sheet_163
+  - first:
+      213: -4653192304715087289
+    second: explosion boss-Sheet_164
+  - first:
+      213: 6238060074742181617
+    second: explosion boss-Sheet_165
+  - first:
+      213: 1787732384743409764
+    second: explosion boss-Sheet_166
+  - first:
+      213: -7429174506092226163
+    second: explosion boss-Sheet_167
+  - first:
+      213: 2042037396906074871
+    second: explosion boss-Sheet_168
+  - first:
+      213: -1631240620717872409
+    second: explosion boss-Sheet_169
+  - first:
+      213: -5537297187172640413
+    second: explosion boss-Sheet_170
+  - first:
+      213: 572031760906134987
+    second: explosion boss-Sheet_171
+  - first:
+      213: 4153332065246781298
+    second: explosion boss-Sheet_172
+  - first:
+      213: -8059299495742865493
+    second: explosion boss-Sheet_173
+  - first:
+      213: 6400848509559309567
+    second: explosion boss-Sheet_174
+  - first:
+      213: 264096251811581969
+    second: explosion boss-Sheet_175
+  - first:
+      213: -6545243145401403932
+    second: explosion boss-Sheet_176
+  - first:
+      213: -4236877761397550868
+    second: explosion boss-Sheet_177
+  - first:
+      213: -2139351454976068440
+    second: explosion boss-Sheet_178
+  - first:
+      213: -3879183754837484917
+    second: explosion boss-Sheet_179
+  - first:
+      213: -7769288989138964769
+    second: explosion boss-Sheet_180
+  - first:
+      213: 3811628543287754522
+    second: explosion boss-Sheet_181
+  - first:
+      213: 3591525952578070015
+    second: explosion boss-Sheet_182
+  - first:
+      213: 4911363127878662286
+    second: explosion boss-Sheet_183
+  - first:
+      213: -7330621121346597988
+    second: explosion boss-Sheet_184
+  - first:
+      213: 9214075155645694776
+    second: explosion boss-Sheet_185
+  - first:
+      213: 6840027251300555384
+    second: explosion boss-Sheet_186
+  - first:
+      213: -7690044475942145258
+    second: explosion boss-Sheet_187
+  - first:
+      213: 4953186916752093391
+    second: explosion boss-Sheet_188
+  - first:
+      213: 197848966292030599
+    second: explosion boss-Sheet_189
+  - first:
+      213: 4308897283862589020
+    second: explosion boss-Sheet_190
+  - first:
+      213: 6186643428386797444
+    second: explosion boss-Sheet_191
+  - first:
+      213: -5130848068085646138
+    second: explosion boss-Sheet_192
+  - first:
+      213: -6148069735619681065
+    second: explosion boss-Sheet_193
+  - first:
+      213: -9068621922155128915
+    second: explosion boss-Sheet_194
+  - first:
+      213: 5528058549335893856
+    second: explosion boss-Sheet_195
+  - first:
+      213: -1476049675298241746
+    second: explosion boss-Sheet_196
+  - first:
+      213: -564316450864637500
+    second: explosion boss-Sheet_197
+  - first:
+      213: -8481786206138189696
+    second: explosion boss-Sheet_198
+  - first:
+      213: -6297740516330583073
+    second: explosion boss-Sheet_199
+  - first:
+      213: 8744632900665952424
+    second: explosion boss-Sheet_200
+  - first:
+      213: -5879001697502586483
+    second: explosion boss-Sheet_201
+  - first:
+      213: 7619243351028853610
+    second: explosion boss-Sheet_202
+  - first:
+      213: -3204505233368912658
+    second: explosion boss-Sheet_203
+  - first:
+      213: -1796129943409377898
+    second: explosion boss-Sheet_204
+  - first:
+      213: -482180045853961574
+    second: explosion boss-Sheet_205
+  - first:
+      213: 5329765961310574316
+    second: explosion boss-Sheet_206
+  - first:
+      213: -2230229413783196037
+    second: explosion boss-Sheet_207
+  - first:
+      213: 1067783833088130544
+    second: explosion boss-Sheet_208
+  - first:
+      213: -2207536233911878331
+    second: explosion boss-Sheet_209
+  - first:
+      213: -3925118243783752026
+    second: explosion boss-Sheet_210
+  - first:
+      213: -1771279599625514668
+    second: explosion boss-Sheet_211
+  - first:
+      213: 576928659925380780
+    second: explosion boss-Sheet_212
+  - first:
+      213: 4374497681878683525
+    second: explosion boss-Sheet_213
+  - first:
+      213: -2072934427648669444
+    second: explosion boss-Sheet_214
+  - first:
+      213: 1616631568872325743
+    second: explosion boss-Sheet_215
+  - first:
+      213: -4003474525657983855
+    second: explosion boss-Sheet_216
+  - first:
+      213: 4913462460885678198
+    second: explosion boss-Sheet_217
+  - first:
+      213: 2120611396882553090
+    second: explosion boss-Sheet_218
+  - first:
+      213: 5496283140460277316
+    second: explosion boss-Sheet_219
+  - first:
+      213: -8021737286042271490
+    second: explosion boss-Sheet_220
+  - first:
+      213: -6142463443676004899
+    second: explosion boss-Sheet_221
+  - first:
+      213: 3718315704666702055
+    second: explosion boss-Sheet_222
+  - first:
+      213: 4657277589349936367
+    second: explosion boss-Sheet_223
+  - first:
+      213: -2377098198422531781
+    second: explosion boss-Sheet_224
+  - first:
+      213: -1414046622385732287
+    second: explosion boss-Sheet_225
+  - first:
+      213: -5954276800696828646
+    second: explosion boss-Sheet_226
+  - first:
+      213: -5169157213402533350
+    second: explosion boss-Sheet_227
+  - first:
+      213: 5032004592989675885
+    second: explosion boss-Sheet_228
+  - first:
+      213: 5667714993465967959
+    second: explosion boss-Sheet_229
+  - first:
+      213: -2649627062336961805
+    second: explosion boss-Sheet_230
+  - first:
+      213: -7218766339864273762
+    second: explosion boss-Sheet_231
+  - first:
+      213: -8394821656642355602
+    second: explosion boss-Sheet_232
+  - first:
+      213: -8294343801968826739
+    second: explosion boss-Sheet_233
+  - first:
+      213: -1831157735788183324
+    second: explosion boss-Sheet_234
+  - first:
+      213: -7058605454486231767
+    second: explosion boss-Sheet_235
+  - first:
+      213: 3839059713417970739
+    second: explosion boss-Sheet_236
+  - first:
+      213: 2645589540918303824
+    second: explosion boss-Sheet_237
+  - first:
+      213: -3500971549347030055
+    second: explosion boss-Sheet_238
+  - first:
+      213: 3155018704483306744
+    second: explosion boss-Sheet_239
+  - first:
+      213: 6093948173980240574
+    second: explosion boss-Sheet_240
+  - first:
+      213: 5233820854334760258
+    second: explosion boss-Sheet_241
+  - first:
+      213: 467392598979178908
+    second: explosion boss-Sheet_242
+  - first:
+      213: -227877440432179524
+    second: explosion boss-Sheet_243
+  - first:
+      213: 5289763944990484968
+    second: explosion boss-Sheet_244
+  - first:
+      213: -6357936714434411059
+    second: explosion boss-Sheet_245
+  - first:
+      213: 245396730175172149
+    second: explosion boss-Sheet_246
+  - first:
+      213: -2058801241122465260
+    second: explosion boss-Sheet_247
+  - first:
+      213: -7487411436805396895
+    second: explosion boss-Sheet_248
+  - first:
+      213: 4731421475889788351
+    second: explosion boss-Sheet_249
+  - first:
+      213: 6324637343972277796
+    second: explosion boss-Sheet_250
+  - first:
+      213: -6330654539086798175
+    second: explosion boss-Sheet_251
+  - first:
+      213: 841702425092240701
+    second: explosion boss-Sheet_252
+  - first:
+      213: -2923461900230652863
+    second: explosion boss-Sheet_253
+  - first:
+      213: -4109991478835797016
+    second: explosion boss-Sheet_254
+  - first:
+      213: 9132981828961277704
+    second: explosion boss-Sheet_255
+  - first:
+      213: -8980420565767508411
+    second: explosion boss-Sheet_256
+  - first:
+      213: 2010450478330255740
+    second: explosion boss-Sheet_257
+  - first:
+      213: 8089228909029575231
+    second: explosion boss-Sheet_258
+  - first:
+      213: -9069158363978919457
+    second: explosion boss-Sheet_259
+  - first:
+      213: -6926279628234310265
+    second: explosion boss-Sheet_260
+  - first:
+      213: -457909876207677627
+    second: explosion boss-Sheet_261
+  - first:
+      213: 4067584154722321913
+    second: explosion boss-Sheet_262
+  - first:
+      213: 3384442518478547599
+    second: explosion boss-Sheet_263
+  - first:
+      213: -6615149280346243604
+    second: explosion boss-Sheet_264
+  - first:
+      213: -1243520856599075477
+    second: explosion boss-Sheet_265
+  - first:
+      213: -3188991397171103146
+    second: explosion boss-Sheet_266
+  - first:
+      213: 5273855538850626254
+    second: explosion boss-Sheet_267
+  - first:
+      213: -3374014614709574177
+    second: explosion boss-Sheet_268
+  - first:
+      213: 203913143511433357
+    second: explosion boss-Sheet_269
+  - first:
+      213: -7401704161779825375
+    second: explosion boss-Sheet_270
+  - first:
+      213: 789325473311249058
+    second: explosion boss-Sheet_271
+  - first:
+      213: 9112433459997908221
+    second: explosion boss-Sheet_272
+  - first:
+      213: 311187129680263682
+    second: explosion boss-Sheet_273
+  - first:
+      213: -4083390994254170574
+    second: explosion boss-Sheet_274
+  - first:
+      213: 3048036373389418605
+    second: explosion boss-Sheet_275
+  - first:
+      213: -711559552315714816
+    second: explosion boss-Sheet_276
+  - first:
+      213: 4447612568251179846
+    second: explosion boss-Sheet_277
+  - first:
+      213: 1870996833748043608
+    second: explosion boss-Sheet_278
+  - first:
+      213: -7443712846768172665
+    second: explosion boss-Sheet_279
+  - first:
+      213: -5213931980457149868
+    second: explosion boss-Sheet_280
+  - first:
+      213: -2874154465010360072
+    second: explosion boss-Sheet_281
+  - first:
+      213: 3238299156713860062
+    second: explosion boss-Sheet_282
+  - first:
+      213: 5737805793959751268
+    second: explosion boss-Sheet_283
+  - first:
+      213: 6288729314601796769
+    second: explosion boss-Sheet_284
+  - first:
+      213: -1425393515083464985
+    second: explosion boss-Sheet_285
+  - first:
+      213: -3318172928374882907
+    second: explosion boss-Sheet_286
+  - first:
+      213: -2398812343633990042
+    second: explosion boss-Sheet_287
+  - first:
+      213: 2645477495253239774
+    second: explosion boss-Sheet_288
+  - first:
+      213: -4495656760608935250
+    second: explosion boss-Sheet_289
+  - first:
+      213: 5091058808023760661
+    second: explosion boss-Sheet_290
+  - first:
+      213: -5479278936844197500
+    second: explosion boss-Sheet_291
+  - first:
+      213: -398178396098834848
+    second: explosion boss-Sheet_292
+  - first:
+      213: 6765733102264294911
+    second: explosion boss-Sheet_293
+  - first:
+      213: 6742599422637623386
+    second: explosion boss-Sheet_294
+  - first:
+      213: -6518947590561874106
+    second: explosion boss-Sheet_295
+  - first:
+      213: 6432616305993223802
+    second: explosion boss-Sheet_296
+  - first:
+      213: -5720520876780065522
+    second: explosion boss-Sheet_297
+  - first:
+      213: -8179953191877991987
+    second: explosion boss-Sheet_298
+  - first:
+      213: -1660167672086316592
+    second: explosion boss-Sheet_299
+  - first:
+      213: -3616192081425630573
+    second: explosion boss-Sheet_300
+  - first:
+      213: -881079421644995687
+    second: explosion boss-Sheet_301
+  - first:
+      213: 8429744373337715961
+    second: explosion boss-Sheet_302
+  - first:
+      213: -1295720184231003981
+    second: explosion boss-Sheet_303
+  - first:
+      213: 3195746075017469812
+    second: explosion boss-Sheet_304
+  - first:
+      213: -6730319889919367771
+    second: explosion boss-Sheet_305
+  - first:
+      213: -992706404958145660
+    second: explosion boss-Sheet_306
+  - first:
+      213: -7736105956681594628
+    second: explosion boss-Sheet_307
+  - first:
+      213: -6165655845315132646
+    second: explosion boss-Sheet_308
+  - first:
+      213: -1553656394852418396
+    second: explosion boss-Sheet_309
+  - first:
+      213: -7367653924494925732
+    second: explosion boss-Sheet_310
+  - first:
+      213: -8831641855439020317
+    second: explosion boss-Sheet_311
+  - first:
+      213: 6543163781080938859
+    second: explosion boss-Sheet_312
+  - first:
+      213: -6123611281101343623
+    second: explosion boss-Sheet_313
+  - first:
+      213: 4127456205453905669
+    second: explosion boss-Sheet_314
+  - first:
+      213: 1414062523799650636
+    second: explosion boss-Sheet_315
+  - first:
+      213: 2388496973767927938
+    second: explosion boss-Sheet_316
+  - first:
+      213: 307883574430636527
+    second: explosion boss-Sheet_317
+  - first:
+      213: -1522995636263093054
+    second: explosion boss-Sheet_318
+  - first:
+      213: 3135783392621565883
+    second: explosion boss-Sheet_319
+  - first:
+      213: 1211067339600845301
+    second: explosion boss-Sheet_320
+  - first:
+      213: -8522244734935695919
+    second: explosion boss-Sheet_321
+  - first:
+      213: -1858180912267880582
+    second: explosion boss-Sheet_322
+  - first:
+      213: 3651467626529135147
+    second: explosion boss-Sheet_323
+  - first:
+      213: -9165614716838126095
+    second: explosion boss-Sheet_324
+  - first:
+      213: -3183892485480593468
+    second: explosion boss-Sheet_325
+  - first:
+      213: 5222453861164560746
+    second: explosion boss-Sheet_326
+  - first:
+      213: -4553269701850339325
+    second: explosion boss-Sheet_327
+  - first:
+      213: -6912509955091571631
+    second: explosion boss-Sheet_328
+  - first:
+      213: 3619597388796038598
+    second: explosion boss-Sheet_329
+  - first:
+      213: -3226941799985084668
+    second: explosion boss-Sheet_330
+  - first:
+      213: -7497829822246520812
+    second: explosion boss-Sheet_331
+  - first:
+      213: -6914273545644894779
+    second: explosion boss-Sheet_332
+  - first:
+      213: 3778577106507030747
+    second: explosion boss-Sheet_333
+  - first:
+      213: 6902936265579191215
+    second: explosion boss-Sheet_334
+  - first:
+      213: 968514633477183418
+    second: explosion boss-Sheet_335
+  - first:
+      213: -4772497629142520193
+    second: explosion boss-Sheet_336
+  - first:
+      213: 5003486900174279629
+    second: explosion boss-Sheet_337
+  - first:
+      213: 3276588677608438376
+    second: explosion boss-Sheet_338
+  - first:
+      213: 5141102253786179824
+    second: explosion boss-Sheet_339
+  - first:
+      213: -3782077383888863653
+    second: explosion boss-Sheet_340
+  - first:
+      213: 2665533850220047127
+    second: explosion boss-Sheet_341
+  - first:
+      213: -8568373448944236518
+    second: explosion boss-Sheet_342
+  - first:
+      213: 649005114820830548
+    second: explosion boss-Sheet_343
+  - first:
+      213: -5410561227355160183
+    second: explosion boss-Sheet_344
+  - first:
+      213: -4799411551248366533
+    second: explosion boss-Sheet_345
+  - first:
+      213: 6741089534701817824
+    second: explosion boss-Sheet_346
+  - first:
+      213: 1915667310398360349
+    second: explosion boss-Sheet_347
+  - first:
+      213: 4734435187508694723
+    second: explosion boss-Sheet_348
+  - first:
+      213: -6946431288502126884
+    second: explosion boss-Sheet_349
+  - first:
+      213: 3431171454291470424
+    second: explosion boss-Sheet_350
+  - first:
+      213: 6373937313899738792
+    second: explosion boss-Sheet_351
+  - first:
+      213: -8544886810400951980
+    second: explosion boss-Sheet_352
+  - first:
+      213: 7938019111682844870
+    second: explosion boss-Sheet_353
+  - first:
+      213: 3134782579908427851
+    second: explosion boss-Sheet_354
+  - first:
+      213: -5961065518358004771
+    second: explosion boss-Sheet_355
+  - first:
+      213: -1418466315533574205
+    second: explosion boss-Sheet_356
+  - first:
+      213: -5731974273875212350
+    second: explosion boss-Sheet_357
+  - first:
+      213: 1762833638399001069
+    second: explosion boss-Sheet_358
+  - first:
+      213: 4520444745020141456
+    second: explosion boss-Sheet_359
+  - first:
+      213: -2837427766083814772
+    second: explosion boss-Sheet_360
+  - first:
+      213: 5983055919040950142
+    second: explosion boss-Sheet_361
+  - first:
+      213: -7625415870435794702
+    second: explosion boss-Sheet_362
+  - first:
+      213: 5796702354706962017
+    second: explosion boss-Sheet_363
+  - first:
+      213: 7335145870815512348
+    second: explosion boss-Sheet_364
+  - first:
+      213: 4888154490140921773
+    second: explosion boss-Sheet_365
+  - first:
+      213: 7461511381701003487
+    second: explosion boss-Sheet_366
+  - first:
+      213: -8488465901909361068
+    second: explosion boss-Sheet_367
+  - first:
+      213: 3379272246157539744
+    second: explosion boss-Sheet_368
+  - first:
+      213: -3372818494251692076
+    second: explosion boss-Sheet_369
+  - first:
+      213: -126630107753709838
+    second: explosion boss-Sheet_370
+  - first:
+      213: 5148426330763859076
+    second: explosion boss-Sheet_371
+  - first:
+      213: 3007472205577226968
+    second: explosion boss-Sheet_372
+  - first:
+      213: -6368232164983718200
+    second: explosion boss-Sheet_373
+  - first:
+      213: -3639032527023743118
+    second: explosion boss-Sheet_374
+  - first:
+      213: 2569644407702038258
+    second: explosion boss-Sheet_375
+  - first:
+      213: -4664933862276229703
+    second: explosion boss-Sheet_376
+  - first:
+      213: 1056327103439437959
+    second: explosion boss-Sheet_377
+  - first:
+      213: -4956641498587355728
+    second: explosion boss-Sheet_378
+  - first:
+      213: -1681704878550776508
+    second: explosion boss-Sheet_379
+  - first:
+      213: 1475465870252013665
+    second: explosion boss-Sheet_380
+  - first:
+      213: 5791308084590184648
+    second: explosion boss-Sheet_381
+  - first:
+      213: 77617778493313713
+    second: explosion boss-Sheet_382
+  - first:
+      213: -9223355142988476547
+    second: explosion boss-Sheet_383
+  - first:
+      213: 8022000099454994858
+    second: explosion boss-Sheet_384
+  - first:
+      213: 119324156958380928
+    second: explosion boss-Sheet_385
+  - first:
+      213: -3956336694876974662
+    second: explosion boss-Sheet_386
+  - first:
+      213: -3719744145553941582
+    second: explosion boss-Sheet_387
+  - first:
+      213: -319248922040927905
+    second: explosion boss-Sheet_388
+  - first:
+      213: 5601237170866633342
+    second: explosion boss-Sheet_389
+  - first:
+      213: -7074191815476651526
+    second: explosion boss-Sheet_390
+  - first:
+      213: -8238903520946959002
+    second: explosion boss-Sheet_391
+  - first:
+      213: -6590600573614898775
+    second: explosion boss-Sheet_392
+  - first:
+      213: -4628121302587054332
+    second: explosion boss-Sheet_393
+  - first:
+      213: 3306747000068377721
+    second: explosion boss-Sheet_394
+  - first:
+      213: -5845544434735735263
+    second: explosion boss-Sheet_395
+  - first:
+      213: 2659936182056793103
+    second: explosion boss-Sheet_396
+  - first:
+      213: 4664581398113762579
+    second: explosion boss-Sheet_397
+  - first:
+      213: -7420418680679367141
+    second: explosion boss-Sheet_398
+  - first:
+      213: 8122115538086217104
+    second: explosion boss-Sheet_399
+  - first:
+      213: 7797227961182146667
+    second: explosion boss-Sheet_400
+  - first:
+      213: 7096549776746096138
+    second: explosion boss-Sheet_401
+  - first:
+      213: 1982097079320477956
+    second: explosion boss-Sheet_402
+  - first:
+      213: 6341425638782477028
+    second: explosion boss-Sheet_403
+  - first:
+      213: 910781548189992328
+    second: explosion boss-Sheet_404
+  - first:
+      213: -121199978865340113
+    second: explosion boss-Sheet_405
+  - first:
+      213: 6836205440992688879
+    second: explosion boss-Sheet_406
+  - first:
+      213: 9162747508221682324
+    second: explosion boss-Sheet_407
+  - first:
+      213: -3440751077028609722
+    second: explosion boss-Sheet_408
+  - first:
+      213: -9093015947767217318
+    second: explosion boss-Sheet_409
+  - first:
+      213: 2628198561514325509
+    second: explosion boss-Sheet_410
+  - first:
+      213: -3317320619643237575
+    second: explosion boss-Sheet_411
+  - first:
+      213: -2110199314764636704
+    second: explosion boss-Sheet_412
+  - first:
+      213: -2857152450325100919
+    second: explosion boss-Sheet_413
+  - first:
+      213: 1237979853655250468
+    second: explosion boss-Sheet_414
+  - first:
+      213: -4586957696338348215
+    second: explosion boss-Sheet_415
+  - first:
+      213: 3110850683004238014
+    second: explosion boss-Sheet_416
+  - first:
+      213: 3639711226887728940
+    second: explosion boss-Sheet_417
+  - first:
+      213: 3169699527437259427
+    second: explosion boss-Sheet_418
+  - first:
+      213: -4107393437701905196
+    second: explosion boss-Sheet_419
+  - first:
+      213: 8203093318709039611
+    second: explosion boss-Sheet_420
+  - first:
+      213: 4873939461163848437
+    second: explosion boss-Sheet_421
+  - first:
+      213: 5925263416504337849
+    second: explosion boss-Sheet_422
+  - first:
+      213: 4359355398179664252
+    second: explosion boss-Sheet_423
+  - first:
+      213: -686704954322406675
+    second: explosion boss-Sheet_424
+  - first:
+      213: -6741753269659800979
+    second: explosion boss-Sheet_425
+  - first:
+      213: -2050012910579657900
+    second: explosion boss-Sheet_426
+  - first:
+      213: 7068978176866054510
+    second: explosion boss-Sheet_427
+  - first:
+      213: -2812820543690778518
+    second: explosion boss-Sheet_428
+  - first:
+      213: 6998792860424186763
+    second: explosion boss-Sheet_429
+  - first:
+      213: -3415155672183613515
+    second: explosion boss-Sheet_430
+  - first:
+      213: 9080451462027129004
+    second: explosion boss-Sheet_431
+  - first:
+      213: -2682959639578277065
+    second: explosion boss-Sheet_432
+  - first:
+      213: -6187444978323085168
+    second: explosion boss-Sheet_433
+  - first:
+      213: -8090411426737937748
+    second: explosion boss-Sheet_434
+  - first:
+      213: 1835699790130465661
+    second: explosion boss-Sheet_435
+  - first:
+      213: 4375743835371205253
+    second: explosion boss-Sheet_436
+  - first:
+      213: -5367870861412808494
+    second: explosion boss-Sheet_437
+  - first:
+      213: 7455186938892193496
+    second: explosion boss-Sheet_438
+  - first:
+      213: -7315874485888094272
+    second: explosion boss-Sheet_439
+  - first:
+      213: 6301576043816852177
+    second: explosion boss-Sheet_440
+  - first:
+      213: 8884845289531680075
+    second: explosion boss-Sheet_441
+  - first:
+      213: 768297292907961139
+    second: explosion boss-Sheet_442
+  - first:
+      213: 8251393807700243809
+    second: explosion boss-Sheet_443
+  - first:
+      213: -5134893020326255734
+    second: explosion boss-Sheet_444
+  - first:
+      213: -3868539099815009976
+    second: explosion boss-Sheet_445
+  - first:
+      213: -4238520612498236745
+    second: explosion boss-Sheet_446
+  - first:
+      213: 1478705788788452918
+    second: explosion boss-Sheet_447
+  - first:
+      213: 6056301744666211194
+    second: explosion boss-Sheet_448
+  - first:
+      213: 1317921893169435579
+    second: explosion boss-Sheet_449
+  - first:
+      213: -7969599211234740428
+    second: explosion boss-Sheet_450
+  - first:
+      213: 7809545236129081906
+    second: explosion boss-Sheet_451
+  - first:
+      213: -5983235259722835989
+    second: explosion boss-Sheet_452
+  - first:
+      213: -5412442971561371628
+    second: explosion boss-Sheet_453
+  - first:
+      213: -8407538889409038294
+    second: explosion boss-Sheet_454
+  - first:
+      213: 9010519980860227941
+    second: explosion boss-Sheet_455
+  - first:
+      213: -6879814296525590107
+    second: explosion boss-Sheet_456
+  - first:
+      213: 2207783775792727926
+    second: explosion boss-Sheet_457
+  - first:
+      213: -2975892645086343370
+    second: explosion boss-Sheet_458
+  - first:
+      213: -8027818304600931521
+    second: explosion boss-Sheet_459
+  - first:
+      213: 1146341981622921755
+    second: explosion boss-Sheet_460
+  - first:
+      213: 4917367815613016449
+    second: explosion boss-Sheet_461
+  - first:
+      213: 7662788462754478041
+    second: explosion boss-Sheet_462
+  - first:
+      213: 837214223306379086
+    second: explosion boss-Sheet_463
+  - first:
+      213: 3215505717344926154
+    second: explosion boss-Sheet_464
+  - first:
+      213: -6659660467531082059
+    second: explosion boss-Sheet_465
+  - first:
+      213: 836171168104628279
+    second: explosion boss-Sheet_466
+  - first:
+      213: -8867537887550643518
+    second: explosion boss-Sheet_467
+  - first:
+      213: 4895759678511402500
+    second: explosion boss-Sheet_468
+  - first:
+      213: 2995317801714441709
+    second: explosion boss-Sheet_469
+  - first:
+      213: 4313610406664416851
+    second: explosion boss-Sheet_470
+  - first:
+      213: 2417374013049920909
+    second: explosion boss-Sheet_471
+  - first:
+      213: -2893431954081287998
+    second: explosion boss-Sheet_472
+  - first:
+      213: -6738736368675370167
+    second: explosion boss-Sheet_473
+  - first:
+      213: -2914290213410981709
+    second: explosion boss-Sheet_474
+  - first:
+      213: -4889877500192443629
+    second: explosion boss-Sheet_475
+  - first:
+      213: -7044352092779660309
+    second: explosion boss-Sheet_476
+  - first:
+      213: 829759666092713838
+    second: explosion boss-Sheet_477
+  - first:
+      213: 5537738540824065890
+    second: explosion boss-Sheet_478
+  - first:
+      213: -6128473461797976625
+    second: explosion boss-Sheet_479
+  - first:
+      213: -2982151814972471119
+    second: explosion boss-Sheet_480
+  - first:
+      213: -1425176132943639038
+    second: explosion boss-Sheet_481
+  - first:
+      213: -4189936973965978220
+    second: explosion boss-Sheet_482
+  - first:
+      213: 3923572246635377880
+    second: explosion boss-Sheet_483
+  - first:
+      213: -4870968179389825231
+    second: explosion boss-Sheet_484
+  - first:
+      213: -2986715444295624642
+    second: explosion boss-Sheet_485
+  - first:
+      213: 4712441868450029407
+    second: explosion boss-Sheet_486
+  - first:
+      213: -6082049038901092505
+    second: explosion boss-Sheet_487
+  - first:
+      213: 96283268112889586
+    second: explosion boss-Sheet_488
+  - first:
+      213: -1493508608468474438
+    second: explosion boss-Sheet_489
+  - first:
+      213: -2601960936911855656
+    second: explosion boss-Sheet_490
+  - first:
+      213: 2423420077894183077
+    second: explosion boss-Sheet_491
+  - first:
+      213: -3890269433523108085
+    second: explosion boss-Sheet_492
+  - first:
+      213: 285072848551994599
+    second: explosion boss-Sheet_493
+  - first:
+      213: -4829734187632873258
+    second: explosion boss-Sheet_494
+  - first:
+      213: -5317279167028793883
+    second: explosion boss-Sheet_495
+  - first:
+      213: 4005796431685783638
+    second: explosion boss-Sheet_496
+  - first:
+      213: 1375932707961160201
+    second: explosion boss-Sheet_497
+  - first:
+      213: 3864916253459009184
+    second: explosion boss-Sheet_498
+  - first:
+      213: -167381174586284248
+    second: explosion boss-Sheet_499
+  - first:
+      213: 4299753548542092903
+    second: explosion boss-Sheet_500
+  - first:
+      213: -7252850495333286420
+    second: explosion boss-Sheet_501
+  - first:
+      213: -8075761589033056424
+    second: explosion boss-Sheet_502
+  - first:
+      213: -6220776386534476207
+    second: explosion boss-Sheet_503
+  - first:
+      213: -5676750063964884509
+    second: explosion boss-Sheet_504
+  - first:
+      213: 7748265811283262829
+    second: explosion boss-Sheet_505
+  - first:
+      213: 8985367852687757032
+    second: explosion boss-Sheet_506
+  - first:
+      213: 6623471272657610143
+    second: explosion boss-Sheet_507
+  - first:
+      213: -5815711667690095449
+    second: explosion boss-Sheet_508
+  - first:
+      213: -1940118150136743160
+    second: explosion boss-Sheet_509
+  - first:
+      213: 1514930575289670898
+    second: explosion boss-Sheet_510
+  - first:
+      213: -1401808586379830556
+    second: explosion boss-Sheet_511
+  - first:
+      213: 6121221234634793471
+    second: explosion boss-Sheet_512
+  - first:
+      213: -7824815381986521315
+    second: explosion boss-Sheet_513
+  - first:
+      213: -7571589046277773500
+    second: explosion boss-Sheet_514
+  - first:
+      213: 8055214097574463837
+    second: explosion boss-Sheet_515
+  - first:
+      213: 1227790455890390529
+    second: explosion boss-Sheet_516
+  - first:
+      213: -2320551667668317714
+    second: explosion boss-Sheet_517
+  - first:
+      213: 7769186371911274955
+    second: explosion boss-Sheet_518
+  - first:
+      213: -6614614484028023174
+    second: explosion boss-Sheet_519
+  - first:
+      213: -4112610201903224113
+    second: explosion boss-Sheet_520
+  - first:
+      213: 4026085542389730705
+    second: explosion boss-Sheet_521
+  - first:
+      213: -5579688802383945674
+    second: explosion boss-Sheet_522
+  - first:
+      213: 7974897204745426669
+    second: explosion boss-Sheet_523
+  - first:
+      213: 3343085835252735686
+    second: explosion boss-Sheet_524
+  - first:
+      213: -7479994822295588150
+    second: explosion boss-Sheet_525
+  - first:
+      213: 6877094453152694176
+    second: explosion boss-Sheet_526
+  - first:
+      213: 8873397528124358191
+    second: explosion boss-Sheet_527
+  - first:
+      213: 8166796899158871314
+    second: explosion boss-Sheet_528
+  - first:
+      213: -802453186502331144
+    second: explosion boss-Sheet_529
+  - first:
+      213: -8312965295215545651
+    second: explosion boss-Sheet_530
+  - first:
+      213: -193018509690240833
+    second: explosion boss-Sheet_531
+  - first:
+      213: -7761546294239502411
+    second: explosion boss-Sheet_532
+  - first:
+      213: -8082248297088174392
+    second: explosion boss-Sheet_533
+  - first:
+      213: 5998212276489528834
+    second: explosion boss-Sheet_534
+  - first:
+      213: 7881044272341663307
+    second: explosion boss-Sheet_535
+  - first:
+      213: 7369511562119782525
+    second: explosion boss-Sheet_536
+  - first:
+      213: -1909319968322333153
+    second: explosion boss-Sheet_537
+  - first:
+      213: -1284895318672119942
+    second: explosion boss-Sheet_538
+  - first:
+      213: 3578609718311496529
+    second: explosion boss-Sheet_539
+  - first:
+      213: -3414747367952996822
+    second: explosion boss-Sheet_540
+  - first:
+      213: -8447908522365172383
+    second: explosion boss-Sheet_541
+  - first:
+      213: -7040348827041986287
+    second: explosion boss-Sheet_542
+  - first:
+      213: -1684289778546087141
+    second: explosion boss-Sheet_543
+  - first:
+      213: 9095176792127482436
+    second: explosion boss-Sheet_544
+  - first:
+      213: 5431062295317520872
+    second: explosion boss-Sheet_545
+  - first:
+      213: -1096997694707741521
+    second: explosion boss-Sheet_546
+  - first:
+      213: -8130022118210459169
+    second: explosion boss-Sheet_547
+  - first:
+      213: 2198504544870034933
+    second: explosion boss-Sheet_548
+  - first:
+      213: -8761525235471922290
+    second: explosion boss-Sheet_549
+  - first:
+      213: -1460786842712158837
+    second: explosion boss-Sheet_550
+  - first:
+      213: -829260813217075824
+    second: explosion boss-Sheet_551
+  - first:
+      213: -7035835288757297745
+    second: explosion boss-Sheet_552
+  - first:
+      213: 1564728876452169806
+    second: explosion boss-Sheet_553
+  - first:
+      213: 8455678873783095543
+    second: explosion boss-Sheet_554
+  - first:
+      213: 3584099636382027354
+    second: explosion boss-Sheet_555
+  - first:
+      213: -1136656829955580569
+    second: explosion boss-Sheet_556
+  - first:
+      213: -1296330333028055119
+    second: explosion boss-Sheet_557
+  - first:
+      213: -2422231943766214573
+    second: explosion boss-Sheet_558
+  - first:
+      213: -3725650960012175983
+    second: explosion boss-Sheet_559
+  - first:
+      213: -2616911285817884514
+    second: explosion boss-Sheet_560
+  - first:
+      213: -3958711876523102842
+    second: explosion boss-Sheet_561
+  - first:
+      213: 7061479325563354411
+    second: explosion boss-Sheet_562
+  - first:
+      213: -1706738621650387149
+    second: explosion boss-Sheet_563
+  - first:
+      213: -7163790293322506788
+    second: explosion boss-Sheet_564
+  - first:
+      213: 4536644989253494489
+    second: explosion boss-Sheet_565
+  - first:
+      213: 6289279896722019347
+    second: explosion boss-Sheet_566
+  - first:
+      213: -7849816427034755414
+    second: explosion boss-Sheet_567
+  - first:
+      213: -6262085307088467705
+    second: explosion boss-Sheet_568
+  - first:
+      213: -1325668753552584813
+    second: explosion boss-Sheet_569
+  - first:
+      213: 9182847815957645536
+    second: explosion boss-Sheet_570
+  - first:
+      213: -4551131074438796917
+    second: explosion boss-Sheet_571
+  - first:
+      213: 3872850333641167979
+    second: explosion boss-Sheet_572
+  - first:
+      213: 404627005452791192
+    second: explosion boss-Sheet_573
+  - first:
+      213: 6763338038041568970
+    second: explosion boss-Sheet_574
+  - first:
+      213: 4065936768368231240
+    second: explosion boss-Sheet_575
+  - first:
+      213: -6094182715583702104
+    second: explosion boss-Sheet_576
+  - first:
+      213: 5326728307656285775
+    second: explosion boss-Sheet_577
+  - first:
+      213: 4120511633127083986
+    second: explosion boss-Sheet_578
+  - first:
+      213: 5310202612806194979
+    second: explosion boss-Sheet_579
+  - first:
+      213: 4232311516780200166
+    second: explosion boss-Sheet_580
+  - first:
+      213: 1752252097655953921
+    second: explosion boss-Sheet_581
+  - first:
+      213: -4172642317321530934
+    second: explosion boss-Sheet_582
+  - first:
+      213: -852621551852673759
+    second: explosion boss-Sheet_583
+  - first:
+      213: -5943090183324905927
+    second: explosion boss-Sheet_584
+  - first:
+      213: 3473771959426916683
+    second: explosion boss-Sheet_585
+  - first:
+      213: 1588251113237188517
+    second: explosion boss-Sheet_586
+  - first:
+      213: 4109463084507176079
+    second: explosion boss-Sheet_587
+  - first:
+      213: -3325526977181323206
+    second: explosion boss-Sheet_588
+  - first:
+      213: 4710802115217020892
+    second: explosion boss-Sheet_589
+  - first:
+      213: 7065944702946024937
+    second: explosion boss-Sheet_590
+  - first:
+      213: 6672810629124630330
+    second: explosion boss-Sheet_591
+  - first:
+      213: -737710528592284007
+    second: explosion boss-Sheet_592
+  - first:
+      213: 2678116160143352971
+    second: explosion boss-Sheet_593
+  - first:
+      213: 4350839459069868805
+    second: explosion boss-Sheet_594
+  - first:
+      213: -7785725370805656856
+    second: explosion boss-Sheet_595
+  - first:
+      213: -7849597953649575983
+    second: explosion boss-Sheet_596
+  - first:
+      213: -8471682688496640192
+    second: explosion boss-Sheet_597
+  - first:
+      213: -8559394793167572709
+    second: explosion boss-Sheet_598
+  - first:
+      213: -3406667714703855395
+    second: explosion boss-Sheet_599
+  - first:
+      213: -5373246285474365731
+    second: explosion boss-Sheet_600
+  - first:
+      213: -4409333397516029749
+    second: explosion boss-Sheet_601
+  - first:
+      213: 3572257816863384856
+    second: explosion boss-Sheet_602
+  - first:
+      213: 1449410108922890131
+    second: explosion boss-Sheet_603
+  - first:
+      213: -8297130278443628392
+    second: explosion boss-Sheet_604
+  - first:
+      213: 2328090859201420861
+    second: explosion boss-Sheet_605
+  - first:
+      213: 5500178872408122210
+    second: explosion boss-Sheet_606
+  - first:
+      213: -4983297687347096033
+    second: explosion boss-Sheet_607
+  - first:
+      213: -6748548181492316428
+    second: explosion boss-Sheet_608
+  - first:
+      213: -1560671571522152755
+    second: explosion boss-Sheet_609
+  - first:
+      213: 7568989829546130565
+    second: explosion boss-Sheet_610
+  - first:
+      213: 2730337761176803518
+    second: explosion boss-Sheet_611
+  - first:
+      213: 614458481952115251
+    second: explosion boss-Sheet_612
+  - first:
+      213: -7455657990155726646
+    second: explosion boss-Sheet_613
+  - first:
+      213: 5925665225576086763
+    second: explosion boss-Sheet_614
+  - first:
+      213: -7629289910906901437
+    second: explosion boss-Sheet_615
+  - first:
+      213: 1703850766924091347
+    second: explosion boss-Sheet_616
+  - first:
+      213: -1667074718704244306
+    second: explosion boss-Sheet_617
+  - first:
+      213: -1872801488155356593
+    second: explosion boss-Sheet_618
+  - first:
+      213: -7845315647624916397
+    second: explosion boss-Sheet_619
+  - first:
+      213: -600275544787185941
+    second: explosion boss-Sheet_620
+  - first:
+      213: -8207286784375637191
+    second: explosion boss-Sheet_621
+  - first:
+      213: 2352851125801538360
+    second: explosion boss-Sheet_622
+  - first:
+      213: -6638173808010084414
+    second: explosion boss-Sheet_623
+  - first:
+      213: -8427678407781369739
+    second: explosion boss-Sheet_624
+  - first:
+      213: 9064112939676439480
+    second: explosion boss-Sheet_625
+  - first:
+      213: 7352377133515307510
+    second: explosion boss-Sheet_626
+  - first:
+      213: -931874026255397189
+    second: explosion boss-Sheet_627
+  - first:
+      213: -6050989759527342259
+    second: explosion boss-Sheet_628
+  - first:
+      213: 4099242200966789547
+    second: explosion boss-Sheet_629
+  - first:
+      213: -2340569273567022538
+    second: explosion boss-Sheet_630
+  - first:
+      213: -634572847654114724
+    second: explosion boss-Sheet_631
+  - first:
+      213: -9180409014419402687
+    second: explosion boss-Sheet_632
+  - first:
+      213: -9058192449437884262
+    second: explosion boss-Sheet_633
+  - first:
+      213: 5872445988878614155
+    second: explosion boss-Sheet_634
+  - first:
+      213: -1414573142558026435
+    second: explosion boss-Sheet_635
+  - first:
+      213: -8063619016428170827
+    second: explosion boss-Sheet_636
+  - first:
+      213: -1225050515946085853
+    second: explosion boss-Sheet_637
+  - first:
+      213: -2526444694172066003
+    second: explosion boss-Sheet_638
+  - first:
+      213: -2361376262628071075
+    second: explosion boss-Sheet_639
+  - first:
+      213: -1463410512145357731
+    second: explosion boss-Sheet_640
+  - first:
+      213: 2006336708608973084
+    second: explosion boss-Sheet_641
+  - first:
+      213: 8123109551959009424
+    second: explosion boss-Sheet_642
+  - first:
+      213: 1773799299460696566
+    second: explosion boss-Sheet_643
+  - first:
+      213: -6714175742699565729
+    second: explosion boss-Sheet_644
+  - first:
+      213: 8659999672949256237
+    second: explosion boss-Sheet_645
+  - first:
+      213: 471836980482295608
+    second: explosion boss-Sheet_646
+  - first:
+      213: -1377942313427013746
+    second: explosion boss-Sheet_647
+  - first:
+      213: -2758543567053917173
+    second: explosion boss-Sheet_648
+  - first:
+      213: -6074100180986125006
+    second: explosion boss-Sheet_649
+  - first:
+      213: 2231353062270492756
+    second: explosion boss-Sheet_650
+  - first:
+      213: 9040691393930944576
+    second: explosion boss-Sheet_651
+  - first:
+      213: -7475307129793276019
+    second: explosion boss-Sheet_652
+  - first:
+      213: -7535738798989552404
+    second: explosion boss-Sheet_653
+  - first:
+      213: -3407287049383187435
+    second: explosion boss-Sheet_654
+  - first:
+      213: -3469126669531846119
+    second: explosion boss-Sheet_655
+  - first:
+      213: 6291123773644010931
+    second: explosion boss-Sheet_656
+  - first:
+      213: 4279861458381264860
+    second: explosion boss-Sheet_657
+  - first:
+      213: -4992655319992427843
+    second: explosion boss-Sheet_658
+  - first:
+      213: -6461731110452224485
+    second: explosion boss-Sheet_659
+  - first:
+      213: -772242977917548808
+    second: explosion boss-Sheet_660
+  - first:
+      213: 9085470925613066348
+    second: explosion boss-Sheet_661
+  - first:
+      213: 5614312053383816349
+    second: explosion boss-Sheet_662
+  - first:
+      213: 5850366041163448571
+    second: explosion boss-Sheet_663
+  - first:
+      213: 1370827791064223821
+    second: explosion boss-Sheet_664
+  - first:
+      213: 8418070685588950953
+    second: explosion boss-Sheet_665
+  - first:
+      213: 5031545532043192274
+    second: explosion boss-Sheet_666
+  - first:
+      213: 810961901427572186
+    second: explosion boss-Sheet_667
+  - first:
+      213: -8261546048309433799
+    second: explosion boss-Sheet_668
+  - first:
+      213: 1727279730455186784
+    second: explosion boss-Sheet_669
+  - first:
+      213: -2026036658150818476
+    second: explosion boss-Sheet_670
+  - first:
+      213: 4628447012737765990
+    second: explosion boss-Sheet_671
+  - first:
+      213: 2334507460613266890
+    second: explosion boss-Sheet_672
+  - first:
+      213: -634399083877802628
+    second: explosion boss-Sheet_673
+  - first:
+      213: -523400645934411406
+    second: explosion boss-Sheet_674
+  - first:
+      213: 5150062590206019522
+    second: explosion boss-Sheet_675
+  - first:
+      213: 9098817453614472900
+    second: explosion boss-Sheet_676
+  - first:
+      213: 8677125318489825007
+    second: explosion boss-Sheet_677
+  - first:
+      213: 9219327890986459757
+    second: explosion boss-Sheet_678
+  - first:
+      213: -8439418051581190575
+    second: explosion boss-Sheet_679
+  - first:
+      213: 4941074567410648500
+    second: explosion boss-Sheet_680
+  - first:
+      213: 991811628051577147
+    second: explosion boss-Sheet_681
+  - first:
+      213: -3968688909352037568
+    second: explosion boss-Sheet_682
+  - first:
+      213: -2845567897605676817
+    second: explosion boss-Sheet_683
+  - first:
+      213: 3253837383646923988
+    second: explosion boss-Sheet_684
+  - first:
+      213: -7664880444534671007
+    second: explosion boss-Sheet_685
+  - first:
+      213: 2753915403840765250
+    second: explosion boss-Sheet_686
+  - first:
+      213: -7647619312832272799
+    second: explosion boss-Sheet_687
+  - first:
+      213: 4407127225554340375
+    second: explosion boss-Sheet_688
+  - first:
+      213: 8963828202843352559
+    second: explosion boss-Sheet_689
+  - first:
+      213: -7452551890658733441
+    second: explosion boss-Sheet_690
+  - first:
+      213: -5127846736724196123
+    second: explosion boss-Sheet_691
+  - first:
+      213: -4121386926094647136
+    second: explosion boss-Sheet_692
+  - first:
+      213: -2790095881964443596
+    second: explosion boss-Sheet_693
+  - first:
+      213: 1725131768154637503
+    second: explosion boss-Sheet_694
+  - first:
+      213: 3631466722431756329
+    second: explosion boss-Sheet_695
+  - first:
+      213: 1221147148306076805
+    second: explosion boss-Sheet_696
+  - first:
+      213: 8141167205179605115
+    second: explosion boss-Sheet_697
+  - first:
+      213: 6636554870587703620
+    second: explosion boss-Sheet_698
+  - first:
+      213: 6449558411483278324
+    second: explosion boss-Sheet_699
+  - first:
+      213: 7030651617114561957
+    second: explosion boss-Sheet_700
+  - first:
+      213: 8715131040164585488
+    second: explosion boss-Sheet_701
+  - first:
+      213: 5698652889206150346
+    second: explosion boss-Sheet_702
+  - first:
+      213: -5895134413548242980
+    second: explosion boss-Sheet_703
+  - first:
+      213: 5718991134506480745
+    second: explosion boss-Sheet_704
+  - first:
+      213: -9197837794075172802
+    second: explosion boss-Sheet_705
+  - first:
+      213: -2734196728530714401
+    second: explosion boss-Sheet_706
+  - first:
+      213: 6254814126002302931
+    second: explosion boss-Sheet_707
+  - first:
+      213: 5958970215130588984
+    second: explosion boss-Sheet_708
+  - first:
+      213: -8318030051120137567
+    second: explosion boss-Sheet_709
+  - first:
+      213: 7342680828146678802
+    second: explosion boss-Sheet_710
+  - first:
+      213: -8624391891876865201
+    second: explosion boss-Sheet_711
+  - first:
+      213: -2091486258044517995
+    second: explosion boss-Sheet_712
+  - first:
+      213: -8642835281478306202
+    second: explosion boss-Sheet_713
+  - first:
+      213: -8754284210991157045
+    second: explosion boss-Sheet_714
+  - first:
+      213: -7071171722998079832
+    second: explosion boss-Sheet_715
+  - first:
+      213: 7982315171604685300
+    second: explosion boss-Sheet_716
+  - first:
+      213: -7191668492588347357
+    second: explosion boss-Sheet_717
+  - first:
+      213: -8944685989114708706
+    second: explosion boss-Sheet_718
+  - first:
+      213: -5935729504115983172
+    second: explosion boss-Sheet_719
+  - first:
+      213: 4436263887690625426
+    second: explosion boss-Sheet_720
+  - first:
+      213: -9061183148023560441
+    second: explosion boss-Sheet_721
+  - first:
+      213: 6131163445414005680
+    second: explosion boss-Sheet_722
+  - first:
+      213: 5450867509332962711
+    second: explosion boss-Sheet_723
+  - first:
+      213: -6787852543548894238
+    second: explosion boss-Sheet_724
+  - first:
+      213: -5871235060779175451
+    second: explosion boss-Sheet_725
+  - first:
+      213: 7891049265332429005
+    second: explosion boss-Sheet_726
+  - first:
+      213: -7643408865217920452
+    second: explosion boss-Sheet_727
+  - first:
+      213: -2915048813289948724
+    second: explosion boss-Sheet_728
+  - first:
+      213: 5449351984228823575
+    second: explosion boss-Sheet_729
+  - first:
+      213: -1544013526693877979
+    second: explosion boss-Sheet_730
+  - first:
+      213: -1527850524180230851
+    second: explosion boss-Sheet_731
+  - first:
+      213: 817125710371834735
+    second: explosion boss-Sheet_732
+  - first:
+      213: 6985001673196347050
+    second: explosion boss-Sheet_733
+  - first:
+      213: 1483308031321477661
+    second: explosion boss-Sheet_734
+  - first:
+      213: 34750990904292405
+    second: explosion boss-Sheet_735
+  - first:
+      213: 5122528057042429398
+    second: explosion boss-Sheet_736
+  - first:
+      213: 3656245753847663910
+    second: explosion boss-Sheet_737
+  - first:
+      213: -5127661019456542830
+    second: explosion boss-Sheet_738
+  - first:
+      213: 6993730018845233929
+    second: explosion boss-Sheet_739
+  - first:
+      213: -6157936133201249969
+    second: explosion boss-Sheet_740
+  - first:
+      213: -2876759922834710028
+    second: explosion boss-Sheet_741
+  - first:
+      213: 5331268366184632953
+    second: explosion boss-Sheet_742
+  - first:
+      213: -2219316786497620518
+    second: explosion boss-Sheet_743
+  - first:
+      213: 75701084769700954
+    second: explosion boss-Sheet_744
+  - first:
+      213: 3689537583855422132
+    second: explosion boss-Sheet_745
+  - first:
+      213: -6593055857589091136
+    second: explosion boss-Sheet_746
+  - first:
+      213: -2898015304093236029
+    second: explosion boss-Sheet_747
+  - first:
+      213: -6210856223192512992
+    second: explosion boss-Sheet_748
+  - first:
+      213: -6533086201872618275
+    second: explosion boss-Sheet_749
+  - first:
+      213: 7357816418400077254
+    second: explosion boss-Sheet_750
+  - first:
+      213: 2594089609142357442
+    second: explosion boss-Sheet_751
+  - first:
+      213: -8385950088021344599
+    second: explosion boss-Sheet_752
+  - first:
+      213: 6859841319711191268
+    second: explosion boss-Sheet_753
+  - first:
+      213: -1054154818326851426
+    second: explosion boss-Sheet_754
+  - first:
+      213: 1478557433553625028
+    second: explosion boss-Sheet_755
+  - first:
+      213: -3825844013373101025
+    second: explosion boss-Sheet_756
+  - first:
+      213: 6940328766875316302
+    second: explosion boss-Sheet_757
+  - first:
+      213: -3227728266089961064
+    second: explosion boss-Sheet_758
+  - first:
+      213: -6030471839824733772
+    second: explosion boss-Sheet_759
+  - first:
+      213: -4306321369441118978
+    second: explosion boss-Sheet_760
+  - first:
+      213: -7800478003091339411
+    second: explosion boss-Sheet_761
+  - first:
+      213: -6406137928390925940
+    second: explosion boss-Sheet_762
+  - first:
+      213: -1218501634505328149
+    second: explosion boss-Sheet_763
+  - first:
+      213: 8649033015546054793
+    second: explosion boss-Sheet_764
+  - first:
+      213: 1383953635325680838
+    second: explosion boss-Sheet_765
+  - first:
+      213: -5248212417378771290
+    second: explosion boss-Sheet_766
+  - first:
+      213: -3285920511780530802
+    second: explosion boss-Sheet_767
+  - first:
+      213: -8133478001994625987
+    second: explosion boss-Sheet_768
+  - first:
+      213: -4236572734706862388
+    second: explosion boss-Sheet_769
+  - first:
+      213: -2838439759179353636
+    second: explosion boss-Sheet_770
+  - first:
+      213: -4413850505617966794
+    second: explosion boss-Sheet_771
+  - first:
+      213: -3639095571011971699
+    second: explosion boss-Sheet_772
+  - first:
+      213: 9167609595786217007
+    second: explosion boss-Sheet_773
+  - first:
+      213: 6173660283605359014
+    second: explosion boss-Sheet_774
+  - first:
+      213: -3310776067449504049
+    second: explosion boss-Sheet_775
+  - first:
+      213: -7783745151975263102
+    second: explosion boss-Sheet_776
+  - first:
+      213: 7346458606727480021
+    second: explosion boss-Sheet_777
+  - first:
+      213: 3842147614699295760
+    second: explosion boss-Sheet_778
+  - first:
+      213: -7113490187014930264
+    second: explosion boss-Sheet_779
+  - first:
+      213: -2103476589596907567
+    second: explosion boss-Sheet_780
+  - first:
+      213: 3330744789234283970
+    second: explosion boss-Sheet_781
+  - first:
+      213: -2413995750473229121
+    second: explosion boss-Sheet_782
+  - first:
+      213: -5773092026859424166
+    second: explosion boss-Sheet_783
+  - first:
+      213: 5169043217119152066
+    second: explosion boss-Sheet_784
+  - first:
+      213: -7339448093029969180
+    second: explosion boss-Sheet_785
+  - first:
+      213: 298808303136983236
+    second: explosion boss-Sheet_786
+  - first:
+      213: -126850013587548532
+    second: explosion boss-Sheet_787
+  - first:
+      213: 79408661935730157
+    second: explosion boss-Sheet_788
+  - first:
+      213: -8207422940034479579
+    second: explosion boss-Sheet_789
+  - first:
+      213: 5070178321640033615
+    second: explosion boss-Sheet_790
+  - first:
+      213: 5721417405646291828
+    second: explosion boss-Sheet_791
+  - first:
+      213: -3445478365066295821
+    second: explosion boss-Sheet_792
+  - first:
+      213: 72068631367492535
+    second: explosion boss-Sheet_793
+  - first:
+      213: 164205675500774552
+    second: explosion boss-Sheet_794
+  - first:
+      213: -2473843323177478635
+    second: explosion boss-Sheet_795
+  - first:
+      213: -3869166134884856063
+    second: explosion boss-Sheet_796
+  - first:
+      213: 3430938406922621005
+    second: explosion boss-Sheet_797
+  - first:
+      213: -2166398157793909932
+    second: explosion boss-Sheet_798
+  - first:
+      213: 7396077227545127745
+    second: explosion boss-Sheet_799
+  - first:
+      213: -213618630371940318
+    second: explosion boss-Sheet_800
+  - first:
+      213: -7739633147805936680
+    second: explosion boss-Sheet_801
+  - first:
+      213: 6210101231868543384
+    second: explosion boss-Sheet_802
+  - first:
+      213: -3165681054788769186
+    second: explosion boss-Sheet_803
+  - first:
+      213: -2928029720806865827
+    second: explosion boss-Sheet_804
+  - first:
+      213: -5329910845746937789
+    second: explosion boss-Sheet_805
+  - first:
+      213: -1160743812579742207
+    second: explosion boss-Sheet_806
+  - first:
+      213: 1339237254446713361
+    second: explosion boss-Sheet_807
+  - first:
+      213: 7680289982796225996
+    second: explosion boss-Sheet_808
+  - first:
+      213: -1278081072508309524
+    second: explosion boss-Sheet_809
+  - first:
+      213: -3205039553010027014
+    second: explosion boss-Sheet_810
+  - first:
+      213: -7486368208914097039
+    second: explosion boss-Sheet_811
+  - first:
+      213: 4662855724894426695
+    second: explosion boss-Sheet_812
+  - first:
+      213: -3855965395092042728
+    second: explosion boss-Sheet_813
+  - first:
+      213: 7642142643800177353
+    second: explosion boss-Sheet_814
+  - first:
+      213: -1675674481501018123
+    second: explosion boss-Sheet_815
+  - first:
+      213: 2439456908945889219
+    second: explosion boss-Sheet_816
+  - first:
+      213: 594500340674055729
+    second: explosion boss-Sheet_817
+  - first:
+      213: 8315189426958932417
+    second: explosion boss-Sheet_818
+  - first:
+      213: 893714794891469497
+    second: explosion boss-Sheet_819
+  - first:
+      213: 4747469150405121905
+    second: explosion boss-Sheet_820
+  - first:
+      213: 4767504742109811231
+    second: explosion boss-Sheet_821
+  - first:
+      213: 512348942221383042
+    second: explosion boss-Sheet_822
+  - first:
+      213: 3878162868544545253
+    second: explosion boss-Sheet_823
+  - first:
+      213: 3955581783498907180
+    second: explosion boss-Sheet_824
+  - first:
+      213: 8582966098513995851
+    second: explosion boss-Sheet_825
+  - first:
+      213: -51883619095701617
+    second: explosion boss-Sheet_826
+  - first:
+      213: -8640445082026277501
+    second: explosion boss-Sheet_827
+  - first:
+      213: -4394240726416337436
+    second: explosion boss-Sheet_828
+  - first:
+      213: -5445084697203207486
+    second: explosion boss-Sheet_829
+  - first:
+      213: -6687643787665387382
+    second: explosion boss-Sheet_830
+  - first:
+      213: -3296256140487755363
+    second: explosion boss-Sheet_831
+  - first:
+      213: 1407889069284455255
+    second: explosion boss-Sheet_832
+  - first:
+      213: 3695156312109633537
+    second: explosion boss-Sheet_833
+  - first:
+      213: 4252857481519453949
+    second: explosion boss-Sheet_834
+  - first:
+      213: 7995991361809761155
+    second: explosion boss-Sheet_835
+  - first:
+      213: -4867216715320747471
+    second: explosion boss-Sheet_836
+  - first:
+      213: -7425398619224706376
+    second: explosion boss-Sheet_837
+  - first:
+      213: -5867121652352566514
+    second: explosion boss-Sheet_838
+  - first:
+      213: 6181568063840634727
+    second: explosion boss-Sheet_839
+  - first:
+      213: 5399232081003250222
+    second: explosion boss-Sheet_840
+  - first:
+      213: -8101792368024605150
+    second: explosion boss-Sheet_841
+  - first:
+      213: -7945502340970556118
+    second: explosion boss-Sheet_842
+  - first:
+      213: 8237372873923485995
+    second: explosion boss-Sheet_843
+  - first:
+      213: -4044418011063236498
+    second: explosion boss-Sheet_844
+  - first:
+      213: 685003466111718611
+    second: explosion boss-Sheet_845
+  - first:
+      213: 4389303262862607370
+    second: explosion boss-Sheet_846
+  - first:
+      213: 7334170539626525341
+    second: explosion boss-Sheet_847
+  - first:
+      213: 6348697242372380710
+    second: explosion boss-Sheet_848
+  - first:
+      213: -5791981374770446907
+    second: explosion boss-Sheet_849
+  - first:
+      213: 4618708311392388974
+    second: explosion boss-Sheet_850
+  - first:
+      213: -8318398662018265018
+    second: explosion boss-Sheet_851
+  - first:
+      213: 9192484038483980863
+    second: explosion boss-Sheet_852
+  - first:
+      213: -8132942094661861951
+    second: explosion boss-Sheet_853
+  - first:
+      213: -6609544389883651012
+    second: explosion boss-Sheet_854
+  - first:
+      213: -6605101765839946761
+    second: explosion boss-Sheet_855
+  - first:
+      213: -1253283800005970485
+    second: explosion boss-Sheet_856
+  - first:
+      213: 4460253930687721889
+    second: explosion boss-Sheet_857
+  - first:
+      213: 3944316175778805950
+    second: explosion boss-Sheet_858
+  - first:
+      213: -4403352622946287668
+    second: explosion boss-Sheet_859
+  - first:
+      213: -8667556516829151095
+    second: explosion boss-Sheet_860
+  - first:
+      213: 8476431910011539967
+    second: explosion boss-Sheet_861
+  - first:
+      213: -3314585366772479755
+    second: explosion boss-Sheet_862
+  - first:
+      213: -2435194715428937648
+    second: explosion boss-Sheet_863
+  - first:
+      213: -6606694437126548661
+    second: explosion boss-Sheet_864
+  - first:
+      213: 500429775520528420
+    second: explosion boss-Sheet_865
+  - first:
+      213: 9106844379136242511
+    second: explosion boss-Sheet_866
+  - first:
+      213: -3091721397718776805
+    second: explosion boss-Sheet_867
+  - first:
+      213: 1879554023508493390
+    second: explosion boss-Sheet_868
+  - first:
+      213: 834740975785407240
+    second: explosion boss-Sheet_869
+  - first:
+      213: -5685724675147124058
+    second: explosion boss-Sheet_870
+  - first:
+      213: -4430841789504742490
+    second: explosion boss-Sheet_871
+  - first:
+      213: -3426719216646765352
+    second: explosion boss-Sheet_872
+  - first:
+      213: -8192990258361045538
+    second: explosion boss-Sheet_873
+  - first:
+      213: 8646022470078004923
+    second: explosion boss-Sheet_874
+  - first:
+      213: -6255964598783288131
+    second: explosion boss-Sheet_875
+  - first:
+      213: -4746691318180503544
+    second: explosion boss-Sheet_876
+  - first:
+      213: 4389162295463381557
+    second: explosion boss-Sheet_877
+  - first:
+      213: -1884504336915866925
+    second: explosion boss-Sheet_878
+  - first:
+      213: -2835026201407453650
+    second: explosion boss-Sheet_879
+  - first:
+      213: 216270754640333164
+    second: explosion boss-Sheet_880
+  - first:
+      213: 471504964931579015
+    second: explosion boss-Sheet_881
+  - first:
+      213: -9206011399413346432
+    second: explosion boss-Sheet_882
+  - first:
+      213: -2711049279275505066
+    second: explosion boss-Sheet_883
+  - first:
+      213: -791753818772079460
+    second: explosion boss-Sheet_884
+  - first:
+      213: -481205819208991594
+    second: explosion boss-Sheet_885
+  - first:
+      213: -3983029734398658489
+    second: explosion boss-Sheet_886
+  - first:
+      213: 525597010117912591
+    second: explosion boss-Sheet_887
+  - first:
+      213: 930176712209032306
+    second: explosion boss-Sheet_888
+  - first:
+      213: 5845039022761974214
+    second: explosion boss-Sheet_889
+  - first:
+      213: -7518621431209353702
+    second: explosion boss-Sheet_890
+  - first:
+      213: 3966657328260584488
+    second: explosion boss-Sheet_891
+  - first:
+      213: 2193128296105288103
+    second: explosion boss-Sheet_892
+  - first:
+      213: 8758210975734578704
+    second: explosion boss-Sheet_893
+  - first:
+      213: 2850024217050670202
+    second: explosion boss-Sheet_894
+  - first:
+      213: -2778199387180761828
+    second: explosion boss-Sheet_895
+  - first:
+      213: -8467971653344928712
+    second: explosion boss-Sheet_896
+  - first:
+      213: -1888284801816043855
+    second: explosion boss-Sheet_897
+  - first:
+      213: -7055159048751178394
+    second: explosion boss-Sheet_898
+  - first:
+      213: 7858015142679639346
+    second: explosion boss-Sheet_899
+  - first:
+      213: 3134234336045042175
+    second: explosion boss-Sheet_900
+  - first:
+      213: -2831006593913650707
+    second: explosion boss-Sheet_901
+  - first:
+      213: -6261964884324091359
+    second: explosion boss-Sheet_902
+  - first:
+      213: 2707265515621177759
+    second: explosion boss-Sheet_903
+  - first:
+      213: -5321806361702247792
+    second: explosion boss-Sheet_904
+  - first:
+      213: 6596851642115611941
+    second: explosion boss-Sheet_905
+  - first:
+      213: -5219311140661973063
+    second: explosion boss-Sheet_906
+  - first:
+      213: 1978816987582671066
+    second: explosion boss-Sheet_907
+  - first:
+      213: 7078654353541709337
+    second: explosion boss-Sheet_908
+  - first:
+      213: -3415772186801008766
+    second: explosion boss-Sheet_909
+  - first:
+      213: -967539011901012112
+    second: explosion boss-Sheet_910
+  - first:
+      213: -4576717892459742917
+    second: explosion boss-Sheet_911
+  - first:
+      213: -1381994809608417963
+    second: explosion boss-Sheet_912
+  - first:
+      213: -1916912928722641016
+    second: explosion boss-Sheet_913
+  - first:
+      213: 680005527084218413
+    second: explosion boss-Sheet_914
+  - first:
+      213: 3650599994301086283
+    second: explosion boss-Sheet_915
+  - first:
+      213: -4210462984501173105
+    second: explosion boss-Sheet_916
+  - first:
+      213: 4820056870647212360
+    second: explosion boss-Sheet_917
+  - first:
+      213: 7591371980635333803
+    second: explosion boss-Sheet_918
+  - first:
+      213: 1515759499003842357
+    second: explosion boss-Sheet_919
+  - first:
+      213: 3844325238830015205
+    second: explosion boss-Sheet_920
+  - first:
+      213: 4616554347064422266
+    second: explosion boss-Sheet_921
+  - first:
+      213: 2213981477612076513
+    second: explosion boss-Sheet_922
+  - first:
+      213: -2491926990461387366
+    second: explosion boss-Sheet_923
+  - first:
+      213: 6130973050791417604
+    second: explosion boss-Sheet_924
+  - first:
+      213: 6905442391569042750
+    second: explosion boss-Sheet_925
+  - first:
+      213: 3497577356329924695
+    second: explosion boss-Sheet_926
+  - first:
+      213: 1216820161134519880
+    second: explosion boss-Sheet_927
+  - first:
+      213: -8955959452602068929
+    second: explosion boss-Sheet_928
+  - first:
+      213: -2345766959424582498
+    second: explosion boss-Sheet_929
+  - first:
+      213: 8108275374958354690
+    second: explosion boss-Sheet_930
+  - first:
+      213: 6816305206626246691
+    second: explosion boss-Sheet_931
+  - first:
+      213: 2309006700188378036
+    second: explosion boss-Sheet_932
+  - first:
+      213: 3630459468840421438
+    second: explosion boss-Sheet_933
+  - first:
+      213: -7954225796007052824
+    second: explosion boss-Sheet_934
+  - first:
+      213: -4718313856949815000
+    second: explosion boss-Sheet_935
+  - first:
+      213: -4677022132329876829
+    second: explosion boss-Sheet_936
+  - first:
+      213: 1889154909718607574
+    second: explosion boss-Sheet_937
+  - first:
+      213: 6423848902026178008
+    second: explosion boss-Sheet_938
+  - first:
+      213: 6406447448510349682
+    second: explosion boss-Sheet_939
+  - first:
+      213: 1179667172210504516
+    second: explosion boss-Sheet_940
+  - first:
+      213: -1953123464836949837
+    second: explosion boss-Sheet_941
+  - first:
+      213: 3233251566966557976
+    second: explosion boss-Sheet_942
+  - first:
+      213: -4783927511076603974
+    second: explosion boss-Sheet_943
+  - first:
+      213: -2900126148370029510
+    second: explosion boss-Sheet_944
+  - first:
+      213: -995174429927427849
+    second: explosion boss-Sheet_945
+  - first:
+      213: -4791135346970946762
+    second: explosion boss-Sheet_946
+  - first:
+      213: 1814715095777631756
+    second: explosion boss-Sheet_947
+  - first:
+      213: -5759836938582657000
+    second: explosion boss-Sheet_948
+  - first:
+      213: 3687508797400418997
+    second: explosion boss-Sheet_949
+  - first:
+      213: 2777124303650442454
+    second: explosion boss-Sheet_950
+  - first:
+      213: 9209280546099101585
+    second: explosion boss-Sheet_951
+  - first:
+      213: -2966017648736369422
+    second: explosion boss-Sheet_952
+  - first:
+      213: -5285265511900632697
+    second: explosion boss-Sheet_953
+  - first:
+      213: 3838276246494692641
+    second: explosion boss-Sheet_954
+  - first:
+      213: 2268447938058531141
+    second: explosion boss-Sheet_955
+  - first:
+      213: -8642148007585134475
+    second: explosion boss-Sheet_956
+  - first:
+      213: -8309016803063291436
+    second: explosion boss-Sheet_957
+  - first:
+      213: 5759105017364240145
+    second: explosion boss-Sheet_958
+  - first:
+      213: 9054929147756229966
+    second: explosion boss-Sheet_959
+  - first:
+      213: -2572281994744053961
+    second: explosion boss-Sheet_960
+  - first:
+      213: -725841185985520454
+    second: explosion boss-Sheet_961
+  - first:
+      213: 8849637405035667705
+    second: explosion boss-Sheet_962
+  - first:
+      213: 5609367362691200681
+    second: explosion boss-Sheet_963
+  - first:
+      213: 6236356755974320684
+    second: explosion boss-Sheet_964
+  - first:
+      213: -1482258050597156999
+    second: explosion boss-Sheet_965
+  - first:
+      213: -1180532121037117526
+    second: explosion boss-Sheet_966
+  - first:
+      213: 3720626103895789234
+    second: explosion boss-Sheet_967
+  - first:
+      213: -4792441817693053410
+    second: explosion boss-Sheet_968
+  - first:
+      213: 1875835342229744331
+    second: explosion boss-Sheet_969
+  - first:
+      213: 2201799140640209893
+    second: explosion boss-Sheet_970
+  - first:
+      213: -5816027890932790145
+    second: explosion boss-Sheet_971
+  - first:
+      213: 5051286620689889297
+    second: explosion boss-Sheet_972
+  - first:
+      213: -6477916372132665498
+    second: explosion boss-Sheet_973
+  - first:
+      213: 4339049279033678579
+    second: explosion boss-Sheet_974
+  - first:
+      213: 7307581125890711795
+    second: explosion boss-Sheet_975
+  - first:
+      213: -4414603694432194486
+    second: explosion boss-Sheet_976
+  - first:
+      213: 6823372878934637766
+    second: explosion boss-Sheet_977
+  - first:
+      213: 2281176296094331266
+    second: explosion boss-Sheet_978
+  - first:
+      213: 6057369558508556244
+    second: explosion boss-Sheet_979
+  - first:
+      213: -7177023690946508904
+    second: explosion boss-Sheet_980
+  - first:
+      213: -6095830784179353853
+    second: explosion boss-Sheet_981
+  - first:
+      213: -4999203836079707520
+    second: explosion boss-Sheet_982
+  - first:
+      213: -5096989229974536381
+    second: explosion boss-Sheet_983
+  - first:
+      213: -8619508806674385283
+    second: explosion boss-Sheet_984
+  - first:
+      213: 2481736800551900520
+    second: explosion boss-Sheet_985
+  - first:
+      213: -2330887994485264262
+    second: explosion boss-Sheet_986
+  - first:
+      213: 39616712499718813
+    second: explosion boss-Sheet_987
+  - first:
+      213: -2990055117251949233
+    second: explosion boss-Sheet_988
+  - first:
+      213: -5978499886061518978
+    second: explosion boss-Sheet_989
+  - first:
+      213: -8063437633469483952
+    second: explosion boss-Sheet_990
+  - first:
+      213: -7872564844202782749
+    second: explosion boss-Sheet_991
+  - first:
+      213: -8744331625015695328
+    second: explosion boss-Sheet_992
+  - first:
+      213: 9168534843251606885
+    second: explosion boss-Sheet_993
+  - first:
+      213: -2715948841965733458
+    second: explosion boss-Sheet_994
+  - first:
+      213: -7725404072028888735
+    second: explosion boss-Sheet_995
+  - first:
+      213: -4480092140338553656
+    second: explosion boss-Sheet_996
+  - first:
+      213: 8181836790513136867
+    second: explosion boss-Sheet_997
+  - first:
+      213: 2921905515947834652
+    second: explosion boss-Sheet_998
+  - first:
+      213: -2951059361551066964
+    second: explosion boss-Sheet_999
+  - first:
+      213: 7278662446723966137
+    second: explosion boss-Sheet_1000
+  - first:
+      213: 8696918925327745408
+    second: explosion boss-Sheet_1001
+  - first:
+      213: 8953603511028920668
+    second: explosion boss-Sheet_1002
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 17
+      rect:
+        serializedVersion: 2
+        x: 8589
+        y: 0
+        width: 528
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4f8baf65d7bf00800000000000000
+      internalID: 1132608506903351219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16
+      rect:
+        serializedVersion: 2
+        x: 8058
+        y: 0
+        width: 506
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd489817f22c8050800000000000000
+      internalID: 5804052464438627826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15
+      rect:
+        serializedVersion: 2
+        x: 7517
+        y: 0
+        width: 521
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7230e7ea2d4cf0800000000000000
+      internalID: -266509627557774679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 14
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 0
+        width: 512
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79913cb75ed2c8d90800000000000000
+      internalID: -7094244849368229481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 13
+      rect:
+        serializedVersion: 2
+        x: 6458
+        y: 0
+        width: 509
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4504723f905b270800000000000000
+      internalID: 8265523631048643802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 0
+        width: 494
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d006634254151050800000000000000
+      internalID: 5770540841095790803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 484
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eeb62d83b150210800000000000000
+      internalID: 1298473998428663440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 18
+        width: 431
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4be2f3949e3b20800000000000000
+      internalID: 3116091355343572634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 4344
+        y: 18
+        width: 401
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad70f8a1b88bcc70800000000000000
+      internalID: 8992431377600249254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 3826
+        y: 23
+        width: 336
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2842f1fb844b1c0800000000000000
+      internalID: -4488882942883101977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 28
+        width: 314
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44ad6751b9052560800000000000000
+      internalID: 7288242229249680459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 31
+        width: 297
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95200f6f5d3a4b10800000000000000
+      internalID: 1966451667394110876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 48
+        width: 282
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5366ebf92a78180800000000000000
+      internalID: -9113136513983040019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 66
+        width: 231
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a6b9fcd86369ae0800000000000000
+      internalID: -1542985839626458523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 69
+        width: 203
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba078f3aa3cdb360800000000000000
+      internalID: 7187115716330851001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 107
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ee592f02f77960800000000000000
+      internalID: 7599809043143516603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 117
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756a49edbba7638e0800000000000000
+      internalID: -1714047660856138153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 23
+      rect:
+        serializedVersion: 2
+        x: 12054
+        y: 213
+        width: 208
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c26f992044a3f49b38705fc5886ae6
+      internalID: 1784047406296828145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22
+      rect:
+        serializedVersion: 2
+        x: 11465
+        y: 150
+        width: 285
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4e10a2427617348923fbdcdb7dc3ab
+      internalID: 1096847121460010177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21
+      rect:
+        serializedVersion: 2
+        x: 10936
+        y: 155
+        width: 269
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52321083fcca4f642a4cb2e90afaf626
+      internalID: -6262858797652562720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20
+      rect:
+        serializedVersion: 2
+        x: 10251
+        y: 53
+        width: 456
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9372f0b17122be643ab37ee6cad9bb55
+      internalID: 8712579264025396013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 19
+      rect:
+        serializedVersion: 2
+        x: 9709
+        y: 52
+        width: 477
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f661c1e8b9a27704783829776e03910d
+      internalID: -1702943834304157179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18
+      rect:
+        serializedVersion: 2
+        x: 9128
+        y: 1
+        width: 510
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6821cf5db4bcbf4eba654b8776c2c20
+      internalID: -8492017803479909501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 24
+      rect:
+        serializedVersion: 2
+        x: 12600
+        y: 210
+        width: 199
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cced3f36e25f61f48b3fea7db0e8c1dd
+      internalID: 1614239425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9fa2f637458aec4a95150f2b2eb1350
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: -1714047660856138153
+      10: 3116091355343572634
+      11: 1298473998428663440
+      12: 5770540841095790803
+      13: 8265523631048643802
+      14: -7094244849368229481
+      15: -266509627557774679
+      16: 5804052464438627826
+      17: 1132608506903351219
+      18: -8492017803479909501
+      19: -1702943834304157179
+      2: 7599809043143516603
+      20: 8712579264025396013
+      21: -6262858797652562720
+      22: 1096847121460010177
+      23: 1784047406296828145
+      24: 1614239425
+      3: 7187115716330851001
+      4: -1542985839626458523
+      5: -9113136513983040019
+      6: 1966451667394110876
+      7: 7288242229249680459
+      8: -4488882942883101977
+      9: 8992431377600249254
+      explosion boss-Sheet_100: -2168207464412820994
+      explosion boss-Sheet_1000: 7278662446723966137
+      explosion boss-Sheet_1001: 8696918925327745408
+      explosion boss-Sheet_1002: 8953603511028920668
+      explosion boss-Sheet_1003: -150196681
+      explosion boss-Sheet_1004: 1459492977
+      explosion boss-Sheet_101: 2086172596107518041
+      explosion boss-Sheet_102: 4945319148829666829
+      explosion boss-Sheet_103: -2495448206848102776
+      explosion boss-Sheet_104: -8565227096135881333
+      explosion boss-Sheet_105: -7368602227432357724
+      explosion boss-Sheet_106: 2474134622761441063
+      explosion boss-Sheet_107: -2456870385130404092
+      explosion boss-Sheet_108: -4598018574153573225
+      explosion boss-Sheet_109: -5400403650088237231
+      explosion boss-Sheet_110: -4365623347636613973
+      explosion boss-Sheet_111: 8231396803993354562
+      explosion boss-Sheet_112: 7362177227830959946
+      explosion boss-Sheet_113: -1631508125159564386
+      explosion boss-Sheet_114: -6845005869251858783
+      explosion boss-Sheet_115: -7971338161033891328
+      explosion boss-Sheet_116: 9071120374975780228
+      explosion boss-Sheet_117: 6265834437008204648
+      explosion boss-Sheet_118: 6715105361636805080
+      explosion boss-Sheet_119: 2004779073513248127
+      explosion boss-Sheet_120: 654726725555766104
+      explosion boss-Sheet_121: -8721515952649665228
+      explosion boss-Sheet_122: -771909407974123272
+      explosion boss-Sheet_123: -871347046530364679
+      explosion boss-Sheet_124: 3888720782613148808
+      explosion boss-Sheet_125: 2609197612636010992
+      explosion boss-Sheet_126: -403070462773755722
+      explosion boss-Sheet_127: 4646022677988165487
+      explosion boss-Sheet_128: -9195822461783207032
+      explosion boss-Sheet_129: 9150989508213870493
+      explosion boss-Sheet_130: 1409100613914890537
+      explosion boss-Sheet_131: -2354344772384883273
+      explosion boss-Sheet_132: -5614499141259720829
+      explosion boss-Sheet_133: 967105493035502720
+      explosion boss-Sheet_134: -8706552151209295482
+      explosion boss-Sheet_135: -9173034810443464766
+      explosion boss-Sheet_136: 8424632681713544823
+      explosion boss-Sheet_137: 881403658906808841
+      explosion boss-Sheet_138: 7071288918988852197
+      explosion boss-Sheet_139: 4737088768036758871
+      explosion boss-Sheet_140: 12905472020436804
+      explosion boss-Sheet_141: 1983412868531582731
+      explosion boss-Sheet_142: -7247334034675502904
+      explosion boss-Sheet_143: -5659079080343759043
+      explosion boss-Sheet_144: -7061005825033856318
+      explosion boss-Sheet_145: -6004867310093827773
+      explosion boss-Sheet_146: 9163527781537905921
+      explosion boss-Sheet_147: 2425301418247466861
+      explosion boss-Sheet_148: 6738819542917234398
+      explosion boss-Sheet_149: -473790487936207123
+      explosion boss-Sheet_150: -1390694091327496382
+      explosion boss-Sheet_151: -2265921494164125551
+      explosion boss-Sheet_152: 1763241150559931557
+      explosion boss-Sheet_153: 8234238972129032067
+      explosion boss-Sheet_154: 905233987937106382
+      explosion boss-Sheet_155: -1833508155219941109
+      explosion boss-Sheet_156: -7166530446548266438
+      explosion boss-Sheet_157: 4233024112874792698
+      explosion boss-Sheet_158: -3417785152903019707
+      explosion boss-Sheet_159: 5493821050937953890
+      explosion boss-Sheet_160: 5871946023936479120
+      explosion boss-Sheet_161: -3671685884988065087
+      explosion boss-Sheet_162: 3937216802357945575
+      explosion boss-Sheet_163: -8202503522583233663
+      explosion boss-Sheet_164: -4653192304715087289
+      explosion boss-Sheet_165: 6238060074742181617
+      explosion boss-Sheet_166: 1787732384743409764
+      explosion boss-Sheet_167: -7429174506092226163
+      explosion boss-Sheet_168: 2042037396906074871
+      explosion boss-Sheet_169: -1631240620717872409
+      explosion boss-Sheet_170: -5537297187172640413
+      explosion boss-Sheet_171: 572031760906134987
+      explosion boss-Sheet_172: 4153332065246781298
+      explosion boss-Sheet_173: -8059299495742865493
+      explosion boss-Sheet_174: 6400848509559309567
+      explosion boss-Sheet_175: 264096251811581969
+      explosion boss-Sheet_176: -6545243145401403932
+      explosion boss-Sheet_177: -4236877761397550868
+      explosion boss-Sheet_178: -2139351454976068440
+      explosion boss-Sheet_179: -3879183754837484917
+      explosion boss-Sheet_180: -7769288989138964769
+      explosion boss-Sheet_181: 3811628543287754522
+      explosion boss-Sheet_182: 3591525952578070015
+      explosion boss-Sheet_183: 4911363127878662286
+      explosion boss-Sheet_184: -7330621121346597988
+      explosion boss-Sheet_185: 9214075155645694776
+      explosion boss-Sheet_186: 6840027251300555384
+      explosion boss-Sheet_187: -7690044475942145258
+      explosion boss-Sheet_188: 4953186916752093391
+      explosion boss-Sheet_189: 197848966292030599
+      explosion boss-Sheet_190: 4308897283862589020
+      explosion boss-Sheet_191: 6186643428386797444
+      explosion boss-Sheet_192: -5130848068085646138
+      explosion boss-Sheet_193: -6148069735619681065
+      explosion boss-Sheet_194: -9068621922155128915
+      explosion boss-Sheet_195: 5528058549335893856
+      explosion boss-Sheet_196: -1476049675298241746
+      explosion boss-Sheet_197: -564316450864637500
+      explosion boss-Sheet_198: -8481786206138189696
+      explosion boss-Sheet_199: -6297740516330583073
+      explosion boss-Sheet_200: 8744632900665952424
+      explosion boss-Sheet_201: -5879001697502586483
+      explosion boss-Sheet_202: 7619243351028853610
+      explosion boss-Sheet_203: -3204505233368912658
+      explosion boss-Sheet_204: -1796129943409377898
+      explosion boss-Sheet_205: -482180045853961574
+      explosion boss-Sheet_206: 5329765961310574316
+      explosion boss-Sheet_207: -2230229413783196037
+      explosion boss-Sheet_208: 1067783833088130544
+      explosion boss-Sheet_209: -2207536233911878331
+      explosion boss-Sheet_210: -3925118243783752026
+      explosion boss-Sheet_211: -1771279599625514668
+      explosion boss-Sheet_212: 576928659925380780
+      explosion boss-Sheet_213: 4374497681878683525
+      explosion boss-Sheet_214: -2072934427648669444
+      explosion boss-Sheet_215: 1616631568872325743
+      explosion boss-Sheet_216: -4003474525657983855
+      explosion boss-Sheet_217: 4913462460885678198
+      explosion boss-Sheet_218: 2120611396882553090
+      explosion boss-Sheet_219: 5496283140460277316
+      explosion boss-Sheet_220: -8021737286042271490
+      explosion boss-Sheet_221: -6142463443676004899
+      explosion boss-Sheet_222: 3718315704666702055
+      explosion boss-Sheet_223: 4657277589349936367
+      explosion boss-Sheet_224: -2377098198422531781
+      explosion boss-Sheet_225: -1414046622385732287
+      explosion boss-Sheet_226: -5954276800696828646
+      explosion boss-Sheet_227: -5169157213402533350
+      explosion boss-Sheet_228: 5032004592989675885
+      explosion boss-Sheet_229: 5667714993465967959
+      explosion boss-Sheet_23: -1118950976145100194
+      explosion boss-Sheet_230: -2649627062336961805
+      explosion boss-Sheet_231: -7218766339864273762
+      explosion boss-Sheet_232: -8394821656642355602
+      explosion boss-Sheet_233: -8294343801968826739
+      explosion boss-Sheet_234: -1831157735788183324
+      explosion boss-Sheet_235: -7058605454486231767
+      explosion boss-Sheet_236: 3839059713417970739
+      explosion boss-Sheet_237: 2645589540918303824
+      explosion boss-Sheet_238: -3500971549347030055
+      explosion boss-Sheet_239: 3155018704483306744
+      explosion boss-Sheet_24: 9217190927989461940
+      explosion boss-Sheet_240: 6093948173980240574
+      explosion boss-Sheet_241: 5233820854334760258
+      explosion boss-Sheet_242: 467392598979178908
+      explosion boss-Sheet_243: -227877440432179524
+      explosion boss-Sheet_244: 5289763944990484968
+      explosion boss-Sheet_245: -6357936714434411059
+      explosion boss-Sheet_246: 245396730175172149
+      explosion boss-Sheet_247: -2058801241122465260
+      explosion boss-Sheet_248: -7487411436805396895
+      explosion boss-Sheet_249: 4731421475889788351
+      explosion boss-Sheet_25: -5118130865604858024
+      explosion boss-Sheet_250: 6324637343972277796
+      explosion boss-Sheet_251: -6330654539086798175
+      explosion boss-Sheet_252: 841702425092240701
+      explosion boss-Sheet_253: -2923461900230652863
+      explosion boss-Sheet_254: -4109991478835797016
+      explosion boss-Sheet_255: 9132981828961277704
+      explosion boss-Sheet_256: -8980420565767508411
+      explosion boss-Sheet_257: 2010450478330255740
+      explosion boss-Sheet_258: 8089228909029575231
+      explosion boss-Sheet_259: -9069158363978919457
+      explosion boss-Sheet_26: -2786432046117295394
+      explosion boss-Sheet_260: -6926279628234310265
+      explosion boss-Sheet_261: -457909876207677627
+      explosion boss-Sheet_262: 4067584154722321913
+      explosion boss-Sheet_263: 3384442518478547599
+      explosion boss-Sheet_264: -6615149280346243604
+      explosion boss-Sheet_265: -1243520856599075477
+      explosion boss-Sheet_266: -3188991397171103146
+      explosion boss-Sheet_267: 5273855538850626254
+      explosion boss-Sheet_268: -3374014614709574177
+      explosion boss-Sheet_269: 203913143511433357
+      explosion boss-Sheet_27: 2855930728458308770
+      explosion boss-Sheet_270: -7401704161779825375
+      explosion boss-Sheet_271: 789325473311249058
+      explosion boss-Sheet_272: 9112433459997908221
+      explosion boss-Sheet_273: 311187129680263682
+      explosion boss-Sheet_274: -4083390994254170574
+      explosion boss-Sheet_275: 3048036373389418605
+      explosion boss-Sheet_276: -711559552315714816
+      explosion boss-Sheet_277: 4447612568251179846
+      explosion boss-Sheet_278: 1870996833748043608
+      explosion boss-Sheet_279: -7443712846768172665
+      explosion boss-Sheet_28: -8362302113709095460
+      explosion boss-Sheet_280: -5213931980457149868
+      explosion boss-Sheet_281: -2874154465010360072
+      explosion boss-Sheet_282: 3238299156713860062
+      explosion boss-Sheet_283: 5737805793959751268
+      explosion boss-Sheet_284: 6288729314601796769
+      explosion boss-Sheet_285: -1425393515083464985
+      explosion boss-Sheet_286: -3318172928374882907
+      explosion boss-Sheet_287: -2398812343633990042
+      explosion boss-Sheet_288: 2645477495253239774
+      explosion boss-Sheet_289: -4495656760608935250
+      explosion boss-Sheet_29: 681773153728001626
+      explosion boss-Sheet_290: 5091058808023760661
+      explosion boss-Sheet_291: -5479278936844197500
+      explosion boss-Sheet_292: -398178396098834848
+      explosion boss-Sheet_293: 6765733102264294911
+      explosion boss-Sheet_294: 6742599422637623386
+      explosion boss-Sheet_295: -6518947590561874106
+      explosion boss-Sheet_296: 6432616305993223802
+      explosion boss-Sheet_297: -5720520876780065522
+      explosion boss-Sheet_298: -8179953191877991987
+      explosion boss-Sheet_299: -1660167672086316592
+      explosion boss-Sheet_30: -5340339853737310161
+      explosion boss-Sheet_300: -3616192081425630573
+      explosion boss-Sheet_301: -881079421644995687
+      explosion boss-Sheet_302: 8429744373337715961
+      explosion boss-Sheet_303: -1295720184231003981
+      explosion boss-Sheet_304: 3195746075017469812
+      explosion boss-Sheet_305: -6730319889919367771
+      explosion boss-Sheet_306: -992706404958145660
+      explosion boss-Sheet_307: -7736105956681594628
+      explosion boss-Sheet_308: -6165655845315132646
+      explosion boss-Sheet_309: -1553656394852418396
+      explosion boss-Sheet_31: 7187461238187773042
+      explosion boss-Sheet_310: -7367653924494925732
+      explosion boss-Sheet_311: -8831641855439020317
+      explosion boss-Sheet_312: 6543163781080938859
+      explosion boss-Sheet_313: -6123611281101343623
+      explosion boss-Sheet_314: 4127456205453905669
+      explosion boss-Sheet_315: 1414062523799650636
+      explosion boss-Sheet_316: 2388496973767927938
+      explosion boss-Sheet_317: 307883574430636527
+      explosion boss-Sheet_318: -1522995636263093054
+      explosion boss-Sheet_319: 3135783392621565883
+      explosion boss-Sheet_32: -5146261931010049108
+      explosion boss-Sheet_320: 1211067339600845301
+      explosion boss-Sheet_321: -8522244734935695919
+      explosion boss-Sheet_322: -1858180912267880582
+      explosion boss-Sheet_323: 3651467626529135147
+      explosion boss-Sheet_324: -9165614716838126095
+      explosion boss-Sheet_325: -3183892485480593468
+      explosion boss-Sheet_326: 5222453861164560746
+      explosion boss-Sheet_327: -4553269701850339325
+      explosion boss-Sheet_328: -6912509955091571631
+      explosion boss-Sheet_329: 3619597388796038598
+      explosion boss-Sheet_33: -2219822271538222954
+      explosion boss-Sheet_330: -3226941799985084668
+      explosion boss-Sheet_331: -7497829822246520812
+      explosion boss-Sheet_332: -6914273545644894779
+      explosion boss-Sheet_333: 3778577106507030747
+      explosion boss-Sheet_334: 6902936265579191215
+      explosion boss-Sheet_335: 968514633477183418
+      explosion boss-Sheet_336: -4772497629142520193
+      explosion boss-Sheet_337: 5003486900174279629
+      explosion boss-Sheet_338: 3276588677608438376
+      explosion boss-Sheet_339: 5141102253786179824
+      explosion boss-Sheet_34: -4672608196788588331
+      explosion boss-Sheet_340: -3782077383888863653
+      explosion boss-Sheet_341: 2665533850220047127
+      explosion boss-Sheet_342: -8568373448944236518
+      explosion boss-Sheet_343: 649005114820830548
+      explosion boss-Sheet_344: -5410561227355160183
+      explosion boss-Sheet_345: -4799411551248366533
+      explosion boss-Sheet_346: 6741089534701817824
+      explosion boss-Sheet_347: 1915667310398360349
+      explosion boss-Sheet_348: 4734435187508694723
+      explosion boss-Sheet_349: -6946431288502126884
+      explosion boss-Sheet_35: -8480964868037403209
+      explosion boss-Sheet_350: 3431171454291470424
+      explosion boss-Sheet_351: 6373937313899738792
+      explosion boss-Sheet_352: -8544886810400951980
+      explosion boss-Sheet_353: 7938019111682844870
+      explosion boss-Sheet_354: 3134782579908427851
+      explosion boss-Sheet_355: -5961065518358004771
+      explosion boss-Sheet_356: -1418466315533574205
+      explosion boss-Sheet_357: -5731974273875212350
+      explosion boss-Sheet_358: 1762833638399001069
+      explosion boss-Sheet_359: 4520444745020141456
+      explosion boss-Sheet_36: 1880851230157113958
+      explosion boss-Sheet_360: -2837427766083814772
+      explosion boss-Sheet_361: 5983055919040950142
+      explosion boss-Sheet_362: -7625415870435794702
+      explosion boss-Sheet_363: 5796702354706962017
+      explosion boss-Sheet_364: 7335145870815512348
+      explosion boss-Sheet_365: 4888154490140921773
+      explosion boss-Sheet_366: 7461511381701003487
+      explosion boss-Sheet_367: -8488465901909361068
+      explosion boss-Sheet_368: 3379272246157539744
+      explosion boss-Sheet_369: -3372818494251692076
+      explosion boss-Sheet_37: -9167860313580809002
+      explosion boss-Sheet_370: -126630107753709838
+      explosion boss-Sheet_371: 5148426330763859076
+      explosion boss-Sheet_372: 3007472205577226968
+      explosion boss-Sheet_373: -6368232164983718200
+      explosion boss-Sheet_374: -3639032527023743118
+      explosion boss-Sheet_375: 2569644407702038258
+      explosion boss-Sheet_376: -4664933862276229703
+      explosion boss-Sheet_377: 1056327103439437959
+      explosion boss-Sheet_378: -4956641498587355728
+      explosion boss-Sheet_379: -1681704878550776508
+      explosion boss-Sheet_38: 6184849911711871272
+      explosion boss-Sheet_380: 1475465870252013665
+      explosion boss-Sheet_381: 5791308084590184648
+      explosion boss-Sheet_382: 77617778493313713
+      explosion boss-Sheet_383: -9223355142988476547
+      explosion boss-Sheet_384: 8022000099454994858
+      explosion boss-Sheet_385: 119324156958380928
+      explosion boss-Sheet_386: -3956336694876974662
+      explosion boss-Sheet_387: -3719744145553941582
+      explosion boss-Sheet_388: -319248922040927905
+      explosion boss-Sheet_389: 5601237170866633342
+      explosion boss-Sheet_39: 4516103528322175672
+      explosion boss-Sheet_390: -7074191815476651526
+      explosion boss-Sheet_391: -8238903520946959002
+      explosion boss-Sheet_392: -6590600573614898775
+      explosion boss-Sheet_393: -4628121302587054332
+      explosion boss-Sheet_394: 3306747000068377721
+      explosion boss-Sheet_395: -5845544434735735263
+      explosion boss-Sheet_396: 2659936182056793103
+      explosion boss-Sheet_397: 4664581398113762579
+      explosion boss-Sheet_398: -7420418680679367141
+      explosion boss-Sheet_399: 8122115538086217104
+      explosion boss-Sheet_40: 8824129144323234818
+      explosion boss-Sheet_400: 7797227961182146667
+      explosion boss-Sheet_401: 7096549776746096138
+      explosion boss-Sheet_402: 1982097079320477956
+      explosion boss-Sheet_403: 6341425638782477028
+      explosion boss-Sheet_404: 910781548189992328
+      explosion boss-Sheet_405: -121199978865340113
+      explosion boss-Sheet_406: 6836205440992688879
+      explosion boss-Sheet_407: 9162747508221682324
+      explosion boss-Sheet_408: -3440751077028609722
+      explosion boss-Sheet_409: -9093015947767217318
+      explosion boss-Sheet_41: -4149771381677577183
+      explosion boss-Sheet_410: 2628198561514325509
+      explosion boss-Sheet_411: -3317320619643237575
+      explosion boss-Sheet_412: -2110199314764636704
+      explosion boss-Sheet_413: -2857152450325100919
+      explosion boss-Sheet_414: 1237979853655250468
+      explosion boss-Sheet_415: -4586957696338348215
+      explosion boss-Sheet_416: 3110850683004238014
+      explosion boss-Sheet_417: 3639711226887728940
+      explosion boss-Sheet_418: 3169699527437259427
+      explosion boss-Sheet_419: -4107393437701905196
+      explosion boss-Sheet_42: 1855054812373356213
+      explosion boss-Sheet_420: 8203093318709039611
+      explosion boss-Sheet_421: 4873939461163848437
+      explosion boss-Sheet_422: 5925263416504337849
+      explosion boss-Sheet_423: 4359355398179664252
+      explosion boss-Sheet_424: -686704954322406675
+      explosion boss-Sheet_425: -6741753269659800979
+      explosion boss-Sheet_426: -2050012910579657900
+      explosion boss-Sheet_427: 7068978176866054510
+      explosion boss-Sheet_428: -2812820543690778518
+      explosion boss-Sheet_429: 6998792860424186763
+      explosion boss-Sheet_43: 7701116842853427493
+      explosion boss-Sheet_430: -3415155672183613515
+      explosion boss-Sheet_431: 9080451462027129004
+      explosion boss-Sheet_432: -2682959639578277065
+      explosion boss-Sheet_433: -6187444978323085168
+      explosion boss-Sheet_434: -8090411426737937748
+      explosion boss-Sheet_435: 1835699790130465661
+      explosion boss-Sheet_436: 4375743835371205253
+      explosion boss-Sheet_437: -5367870861412808494
+      explosion boss-Sheet_438: 7455186938892193496
+      explosion boss-Sheet_439: -7315874485888094272
+      explosion boss-Sheet_44: 8042772241384398096
+      explosion boss-Sheet_440: 6301576043816852177
+      explosion boss-Sheet_441: 8884845289531680075
+      explosion boss-Sheet_442: 768297292907961139
+      explosion boss-Sheet_443: 8251393807700243809
+      explosion boss-Sheet_444: -5134893020326255734
+      explosion boss-Sheet_445: -3868539099815009976
+      explosion boss-Sheet_446: -4238520612498236745
+      explosion boss-Sheet_447: 1478705788788452918
+      explosion boss-Sheet_448: 6056301744666211194
+      explosion boss-Sheet_449: 1317921893169435579
+      explosion boss-Sheet_45: -2977987978850365113
+      explosion boss-Sheet_450: -7969599211234740428
+      explosion boss-Sheet_451: 7809545236129081906
+      explosion boss-Sheet_452: -5983235259722835989
+      explosion boss-Sheet_453: -5412442971561371628
+      explosion boss-Sheet_454: -8407538889409038294
+      explosion boss-Sheet_455: 9010519980860227941
+      explosion boss-Sheet_456: -6879814296525590107
+      explosion boss-Sheet_457: 2207783775792727926
+      explosion boss-Sheet_458: -2975892645086343370
+      explosion boss-Sheet_459: -8027818304600931521
+      explosion boss-Sheet_46: -7325980632044749253
+      explosion boss-Sheet_460: 1146341981622921755
+      explosion boss-Sheet_461: 4917367815613016449
+      explosion boss-Sheet_462: 7662788462754478041
+      explosion boss-Sheet_463: 837214223306379086
+      explosion boss-Sheet_464: 3215505717344926154
+      explosion boss-Sheet_465: -6659660467531082059
+      explosion boss-Sheet_466: 836171168104628279
+      explosion boss-Sheet_467: -8867537887550643518
+      explosion boss-Sheet_468: 4895759678511402500
+      explosion boss-Sheet_469: 2995317801714441709
+      explosion boss-Sheet_47: -8362667947218575373
+      explosion boss-Sheet_470: 4313610406664416851
+      explosion boss-Sheet_471: 2417374013049920909
+      explosion boss-Sheet_472: -2893431954081287998
+      explosion boss-Sheet_473: -6738736368675370167
+      explosion boss-Sheet_474: -2914290213410981709
+      explosion boss-Sheet_475: -4889877500192443629
+      explosion boss-Sheet_476: -7044352092779660309
+      explosion boss-Sheet_477: 829759666092713838
+      explosion boss-Sheet_478: 5537738540824065890
+      explosion boss-Sheet_479: -6128473461797976625
+      explosion boss-Sheet_48: 7556624142571866280
+      explosion boss-Sheet_480: -2982151814972471119
+      explosion boss-Sheet_481: -1425176132943639038
+      explosion boss-Sheet_482: -4189936973965978220
+      explosion boss-Sheet_483: 3923572246635377880
+      explosion boss-Sheet_484: -4870968179389825231
+      explosion boss-Sheet_485: -2986715444295624642
+      explosion boss-Sheet_486: 4712441868450029407
+      explosion boss-Sheet_487: -6082049038901092505
+      explosion boss-Sheet_488: 96283268112889586
+      explosion boss-Sheet_489: -1493508608468474438
+      explosion boss-Sheet_49: -4331159047596994598
+      explosion boss-Sheet_490: -2601960936911855656
+      explosion boss-Sheet_491: 2423420077894183077
+      explosion boss-Sheet_492: -3890269433523108085
+      explosion boss-Sheet_493: 285072848551994599
+      explosion boss-Sheet_494: -4829734187632873258
+      explosion boss-Sheet_495: -5317279167028793883
+      explosion boss-Sheet_496: 4005796431685783638
+      explosion boss-Sheet_497: 1375932707961160201
+      explosion boss-Sheet_498: 3864916253459009184
+      explosion boss-Sheet_499: -167381174586284248
+      explosion boss-Sheet_50: -3808049976248777573
+      explosion boss-Sheet_500: 4299753548542092903
+      explosion boss-Sheet_501: -7252850495333286420
+      explosion boss-Sheet_502: -8075761589033056424
+      explosion boss-Sheet_503: -6220776386534476207
+      explosion boss-Sheet_504: -5676750063964884509
+      explosion boss-Sheet_505: 7748265811283262829
+      explosion boss-Sheet_506: 8985367852687757032
+      explosion boss-Sheet_507: 6623471272657610143
+      explosion boss-Sheet_508: -5815711667690095449
+      explosion boss-Sheet_509: -1940118150136743160
+      explosion boss-Sheet_51: 3160436429447784819
+      explosion boss-Sheet_510: 1514930575289670898
+      explosion boss-Sheet_511: -1401808586379830556
+      explosion boss-Sheet_512: 6121221234634793471
+      explosion boss-Sheet_513: -7824815381986521315
+      explosion boss-Sheet_514: -7571589046277773500
+      explosion boss-Sheet_515: 8055214097574463837
+      explosion boss-Sheet_516: 1227790455890390529
+      explosion boss-Sheet_517: -2320551667668317714
+      explosion boss-Sheet_518: 7769186371911274955
+      explosion boss-Sheet_519: -6614614484028023174
+      explosion boss-Sheet_52: 1708911616307634505
+      explosion boss-Sheet_520: -4112610201903224113
+      explosion boss-Sheet_521: 4026085542389730705
+      explosion boss-Sheet_522: -5579688802383945674
+      explosion boss-Sheet_523: 7974897204745426669
+      explosion boss-Sheet_524: 3343085835252735686
+      explosion boss-Sheet_525: -7479994822295588150
+      explosion boss-Sheet_526: 6877094453152694176
+      explosion boss-Sheet_527: 8873397528124358191
+      explosion boss-Sheet_528: 8166796899158871314
+      explosion boss-Sheet_529: -802453186502331144
+      explosion boss-Sheet_53: 7650973855815391553
+      explosion boss-Sheet_530: -8312965295215545651
+      explosion boss-Sheet_531: -193018509690240833
+      explosion boss-Sheet_532: -7761546294239502411
+      explosion boss-Sheet_533: -8082248297088174392
+      explosion boss-Sheet_534: 5998212276489528834
+      explosion boss-Sheet_535: 7881044272341663307
+      explosion boss-Sheet_536: 7369511562119782525
+      explosion boss-Sheet_537: -1909319968322333153
+      explosion boss-Sheet_538: -1284895318672119942
+      explosion boss-Sheet_539: 3578609718311496529
+      explosion boss-Sheet_54: 145264907909481160
+      explosion boss-Sheet_540: -3414747367952996822
+      explosion boss-Sheet_541: -8447908522365172383
+      explosion boss-Sheet_542: -7040348827041986287
+      explosion boss-Sheet_543: -1684289778546087141
+      explosion boss-Sheet_544: 9095176792127482436
+      explosion boss-Sheet_545: 5431062295317520872
+      explosion boss-Sheet_546: -1096997694707741521
+      explosion boss-Sheet_547: -8130022118210459169
+      explosion boss-Sheet_548: 2198504544870034933
+      explosion boss-Sheet_549: -8761525235471922290
+      explosion boss-Sheet_55: 4264298859529978607
+      explosion boss-Sheet_550: -1460786842712158837
+      explosion boss-Sheet_551: -829260813217075824
+      explosion boss-Sheet_552: -7035835288757297745
+      explosion boss-Sheet_553: 1564728876452169806
+      explosion boss-Sheet_554: 8455678873783095543
+      explosion boss-Sheet_555: 3584099636382027354
+      explosion boss-Sheet_556: -1136656829955580569
+      explosion boss-Sheet_557: -1296330333028055119
+      explosion boss-Sheet_558: -2422231943766214573
+      explosion boss-Sheet_559: -3725650960012175983
+      explosion boss-Sheet_56: -6295131601833093733
+      explosion boss-Sheet_560: -2616911285817884514
+      explosion boss-Sheet_561: -3958711876523102842
+      explosion boss-Sheet_562: 7061479325563354411
+      explosion boss-Sheet_563: -1706738621650387149
+      explosion boss-Sheet_564: -7163790293322506788
+      explosion boss-Sheet_565: 4536644989253494489
+      explosion boss-Sheet_566: 6289279896722019347
+      explosion boss-Sheet_567: -7849816427034755414
+      explosion boss-Sheet_568: -6262085307088467705
+      explosion boss-Sheet_569: -1325668753552584813
+      explosion boss-Sheet_57: -5505968774329817528
+      explosion boss-Sheet_570: 9182847815957645536
+      explosion boss-Sheet_571: -4551131074438796917
+      explosion boss-Sheet_572: 3872850333641167979
+      explosion boss-Sheet_573: 404627005452791192
+      explosion boss-Sheet_574: 6763338038041568970
+      explosion boss-Sheet_575: 4065936768368231240
+      explosion boss-Sheet_576: -6094182715583702104
+      explosion boss-Sheet_577: 5326728307656285775
+      explosion boss-Sheet_578: 4120511633127083986
+      explosion boss-Sheet_579: 5310202612806194979
+      explosion boss-Sheet_58: 7067810268210876871
+      explosion boss-Sheet_580: 4232311516780200166
+      explosion boss-Sheet_581: 1752252097655953921
+      explosion boss-Sheet_582: -4172642317321530934
+      explosion boss-Sheet_583: -852621551852673759
+      explosion boss-Sheet_584: -5943090183324905927
+      explosion boss-Sheet_585: 3473771959426916683
+      explosion boss-Sheet_586: 1588251113237188517
+      explosion boss-Sheet_587: 4109463084507176079
+      explosion boss-Sheet_588: -3325526977181323206
+      explosion boss-Sheet_589: 4710802115217020892
+      explosion boss-Sheet_59: -2979019139607874183
+      explosion boss-Sheet_590: 7065944702946024937
+      explosion boss-Sheet_591: 6672810629124630330
+      explosion boss-Sheet_592: -737710528592284007
+      explosion boss-Sheet_593: 2678116160143352971
+      explosion boss-Sheet_594: 4350839459069868805
+      explosion boss-Sheet_595: -7785725370805656856
+      explosion boss-Sheet_596: -7849597953649575983
+      explosion boss-Sheet_597: -8471682688496640192
+      explosion boss-Sheet_598: -8559394793167572709
+      explosion boss-Sheet_599: -3406667714703855395
+      explosion boss-Sheet_60: -2602248441135168865
+      explosion boss-Sheet_600: -5373246285474365731
+      explosion boss-Sheet_601: -4409333397516029749
+      explosion boss-Sheet_602: 3572257816863384856
+      explosion boss-Sheet_603: 1449410108922890131
+      explosion boss-Sheet_604: -8297130278443628392
+      explosion boss-Sheet_605: 2328090859201420861
+      explosion boss-Sheet_606: 5500178872408122210
+      explosion boss-Sheet_607: -4983297687347096033
+      explosion boss-Sheet_608: -6748548181492316428
+      explosion boss-Sheet_609: -1560671571522152755
+      explosion boss-Sheet_61: 9182760280811971692
+      explosion boss-Sheet_610: 7568989829546130565
+      explosion boss-Sheet_611: 2730337761176803518
+      explosion boss-Sheet_612: 614458481952115251
+      explosion boss-Sheet_613: -7455657990155726646
+      explosion boss-Sheet_614: 5925665225576086763
+      explosion boss-Sheet_615: -7629289910906901437
+      explosion boss-Sheet_616: 1703850766924091347
+      explosion boss-Sheet_617: -1667074718704244306
+      explosion boss-Sheet_618: -1872801488155356593
+      explosion boss-Sheet_619: -7845315647624916397
+      explosion boss-Sheet_62: -8076149155111608843
+      explosion boss-Sheet_620: -600275544787185941
+      explosion boss-Sheet_621: -8207286784375637191
+      explosion boss-Sheet_622: 2352851125801538360
+      explosion boss-Sheet_623: -6638173808010084414
+      explosion boss-Sheet_624: -8427678407781369739
+      explosion boss-Sheet_625: 9064112939676439480
+      explosion boss-Sheet_626: 7352377133515307510
+      explosion boss-Sheet_627: -931874026255397189
+      explosion boss-Sheet_628: -6050989759527342259
+      explosion boss-Sheet_629: 4099242200966789547
+      explosion boss-Sheet_63: -7673360328628308267
+      explosion boss-Sheet_630: -2340569273567022538
+      explosion boss-Sheet_631: -634572847654114724
+      explosion boss-Sheet_632: -9180409014419402687
+      explosion boss-Sheet_633: -9058192449437884262
+      explosion boss-Sheet_634: 5872445988878614155
+      explosion boss-Sheet_635: -1414573142558026435
+      explosion boss-Sheet_636: -8063619016428170827
+      explosion boss-Sheet_637: -1225050515946085853
+      explosion boss-Sheet_638: -2526444694172066003
+      explosion boss-Sheet_639: -2361376262628071075
+      explosion boss-Sheet_64: -5604561619449552734
+      explosion boss-Sheet_640: -1463410512145357731
+      explosion boss-Sheet_641: 2006336708608973084
+      explosion boss-Sheet_642: 8123109551959009424
+      explosion boss-Sheet_643: 1773799299460696566
+      explosion boss-Sheet_644: -6714175742699565729
+      explosion boss-Sheet_645: 8659999672949256237
+      explosion boss-Sheet_646: 471836980482295608
+      explosion boss-Sheet_647: -1377942313427013746
+      explosion boss-Sheet_648: -2758543567053917173
+      explosion boss-Sheet_649: -6074100180986125006
+      explosion boss-Sheet_65: 9037580480233103451
+      explosion boss-Sheet_650: 2231353062270492756
+      explosion boss-Sheet_651: 9040691393930944576
+      explosion boss-Sheet_652: -7475307129793276019
+      explosion boss-Sheet_653: -7535738798989552404
+      explosion boss-Sheet_654: -3407287049383187435
+      explosion boss-Sheet_655: -3469126669531846119
+      explosion boss-Sheet_656: 6291123773644010931
+      explosion boss-Sheet_657: 4279861458381264860
+      explosion boss-Sheet_658: -4992655319992427843
+      explosion boss-Sheet_659: -6461731110452224485
+      explosion boss-Sheet_66: -8899488538315243023
+      explosion boss-Sheet_660: -772242977917548808
+      explosion boss-Sheet_661: 9085470925613066348
+      explosion boss-Sheet_662: 5614312053383816349
+      explosion boss-Sheet_663: 5850366041163448571
+      explosion boss-Sheet_664: 1370827791064223821
+      explosion boss-Sheet_665: 8418070685588950953
+      explosion boss-Sheet_666: 5031545532043192274
+      explosion boss-Sheet_667: 810961901427572186
+      explosion boss-Sheet_668: -8261546048309433799
+      explosion boss-Sheet_669: 1727279730455186784
+      explosion boss-Sheet_67: 2252361510037711595
+      explosion boss-Sheet_670: -2026036658150818476
+      explosion boss-Sheet_671: 4628447012737765990
+      explosion boss-Sheet_672: 2334507460613266890
+      explosion boss-Sheet_673: -634399083877802628
+      explosion boss-Sheet_674: -523400645934411406
+      explosion boss-Sheet_675: 5150062590206019522
+      explosion boss-Sheet_676: 9098817453614472900
+      explosion boss-Sheet_677: 8677125318489825007
+      explosion boss-Sheet_678: 9219327890986459757
+      explosion boss-Sheet_679: -8439418051581190575
+      explosion boss-Sheet_68: 5453149614434358724
+      explosion boss-Sheet_680: 4941074567410648500
+      explosion boss-Sheet_681: 991811628051577147
+      explosion boss-Sheet_682: -3968688909352037568
+      explosion boss-Sheet_683: -2845567897605676817
+      explosion boss-Sheet_684: 3253837383646923988
+      explosion boss-Sheet_685: -7664880444534671007
+      explosion boss-Sheet_686: 2753915403840765250
+      explosion boss-Sheet_687: -7647619312832272799
+      explosion boss-Sheet_688: 4407127225554340375
+      explosion boss-Sheet_689: 8963828202843352559
+      explosion boss-Sheet_69: -5624363028592580612
+      explosion boss-Sheet_690: -7452551890658733441
+      explosion boss-Sheet_691: -5127846736724196123
+      explosion boss-Sheet_692: -4121386926094647136
+      explosion boss-Sheet_693: -2790095881964443596
+      explosion boss-Sheet_694: 1725131768154637503
+      explosion boss-Sheet_695: 3631466722431756329
+      explosion boss-Sheet_696: 1221147148306076805
+      explosion boss-Sheet_697: 8141167205179605115
+      explosion boss-Sheet_698: 6636554870587703620
+      explosion boss-Sheet_699: 6449558411483278324
+      explosion boss-Sheet_70: 9087001358205557435
+      explosion boss-Sheet_700: 7030651617114561957
+      explosion boss-Sheet_701: 8715131040164585488
+      explosion boss-Sheet_702: 5698652889206150346
+      explosion boss-Sheet_703: -5895134413548242980
+      explosion boss-Sheet_704: 5718991134506480745
+      explosion boss-Sheet_705: -9197837794075172802
+      explosion boss-Sheet_706: -2734196728530714401
+      explosion boss-Sheet_707: 6254814126002302931
+      explosion boss-Sheet_708: 5958970215130588984
+      explosion boss-Sheet_709: -8318030051120137567
+      explosion boss-Sheet_71: -6232791622005350781
+      explosion boss-Sheet_710: 7342680828146678802
+      explosion boss-Sheet_711: -8624391891876865201
+      explosion boss-Sheet_712: -2091486258044517995
+      explosion boss-Sheet_713: -8642835281478306202
+      explosion boss-Sheet_714: -8754284210991157045
+      explosion boss-Sheet_715: -7071171722998079832
+      explosion boss-Sheet_716: 7982315171604685300
+      explosion boss-Sheet_717: -7191668492588347357
+      explosion boss-Sheet_718: -8944685989114708706
+      explosion boss-Sheet_719: -5935729504115983172
+      explosion boss-Sheet_72: -5216300330061591538
+      explosion boss-Sheet_720: 4436263887690625426
+      explosion boss-Sheet_721: -9061183148023560441
+      explosion boss-Sheet_722: 6131163445414005680
+      explosion boss-Sheet_723: 5450867509332962711
+      explosion boss-Sheet_724: -6787852543548894238
+      explosion boss-Sheet_725: -5871235060779175451
+      explosion boss-Sheet_726: 7891049265332429005
+      explosion boss-Sheet_727: -7643408865217920452
+      explosion boss-Sheet_728: -2915048813289948724
+      explosion boss-Sheet_729: 5449351984228823575
+      explosion boss-Sheet_73: -4315235790390511276
+      explosion boss-Sheet_730: -1544013526693877979
+      explosion boss-Sheet_731: -1527850524180230851
+      explosion boss-Sheet_732: 817125710371834735
+      explosion boss-Sheet_733: 6985001673196347050
+      explosion boss-Sheet_734: 1483308031321477661
+      explosion boss-Sheet_735: 34750990904292405
+      explosion boss-Sheet_736: 5122528057042429398
+      explosion boss-Sheet_737: 3656245753847663910
+      explosion boss-Sheet_738: -5127661019456542830
+      explosion boss-Sheet_739: 6993730018845233929
+      explosion boss-Sheet_74: 2031169123953135678
+      explosion boss-Sheet_740: -6157936133201249969
+      explosion boss-Sheet_741: -2876759922834710028
+      explosion boss-Sheet_742: 5331268366184632953
+      explosion boss-Sheet_743: -2219316786497620518
+      explosion boss-Sheet_744: 75701084769700954
+      explosion boss-Sheet_745: 3689537583855422132
+      explosion boss-Sheet_746: -6593055857589091136
+      explosion boss-Sheet_747: -2898015304093236029
+      explosion boss-Sheet_748: -6210856223192512992
+      explosion boss-Sheet_749: -6533086201872618275
+      explosion boss-Sheet_75: -4184214825673852346
+      explosion boss-Sheet_750: 7357816418400077254
+      explosion boss-Sheet_751: 2594089609142357442
+      explosion boss-Sheet_752: -8385950088021344599
+      explosion boss-Sheet_753: 6859841319711191268
+      explosion boss-Sheet_754: -1054154818326851426
+      explosion boss-Sheet_755: 1478557433553625028
+      explosion boss-Sheet_756: -3825844013373101025
+      explosion boss-Sheet_757: 6940328766875316302
+      explosion boss-Sheet_758: -3227728266089961064
+      explosion boss-Sheet_759: -6030471839824733772
+      explosion boss-Sheet_76: 683988214944197846
+      explosion boss-Sheet_760: -4306321369441118978
+      explosion boss-Sheet_761: -7800478003091339411
+      explosion boss-Sheet_762: -6406137928390925940
+      explosion boss-Sheet_763: -1218501634505328149
+      explosion boss-Sheet_764: 8649033015546054793
+      explosion boss-Sheet_765: 1383953635325680838
+      explosion boss-Sheet_766: -5248212417378771290
+      explosion boss-Sheet_767: -3285920511780530802
+      explosion boss-Sheet_768: -8133478001994625987
+      explosion boss-Sheet_769: -4236572734706862388
+      explosion boss-Sheet_77: 8098038952426343827
+      explosion boss-Sheet_770: -2838439759179353636
+      explosion boss-Sheet_771: -4413850505617966794
+      explosion boss-Sheet_772: -3639095571011971699
+      explosion boss-Sheet_773: 9167609595786217007
+      explosion boss-Sheet_774: 6173660283605359014
+      explosion boss-Sheet_775: -3310776067449504049
+      explosion boss-Sheet_776: -7783745151975263102
+      explosion boss-Sheet_777: 7346458606727480021
+      explosion boss-Sheet_778: 3842147614699295760
+      explosion boss-Sheet_779: -7113490187014930264
+      explosion boss-Sheet_78: -4994286532567741799
+      explosion boss-Sheet_780: -2103476589596907567
+      explosion boss-Sheet_781: 3330744789234283970
+      explosion boss-Sheet_782: -2413995750473229121
+      explosion boss-Sheet_783: -5773092026859424166
+      explosion boss-Sheet_784: 5169043217119152066
+      explosion boss-Sheet_785: -7339448093029969180
+      explosion boss-Sheet_786: 298808303136983236
+      explosion boss-Sheet_787: -126850013587548532
+      explosion boss-Sheet_788: 79408661935730157
+      explosion boss-Sheet_789: -8207422940034479579
+      explosion boss-Sheet_79: 8737317213645142928
+      explosion boss-Sheet_790: 5070178321640033615
+      explosion boss-Sheet_791: 5721417405646291828
+      explosion boss-Sheet_792: -3445478365066295821
+      explosion boss-Sheet_793: 72068631367492535
+      explosion boss-Sheet_794: 164205675500774552
+      explosion boss-Sheet_795: -2473843323177478635
+      explosion boss-Sheet_796: -3869166134884856063
+      explosion boss-Sheet_797: 3430938406922621005
+      explosion boss-Sheet_798: -2166398157793909932
+      explosion boss-Sheet_799: 7396077227545127745
+      explosion boss-Sheet_80: 5509748515713585928
+      explosion boss-Sheet_800: -213618630371940318
+      explosion boss-Sheet_801: -7739633147805936680
+      explosion boss-Sheet_802: 6210101231868543384
+      explosion boss-Sheet_803: -3165681054788769186
+      explosion boss-Sheet_804: -2928029720806865827
+      explosion boss-Sheet_805: -5329910845746937789
+      explosion boss-Sheet_806: -1160743812579742207
+      explosion boss-Sheet_807: 1339237254446713361
+      explosion boss-Sheet_808: 7680289982796225996
+      explosion boss-Sheet_809: -1278081072508309524
+      explosion boss-Sheet_81: 5780539948006520864
+      explosion boss-Sheet_810: -3205039553010027014
+      explosion boss-Sheet_811: -7486368208914097039
+      explosion boss-Sheet_812: 4662855724894426695
+      explosion boss-Sheet_813: -3855965395092042728
+      explosion boss-Sheet_814: 7642142643800177353
+      explosion boss-Sheet_815: -1675674481501018123
+      explosion boss-Sheet_816: 2439456908945889219
+      explosion boss-Sheet_817: 594500340674055729
+      explosion boss-Sheet_818: 8315189426958932417
+      explosion boss-Sheet_819: 893714794891469497
+      explosion boss-Sheet_82: -837884320431123786
+      explosion boss-Sheet_820: 4747469150405121905
+      explosion boss-Sheet_821: 4767504742109811231
+      explosion boss-Sheet_822: 512348942221383042
+      explosion boss-Sheet_823: 3878162868544545253
+      explosion boss-Sheet_824: 3955581783498907180
+      explosion boss-Sheet_825: 8582966098513995851
+      explosion boss-Sheet_826: -51883619095701617
+      explosion boss-Sheet_827: -8640445082026277501
+      explosion boss-Sheet_828: -4394240726416337436
+      explosion boss-Sheet_829: -5445084697203207486
+      explosion boss-Sheet_83: -7078246171741120531
+      explosion boss-Sheet_830: -6687643787665387382
+      explosion boss-Sheet_831: -3296256140487755363
+      explosion boss-Sheet_832: 1407889069284455255
+      explosion boss-Sheet_833: 3695156312109633537
+      explosion boss-Sheet_834: 4252857481519453949
+      explosion boss-Sheet_835: 7995991361809761155
+      explosion boss-Sheet_836: -4867216715320747471
+      explosion boss-Sheet_837: -7425398619224706376
+      explosion boss-Sheet_838: -5867121652352566514
+      explosion boss-Sheet_839: 6181568063840634727
+      explosion boss-Sheet_84: -8046892328817879450
+      explosion boss-Sheet_840: 5399232081003250222
+      explosion boss-Sheet_841: -8101792368024605150
+      explosion boss-Sheet_842: -7945502340970556118
+      explosion boss-Sheet_843: 8237372873923485995
+      explosion boss-Sheet_844: -4044418011063236498
+      explosion boss-Sheet_845: 685003466111718611
+      explosion boss-Sheet_846: 4389303262862607370
+      explosion boss-Sheet_847: 7334170539626525341
+      explosion boss-Sheet_848: 6348697242372380710
+      explosion boss-Sheet_849: -5791981374770446907
+      explosion boss-Sheet_85: 8189419004996109327
+      explosion boss-Sheet_850: 4618708311392388974
+      explosion boss-Sheet_851: -8318398662018265018
+      explosion boss-Sheet_852: 9192484038483980863
+      explosion boss-Sheet_853: -8132942094661861951
+      explosion boss-Sheet_854: -6609544389883651012
+      explosion boss-Sheet_855: -6605101765839946761
+      explosion boss-Sheet_856: -1253283800005970485
+      explosion boss-Sheet_857: 4460253930687721889
+      explosion boss-Sheet_858: 3944316175778805950
+      explosion boss-Sheet_859: -4403352622946287668
+      explosion boss-Sheet_86: -2327626377856134748
+      explosion boss-Sheet_860: -8667556516829151095
+      explosion boss-Sheet_861: 8476431910011539967
+      explosion boss-Sheet_862: -3314585366772479755
+      explosion boss-Sheet_863: -2435194715428937648
+      explosion boss-Sheet_864: -6606694437126548661
+      explosion boss-Sheet_865: 500429775520528420
+      explosion boss-Sheet_866: 9106844379136242511
+      explosion boss-Sheet_867: -3091721397718776805
+      explosion boss-Sheet_868: 1879554023508493390
+      explosion boss-Sheet_869: 834740975785407240
+      explosion boss-Sheet_87: 268770218597054366
+      explosion boss-Sheet_870: -5685724675147124058
+      explosion boss-Sheet_871: -4430841789504742490
+      explosion boss-Sheet_872: -3426719216646765352
+      explosion boss-Sheet_873: -8192990258361045538
+      explosion boss-Sheet_874: 8646022470078004923
+      explosion boss-Sheet_875: -6255964598783288131
+      explosion boss-Sheet_876: -4746691318180503544
+      explosion boss-Sheet_877: 4389162295463381557
+      explosion boss-Sheet_878: -1884504336915866925
+      explosion boss-Sheet_879: -2835026201407453650
+      explosion boss-Sheet_88: 2444509985555593993
+      explosion boss-Sheet_880: 216270754640333164
+      explosion boss-Sheet_881: 471504964931579015
+      explosion boss-Sheet_882: -9206011399413346432
+      explosion boss-Sheet_883: -2711049279275505066
+      explosion boss-Sheet_884: -791753818772079460
+      explosion boss-Sheet_885: -481205819208991594
+      explosion boss-Sheet_886: -3983029734398658489
+      explosion boss-Sheet_887: 525597010117912591
+      explosion boss-Sheet_888: 930176712209032306
+      explosion boss-Sheet_889: 5845039022761974214
+      explosion boss-Sheet_89: 2505514179948907868
+      explosion boss-Sheet_890: -7518621431209353702
+      explosion boss-Sheet_891: 3966657328260584488
+      explosion boss-Sheet_892: 2193128296105288103
+      explosion boss-Sheet_893: 8758210975734578704
+      explosion boss-Sheet_894: 2850024217050670202
+      explosion boss-Sheet_895: -2778199387180761828
+      explosion boss-Sheet_896: -8467971653344928712
+      explosion boss-Sheet_897: -1888284801816043855
+      explosion boss-Sheet_898: -7055159048751178394
+      explosion boss-Sheet_899: 7858015142679639346
+      explosion boss-Sheet_90: -5673805724528681761
+      explosion boss-Sheet_900: 3134234336045042175
+      explosion boss-Sheet_901: -2831006593913650707
+      explosion boss-Sheet_902: -6261964884324091359
+      explosion boss-Sheet_903: 2707265515621177759
+      explosion boss-Sheet_904: -5321806361702247792
+      explosion boss-Sheet_905: 6596851642115611941
+      explosion boss-Sheet_906: -5219311140661973063
+      explosion boss-Sheet_907: 1978816987582671066
+      explosion boss-Sheet_908: 7078654353541709337
+      explosion boss-Sheet_909: -3415772186801008766
+      explosion boss-Sheet_91: 763110843743196754
+      explosion boss-Sheet_910: -967539011901012112
+      explosion boss-Sheet_911: -4576717892459742917
+      explosion boss-Sheet_912: -1381994809608417963
+      explosion boss-Sheet_913: -1916912928722641016
+      explosion boss-Sheet_914: 680005527084218413
+      explosion boss-Sheet_915: 3650599994301086283
+      explosion boss-Sheet_916: -4210462984501173105
+      explosion boss-Sheet_917: 4820056870647212360
+      explosion boss-Sheet_918: 7591371980635333803
+      explosion boss-Sheet_919: 1515759499003842357
+      explosion boss-Sheet_92: -3674833668489990982
+      explosion boss-Sheet_920: 3844325238830015205
+      explosion boss-Sheet_921: 4616554347064422266
+      explosion boss-Sheet_922: 2213981477612076513
+      explosion boss-Sheet_923: -2491926990461387366
+      explosion boss-Sheet_924: 6130973050791417604
+      explosion boss-Sheet_925: 6905442391569042750
+      explosion boss-Sheet_926: 3497577356329924695
+      explosion boss-Sheet_927: 1216820161134519880
+      explosion boss-Sheet_928: -8955959452602068929
+      explosion boss-Sheet_929: -2345766959424582498
+      explosion boss-Sheet_93: 1582664990658119117
+      explosion boss-Sheet_930: 8108275374958354690
+      explosion boss-Sheet_931: 6816305206626246691
+      explosion boss-Sheet_932: 2309006700188378036
+      explosion boss-Sheet_933: 3630459468840421438
+      explosion boss-Sheet_934: -7954225796007052824
+      explosion boss-Sheet_935: -4718313856949815000
+      explosion boss-Sheet_936: -4677022132329876829
+      explosion boss-Sheet_937: 1889154909718607574
+      explosion boss-Sheet_938: 6423848902026178008
+      explosion boss-Sheet_939: 6406447448510349682
+      explosion boss-Sheet_94: -5741692692215874737
+      explosion boss-Sheet_940: 1179667172210504516
+      explosion boss-Sheet_941: -1953123464836949837
+      explosion boss-Sheet_942: 3233251566966557976
+      explosion boss-Sheet_943: -4783927511076603974
+      explosion boss-Sheet_944: -2900126148370029510
+      explosion boss-Sheet_945: -995174429927427849
+      explosion boss-Sheet_946: -4791135346970946762
+      explosion boss-Sheet_947: 1814715095777631756
+      explosion boss-Sheet_948: -5759836938582657000
+      explosion boss-Sheet_949: 3687508797400418997
+      explosion boss-Sheet_95: -3575210635138526334
+      explosion boss-Sheet_950: 2777124303650442454
+      explosion boss-Sheet_951: 9209280546099101585
+      explosion boss-Sheet_952: -2966017648736369422
+      explosion boss-Sheet_953: -5285265511900632697
+      explosion boss-Sheet_954: 3838276246494692641
+      explosion boss-Sheet_955: 2268447938058531141
+      explosion boss-Sheet_956: -8642148007585134475
+      explosion boss-Sheet_957: -8309016803063291436
+      explosion boss-Sheet_958: 5759105017364240145
+      explosion boss-Sheet_959: 9054929147756229966
+      explosion boss-Sheet_96: 3908947589115767865
+      explosion boss-Sheet_960: -2572281994744053961
+      explosion boss-Sheet_961: -725841185985520454
+      explosion boss-Sheet_962: 8849637405035667705
+      explosion boss-Sheet_963: 5609367362691200681
+      explosion boss-Sheet_964: 6236356755974320684
+      explosion boss-Sheet_965: -1482258050597156999
+      explosion boss-Sheet_966: -1180532121037117526
+      explosion boss-Sheet_967: 3720626103895789234
+      explosion boss-Sheet_968: -4792441817693053410
+      explosion boss-Sheet_969: 1875835342229744331
+      explosion boss-Sheet_97: -3780150568355523019
+      explosion boss-Sheet_970: 2201799140640209893
+      explosion boss-Sheet_971: -5816027890932790145
+      explosion boss-Sheet_972: 5051286620689889297
+      explosion boss-Sheet_973: -6477916372132665498
+      explosion boss-Sheet_974: 4339049279033678579
+      explosion boss-Sheet_975: 7307581125890711795
+      explosion boss-Sheet_976: -4414603694432194486
+      explosion boss-Sheet_977: 6823372878934637766
+      explosion boss-Sheet_978: 2281176296094331266
+      explosion boss-Sheet_979: 6057369558508556244
+      explosion boss-Sheet_98: -3633999104953737872
+      explosion boss-Sheet_980: -7177023690946508904
+      explosion boss-Sheet_981: -6095830784179353853
+      explosion boss-Sheet_982: -4999203836079707520
+      explosion boss-Sheet_983: -5096989229974536381
+      explosion boss-Sheet_984: -8619508806674385283
+      explosion boss-Sheet_985: 2481736800551900520
+      explosion boss-Sheet_986: -2330887994485264262
+      explosion boss-Sheet_987: 39616712499718813
+      explosion boss-Sheet_988: -2990055117251949233
+      explosion boss-Sheet_989: -5978499886061518978
+      explosion boss-Sheet_99: 2252843633758847855
+      explosion boss-Sheet_990: -8063437633469483952
+      explosion boss-Sheet_991: -7872564844202782749
+      explosion boss-Sheet_992: -8744331625015695328
+      explosion boss-Sheet_993: 9168534843251606885
+      explosion boss-Sheet_994: -2715948841965733458
+      explosion boss-Sheet_995: -7725404072028888735
+      explosion boss-Sheet_996: -4480092140338553656
+      explosion boss-Sheet_997: 8181836790513136867
+      explosion boss-Sheet_998: 2921905515947834652
+      explosion boss-Sheet_999: -2951059361551066964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
