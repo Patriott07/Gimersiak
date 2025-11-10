@@ -7,6 +7,11 @@ public class BeamColliderController : MonoBehaviour
     [SerializeField] float riseSpeed = 8f;
     [SerializeField] float maxFallDistance = 50f;
     
+    [Header("Ground Detection")]
+    [SerializeField] LayerMask groundLayer;
+    [SerializeField] float raycastDistance = 100f;
+    [SerializeField] float groundOffset = 0.1f;
+    
     [Header("Spark Prefabs")]
     [SerializeField] GameObject sparkUpPrefab;
     [SerializeField] GameObject sparkDownPrefab;
@@ -22,10 +27,28 @@ public class BeamColliderController : MonoBehaviour
     bool hasHitWall = false;
     bool isRising = false;
     Vector3 wallHitPosition;
+    Vector3 targetGroundPosition;
+    bool hasTargetPosition = false;
     
     void Start()
     {
         startPosition = transform.position;
+        
+        RaycastHit2D hit = Physics2D.Raycast(
+            startPosition, 
+            Vector2.down, 
+            raycastDistance, 
+            groundLayer
+        );
+        
+        if (hit.collider != null)
+        {
+            targetGroundPosition = hit.point;
+            targetGroundPosition.y += groundOffset;
+            maxFallDistance = Vector3.Distance(startPosition, targetGroundPosition);
+            hasTargetPosition = true;
+            
+        }
         
         if (triggerCollider == null)
             triggerCollider = GetComponent<Collider2D>();
@@ -38,11 +61,51 @@ public class BeamColliderController : MonoBehaviour
     {
         if (!hasHitWall && !isRising)
         {
-            transform.position += Vector3.down * fallSpeed * Time.deltaTime;
+            float moveDistance = fallSpeed * Time.deltaTime;
+            Vector3 newPosition = transform.position + Vector3.down * moveDistance;
             
-            if (Vector3.Distance(startPosition, transform.position) > maxFallDistance)
+            RaycastHit2D hit = Physics2D.Raycast(
+                transform.position,
+                Vector2.down,
+                moveDistance + 0.5f,
+                groundLayer
+            );
+            
+            if (hit.collider != null)
             {
+                transform.position = new Vector3(
+                    transform.position.x, 
+                    hit.point.y + groundOffset, 
+                    transform.position.z
+                );
+                OnHitGround(hit.point);
                 hasHitWall = true;
+            }
+            else
+            {
+                if (hasTargetPosition)
+                {
+                    if (newPosition.y <= targetGroundPosition.y)
+                    {
+                        transform.position = targetGroundPosition;
+                        OnHitGround(targetGroundPosition);
+                        hasHitWall = true;
+                    }
+                    else
+                    {
+                        transform.position = newPosition;
+                    }
+                }
+                else
+                {
+                    transform.position = newPosition;
+                    
+                    if (Vector3.Distance(startPosition, transform.position) > maxFallDistance)
+                    {
+                        hasHitWall = true;
+                        OnHitGround(transform.position);
+                    }
+                }
             }
         }
         else if (isRising)
@@ -57,35 +120,37 @@ public class BeamColliderController : MonoBehaviour
         }
     }
     
+    void OnHitGround(Vector3 hitPoint)
+    {
+        wallHitPosition = hitPoint;
+        
+        if (sparkUpPrefab != null)
+        {
+            currentSpark = Instantiate(sparkUpPrefab, wallHitPosition, Quaternion.identity);
+            
+            Animator sparkAnim = currentSpark.GetComponent<Animator>();
+            if (sparkAnim != null)
+            {
+                sparkAnim.Play("SparkUp");
+            }
+            
+        }
+    }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (hasHitWall || isRising) return;
         
         if (other.CompareTag("Wall") || other.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            Debug.Log($"[BeamCollider] Hit wall at {transform.position}!");
             
             hasHitWall = true;
-            wallHitPosition = transform.position;
-            
-            if (sparkUpPrefab != null)
-            {
-                currentSpark = Instantiate(sparkUpPrefab, wallHitPosition, Quaternion.identity);
-                
-                Animator sparkAnim = currentSpark.GetComponent<Animator>();
-                if (sparkAnim != null)
-                {
-                    sparkAnim.Play("SparkUp");
-                }
-                
-                Debug.Log("[BeamCollider] SparkUp spawned!");
-            }
+            OnHitGround(transform.position);
         }
     }
     
     public void StartRising()
     {
-        Debug.Log("[BeamCollider] Starting to rise!");
         isRising = true;
         
         if (currentSpark != null)
@@ -102,7 +167,6 @@ public class BeamColliderController : MonoBehaviour
                     sparkAnim.Play("SparkDown");
                 }
                 
-                Debug.Log("[BeamCollider] SparkDown spawned!");
             }
         }
     }
@@ -121,6 +185,13 @@ public class BeamColliderController : MonoBehaviour
         if (triggerCollider != null)
         {
             Gizmos.DrawWireCube(transform.position, triggerCollider.bounds.size);
+        }
+        
+        if (Application.isPlaying && hasTargetPosition)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(targetGroundPosition, 0.5f);
+            Gizmos.DrawLine(startPosition, targetGroundPosition);
         }
     }
 }

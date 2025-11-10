@@ -105,7 +105,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.005}
   m_EdgeRadius: 0
 --- !u!114 &8549900932431534242
 MonoBehaviour:
@@ -122,10 +122,15 @@ MonoBehaviour:
   fallSpeed: 10
   riseSpeed: 8
   maxFallDistance: 50
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  raycastDistance: 100
+  groundOffset: 0.1
   sparkUpPrefab: {fileID: 2551159922634494201, guid: 90f3546bd99bdf044b7389e5c1807c88, type: 3}
   sparkDownPrefab: {fileID: 960483943156646201, guid: 32a8a7286db50fa48b732c2fc87aa997, type: 3}
   triggerCollider: {fileID: 3676529850551792595}
-  showDebugGizmo: 1
+  showDebugGizmo: 0
 --- !u!1 &2924430295178421321
 GameObject:
   m_ObjectHideFlags: 0

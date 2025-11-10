@@ -25,7 +25,6 @@ public class BeamAttack : BaseAttack
     {
         if (beamPillarPrefab == null || firePoint == null) 
         {
-            Debug.LogWarning("[BeamAttack] Missing prefab or firepoint!");
             yield break;
         }
         
@@ -33,8 +32,6 @@ public class BeamAttack : BaseAttack
             bossController.enabled = false;
         
         GameObject beam = Object.Instantiate(beamPillarPrefab, firePoint.position, Quaternion.identity);
-        
-        Debug.Log("[BeamAttack] Beam spawned with collider system!");
         
         PulseDamage dmg = beam.GetComponent<PulseDamage>();
         if (dmg == null) dmg = beam.AddComponent<PulseDamage>();
