@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 336212116}
   - component: {fileID: 336212115}
   - component: {fileID: 336212114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (6)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 916723355}
   - component: {fileID: 916723354}
   - component: {fileID: 916723353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (12)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -3240,7 +3240,7 @@ GameObject:
   - component: {fileID: 947853912}
   - component: {fileID: 947853911}
   - component: {fileID: 947853910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (10)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -3964,7 +3964,7 @@ GameObject:
   - component: {fileID: 1034377483}
   - component: {fileID: 1034377482}
   - component: {fileID: 1034377481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (5)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -4523,7 +4523,7 @@ GameObject:
   - component: {fileID: 1211927747}
   - component: {fileID: 1211927746}
   - component: {fileID: 1211927745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (7)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -4861,7 +4861,7 @@ GameObject:
   - component: {fileID: 1378590668}
   - component: {fileID: 1378590667}
   - component: {fileID: 1378590666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (11)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -5307,6 +5307,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458036368}
   m_CullTransparentMesh: 1
+--- !u!50 &1471782199 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2100022207473514730, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
+  m_PrefabInstance: {fileID: 2023001708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1472010323
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,7 +5740,7 @@ GameObject:
   - component: {fileID: 1540579054}
   - component: {fileID: 1540579053}
   - component: {fileID: 1540579052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (4)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -5888,7 +5893,7 @@ GameObject:
   - component: {fileID: 1547389946}
   - component: {fileID: 1547389945}
   - component: {fileID: 1547389944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -7144,7 +7149,7 @@ GameObject:
   - component: {fileID: 1785903484}
   - component: {fileID: 1785903483}
   - component: {fileID: 1785903482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (3)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -7297,7 +7302,7 @@ GameObject:
   - component: {fileID: 1808593428}
   - component: {fileID: 1808593427}
   - component: {fileID: 1808593426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (1)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -7879,6 +7884,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 596016037142301092, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: rows
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 596016037142301092, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: columns
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 596016037142301092, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: spacingX
       value: 5
       objectReference: {fileID: 0}
@@ -8243,7 +8256,7 @@ GameObject:
   - component: {fileID: 1950106112}
   - component: {fileID: 1950106111}
   - component: {fileID: 1950106110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (8)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -8604,7 +8617,7 @@ GameObject:
   - component: {fileID: 2020372631}
   - component: {fileID: 2020372630}
   - component: {fileID: 2020372629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (2)
   m_TagString: shield
   m_Icon: {fileID: 0}
@@ -8753,6 +8766,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 266219839}
     m_Modifications:
+    - target: {fileID: 577889877850807399, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1471782199}
     - target: {fileID: 2100022207473514730, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
       propertyPath: m_BodyType
       value: 1
@@ -9017,7 +9034,7 @@ GameObject:
   - component: {fileID: 2110406996}
   - component: {fileID: 2110406995}
   - component: {fileID: 2110406994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield (9)
   m_TagString: shield
   m_Icon: {fileID: 0}

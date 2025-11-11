@@ -5,15 +5,15 @@ using UnityEngine;
 public class BallSc : MonoBehaviour
 {
     public Rigidbody2D rb;
+    [SerializeField] private float enemyDamage = 25f;
 
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
+
     IEnumerator OnTouchBrick(GameObject noteblock)
     {
-        
-        // Freeze time (pause effect)
         Camera.main.DOShakePosition(0.2f, 0.5f, 10, 60, false);
         NoteBalok noteBalokSc = noteblock.GetComponent<NoteBalok>();
 
@@ -23,12 +23,11 @@ public class BallSc : MonoBehaviour
         GameManager.Instance.AddScore();
         GameManager.Instance.Ultimate += 0.02f;
         GameManager.Instance.combo++;
-        HUDManager.Instance.ShowCombo(GameManager.Instance.combo++);
+        HUDManager.Instance.ShowCombo(GameManager.Instance.combo);
 
         Time.timeScale = 0f;
-        yield return new WaitForSecondsRealtime(0.05f); // Real time delay, tetap jalan walaupun timescale = 0
+        yield return new WaitForSecondsRealtime(0.05f);
 
-        // Kembalikan time scale ke normal
         Time.timeScale = 0.7f;
         yield return new WaitForSecondsRealtime(0.5f);
         Camera.main.transform.position = new Vector3(-1.05f, 0, -10);
@@ -37,6 +36,25 @@ public class BallSc : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    IEnumerator OnTouchEnemy(GameObject enemy)
+    {
+        Camera.main.DOShakePosition(0.15f, 0.3f, 10, 60, false);
+        
+        EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+        if (enemyHealth != null && enemyHealth.IsAlive)
+        {
+            enemyHealth.TakeDamage(enemyDamage);
+            
+            GameManager.Instance.AddScore();
+            GameManager.Instance.Ultimate += 0.015f;
+            GameManager.Instance.combo++;
+            HUDManager.Instance.ShowCombo(GameManager.Instance.combo);
+        }
+
+        Time.timeScale = 0.8f;
+        yield return new WaitForSecondsRealtime(0.3f);
+        Time.timeScale = 1f;
+    }
 
     IEnumerator OnTouchWall()
     {
@@ -44,6 +62,7 @@ public class BallSc : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.5f);
         Time.timeScale = 1f;
     }
+
     void OnCollisionEnter2D(Collision2D collider)
     {
         if (collider.gameObject.CompareTag("wall"))
@@ -51,14 +70,20 @@ public class BallSc : MonoBehaviour
             StartCoroutine(OnTouchWall());
         }
 
-
         if (collider.gameObject.CompareTag("brick"))
         {
             if (!GameManager.Instance.isPlay) return;
             Debug.Log("kena brick");
             GameManager.Instance.SpawnVfxExplode(transform.position);
-            // Time.timeScale = 0.7f;
             StartCoroutine(OnTouchBrick(collider.gameObject));
+        }
+
+        if (collider.gameObject.CompareTag("Enemy"))
+        {
+            if (!GameManager.Instance.isPlay) return;
+            Debug.Log("kena enemy");
+            GameManager.Instance.SpawnVfxExplode(transform.position);
+            StartCoroutine(OnTouchEnemy(collider.gameObject));
         }
 
         if (collider.gameObject.CompareTag("shield"))
@@ -84,6 +109,5 @@ public class BallSc : MonoBehaviour
             HUDManager.Instance.textCombo.text = 0.ToString();
             GameManager.Instance.combo = 0;
         }
-        
     }
 }

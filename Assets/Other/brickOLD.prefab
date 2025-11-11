@@ -140,9 +140,9 @@ GameObject:
   - component: {fileID: 5056589820318340411}
   - component: {fileID: 165460779417360029}
   - component: {fileID: 7461657794877781116}
-  - component: {fileID: 2624978174517453953}
+  - component: {fileID: 913514776760426206}
   m_Layer: 0
-  m_Name: brick
+  m_Name: brickOLD
   m_TagString: brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,6 +184,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -205,6 +207,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -265,7 +268,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2624978174517453953
+--- !u!114 &913514776760426206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,10 +277,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6785324218565149078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40082dfdd4a82fd4e80555ff6d20aa15, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ab77376983a9d848b53fc62c2775a1e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  life: 3
-  audioSource: {fileID: 5811489496411251287}
+  m_EditorClassIdentifier: Assembly-CSharp::NoteBalok
+  life: 1
+  audioSource: {fileID: 0}
   audioClip: {fileID: 8300000, guid: 2375478cbe4f7e246a70929d3ccce3c3, type: 3}
   baseColor: {r: 0, g: 0, b: 0, a: 0}
