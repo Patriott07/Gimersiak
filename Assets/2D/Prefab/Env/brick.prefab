@@ -140,9 +140,9 @@ GameObject:
   - component: {fileID: 4366676416489221464}
   - component: {fileID: 3717801300918317811}
   - component: {fileID: 3330787104065547531}
-  - component: {fileID: 3941622148416085927}
+  - component: {fileID: 4803339373926507121}
   m_Layer: 0
-  m_Name: brick (19)
+  m_Name: brick
   m_TagString: brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,6 +184,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -205,11 +207,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.4764151, b: 0.4764151, a: 1}
+  m_Sprite: {fileID: 8961090413319157468, guid: 3257b1fb9b177b64e971b0cf5d321a03, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -257,15 +260,15 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.88, y: 1.024}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.9, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3941622148416085927
+--- !u!114 &4803339373926507121
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,10 +277,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8614607823738765748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40082dfdd4a82fd4e80555ff6d20aa15, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ab77376983a9d848b53fc62c2775a1e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::NoteBalok
   life: 1
   audioSource: {fileID: 9037309403384523051}
   audioClip: {fileID: 8300000, guid: 2375478cbe4f7e246a70929d3ccce3c3, type: 3}
-  baseColor: {r: 0.9960785, g: 0.47450984, b: 0.47450984, a: 1}
+  baseColor: {r: 0, g: 0, b: 0, a: 0}

@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
         characterMoveSc.isCanMove = false;
         isPlay = false;
 
-        List<NoteBalok> noteComps = FindObjectsOfType<NoteBalok>().ToList();
+        List<NoteBalok> noteComps = FindObjectsByType<NoteBalok>(FindObjectsSortMode.None).ToList();
         totalBlock = noteComps.Count;
 
         StartCoroutine(hUDManager.ShowPrePlay("Clear The Stage And Protect Our Ship", level, 3f, () =>
