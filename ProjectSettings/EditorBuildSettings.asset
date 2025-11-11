@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 5da770a900207b945ba305a2248a373c
+  - enabled: 1
+    path: Assets/Fonts/Setting.unity
+    guid: 594aa592ef332e546a562d332e9856ef
+  - enabled: 1
+    path: Assets/Scenes/Scoring.unity
+    guid: 946218e2944004b48863facae325ccac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

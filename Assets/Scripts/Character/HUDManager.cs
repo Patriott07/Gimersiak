@@ -9,11 +9,11 @@ using System.Collections.Generic;
 public class HUDManager : MonoBehaviour
 {
     // TMp
-    public TMP_Text textScore, textCombo, textTypingPrePlay, textTypingCompleted;
+    public TMP_Text textScore, textCombo, textTypingPrePlay, textTypingCompleted, textTimer;
 
 
     // Component
-    public CanvasGroup comboUI, leftUI, rightUI, preplayUI, completedUI;
+    public CanvasGroup comboUI, leftUI, rightUI, preplayUI, completedUI, pauseUI, gameOverUI, tutorialUI;
     public Image healthFill, ultimateFill;
 
     // Animator
@@ -75,6 +75,38 @@ public class HUDManager : MonoBehaviour
         // animatorCombo.Play(StateComboAnimator.Idle.ToString());
         textCombo.text = comboBaru.ToString();
         animatorCombo.Play(StateComboAnimator.ScoreShow.ToString(), 0, 0f);
+    }
+
+    public void ShowGameOver()
+    {
+        gameOverUI.alpha = 1f;
+        gameOverUI.interactable = true;
+        gameOverUI.blocksRaycasts = true;
+    }
+
+    public void HideTutorial()
+    {
+        tutorialUI.alpha = 0f;
+        tutorialUI.interactable = false;
+        tutorialUI.blocksRaycasts = false;
+    }
+
+    public void ShowPause()
+    {
+        pauseUI.alpha = 1f;
+        pauseUI.interactable = true;
+        pauseUI.blocksRaycasts = true;
+
+        Time.timeScale = 0f;
+    }
+    
+    public void HidePause()
+    {
+        pauseUI.alpha = 0;
+        pauseUI.interactable = false;
+        pauseUI.blocksRaycasts = false;
+
+        Time.timeScale = 1f;
     }
 
     public void HideCombo()

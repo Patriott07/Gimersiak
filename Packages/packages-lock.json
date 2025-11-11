@@ -111,8 +111,13 @@
       "dependencies": {
         "com.unity.burst": "1.8.23",
         "com.unity.mathematics": "1.3.2",
+<<<<<<< HEAD
         "com.unity.nuget.mono-cecil": "1.11.5",
         "com.unity.test-framework": "1.4.6",
+=======
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.nuget.mono-cecil": "1.11.5",
+>>>>>>> 11b0420dfdcb7cbf93c17aef5ae67026b6bf957c
         "com.unity.test-framework.performance": "3.0.3"
       },
       "url": "https://packages.unity.com"

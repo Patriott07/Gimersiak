@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: f0f6b18d7f453ea488a5dad21cc2af80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -541915033901873575
+    second: jalur-level2_0
+  - first:
+      213: 5453313840124905152
+    second: jalur-level2_1
+  - first:
+      213: 4721560888013775640
+    second: jalur-level2_2
+  - first:
+      213: -230975655671953958
+    second: jalur-level2_3
+  - first:
+      213: -8311340106156704048
+    second: jalur-level2_4
+  - first:
+      213: -3158691137569540046
+    second: jalur-level2_5
+  - first:
+      213: 4317009115040001296
+    second: jalur-level2_6
+  - first:
+      213: -8828472390905515124
+    second: jalur-level2_7
+  - first:
+      213: -6329032967679257374
+    second: jalur-level2_8
+  - first:
+      213: 2208359392744501978
+    second: jalur-level2_9
+  - first:
+      213: -2946628566158097274
+    second: jalur-level2_10
+  - first:
+      213: 7996429458048622823
+    second: jalur-level2_11
+  - first:
+      213: -3202861375239696543
+    second: jalur-level2_12
+  - first:
+      213: -3238703003764071855
+    second: jalur-level2_13
+  - first:
+      213: -3461629873648795069
+    second: jalur-level2_14
+  - first:
+      213: -2741951124437498559
+    second: jalur-level2_15
+  - first:
+      213: -5956239135864514094
+    second: jalur-level2_16
+  - first:
+      213: -8620872763007819320
+    second: jalur-level2_17
+  - first:
+      213: -8495686620447697303
+    second: jalur-level2_18
+  - first:
+      213: 8854621336655634410
+    second: jalur-level2_19
+  - first:
+      213: 7854923002466307288
+    second: jalur-level2_20
+  - first:
+      213: -6357150102635788733
+    second: jalur-level2_21
+  - first:
+      213: -7219449860601700463
+    second: jalur-level2_22
+  - first:
+      213: -5218215492273589493
+    second: jalur-level2_23
+  - first:
+      213: -3718191423797697374
+    second: jalur-level2_24
+  - first:
+      213: 8124240991710232829
+    second: jalur-level2_25
+  - first:
+      213: 1044899134724879144
+    second: jalur-level2_26
+  - first:
+      213: 8661256121148084356
+    second: jalur-level2_27
+  - first:
+      213: -3585336559384328538
+    second: jalur-level2_28
+  - first:
+      213: 2610869858075808434
+    second: jalur-level2_29
+  - first:
+      213: 8120377608283852168
+    second: jalur-level2_30
+  - first:
+      213: -910751857862211041
+    second: jalur-level2_31
+  - first:
+      213: -3708089179492686672
+    second: jalur-level2_32
+  - first:
+      213: -650639734266048839
+    second: jalur-level2_33
+  - first:
+      213: 2976117305575627614
+    second: jalur-level2_34
+  - first:
+      213: 3694590672891587043
+    second: jalur-level2_35
+  - first:
+      213: 4019546964299075314
+    second: jalur-level2_36
+  - first:
+      213: 1400198189702585599
+    second: jalur-level2_37
+  - first:
+      213: 5905386566434172646
+    second: jalur-level2_38
+  - first:
+      213: -3382870501061223066
+    second: jalur-level2_39
+  - first:
+      213: 2387973448375641305
+    second: jalur-level2_40
+  - first:
+      213: -5992557190330246871
+    second: jalur-level2_41
+  - first:
+      213: -1678785075928409707
+    second: jalur-level2_42
+  - first:
+      213: 8364376284119680711
+    second: jalur-level2_43
+  - first:
+      213: 7972586869362161156
+    second: jalur-level2_44
+  - first:
+      213: -1569334170675428253
+    second: jalur-level2_45
+  - first:
+      213: -927662247088133616
+    second: jalur-level2_46
+  - first:
+      213: 4278546091286623049
+    second: jalur-level2_47
+  - first:
+      213: -5452936156166221890
+    second: jalur-level2_48
+  - first:
+      213: -4397422999010436068
+    second: jalur-level2_49
+  - first:
+      213: 8338157962026779406
+    second: jalur-level2_50
+  - first:
+      213: -1835833150772306291
+    second: jalur-level2_51
+  - first:
+      213: 7036394261091473962
+    second: jalur-level2_52
+  - first:
+      213: 8141172868921346558
+    second: jalur-level2_53
+  - first:
+      213: -4602369280621567136
+    second: jalur-level2_54
+  - first:
+      213: -967866880757847159
+    second: jalur-level2_55
+  - first:
+      213: -697412641416695973
+    second: jalur-level2_56
+  - first:
+      213: 4364863167433840820
+    second: jalur-level2_57
+  - first:
+      213: -7004318048102501610
+    second: jalur-level2_58
+  - first:
+      213: 1072834010347611249
+    second: jalur-level2_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jalur-level2_0
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 280
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956c5d9d52bba78f0800000000000000
+      internalID: -541915033901873575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_1
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 285
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6cd517b001eab40800000000000000
+      internalID: 5453313840124905152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_2
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 285
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813607b9c9a568140800000000000000
+      internalID: 4721560888013775640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_3
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 282
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad509eb6dd86bccf0800000000000000
+      internalID: -230975655671953958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_4
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 270
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de7215753038ac80800000000000000
+      internalID: -8311340106156704048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_5
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 243
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2383ef555231a24d0800000000000000
+      internalID: -3158691137569540046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_6
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 260
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d251aeae819eb30800000000000000
+      internalID: 4317009115040001296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_7
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 263
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83bbbeb227fa7580800000000000000
+      internalID: -8828472390905515124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_8
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 258
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4ddbd6c02ca28a0800000000000000
+      internalID: -6329032967679257374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_9
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 244
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2fee4da2ba5ae10800000000000000
+      internalID: 2208359392744501978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 216
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684c0255ee87b17d0800000000000000
+      internalID: -2946628566158097274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 229
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e02576a93609fe60800000000000000
+      internalID: 7996429458048622823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_12
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 232
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fc4087c862d83d0800000000000000
+      internalID: -3202861375239696543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_13
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 229
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152e6a707c0dd03d0800000000000000
+      internalID: -3238703003764071855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_14
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 215
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342884d68f1d5ffc0800000000000000
+      internalID: -3461629873648795069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_15
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 215
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1458b64daf1a2f9d0800000000000000
+      internalID: -2741951124437498559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_16
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 220
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9148d3010375da0800000000000000
+      internalID: -5956239135864514094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_17
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 193
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1241bb5e18c5880800000000000000
+      internalID: -8620872763007819320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 187
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9661d21e702491a80800000000000000
+      internalID: -8495686620447697303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_19
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 186
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef14ff113fe1ea70800000000000000
+      internalID: 8854621336655634410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 192
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc8c048ada420d60800000000000000
+      internalID: 7854923002466307288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 157
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3464e8cc9add6c7a0800000000000000
+      internalID: -6357150102635788733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_22
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 147
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f97112a9c5fcb90800000000000000
+      internalID: -7219449860601700463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_23
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 152
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03b79538ac2597b0800000000000000
+      internalID: -5218215492273589493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_24
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 159
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a462a19994566cc0800000000000000
+      internalID: -3718191423797697374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_25
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 149
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df04e8c432a1fb070800000000000000
+      internalID: 8124240991710232829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 118
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823b3671a3a308e00800000000000000
+      internalID: 1044899134724879144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_27
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 132
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48095b98d86f23870800000000000000
+      internalID: 8661256121148084356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_28
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 122
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a60da925635e3ec0800000000000000
+      internalID: -3585336559384328538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_29
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 121
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2126d8d4cab3420800000000000000
+      internalID: 2610869858075808434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_30
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 135
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d8bcf396061b070800000000000000
+      internalID: 8120377608283852168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_31
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 125
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a8899b20c5c53f0800000000000000
+      internalID: -910751857862211041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_32
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 125
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b46edc99883a8cc0800000000000000
+      internalID: -3708089179492686672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_33
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 125
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be4152eb9678f6f0800000000000000
+      internalID: -650639734266048839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_34
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 125
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b5ab8dbea4d4920800000000000000
+      internalID: 2976117305575627614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_35
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 135
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9ac2864a2d54330800000000000000
+      internalID: 3694590672891587043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 83
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fecb05eaac48c730800000000000000
+      internalID: 4019546964299075314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 104
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc1e50c5d08e6310800000000000000
+      internalID: 1400198189702585599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 106
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee2ca94bc524f150800000000000000
+      internalID: 5905386566434172646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 96
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d1917d331ad01d0800000000000000
+      internalID: -3382870501061223066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_40
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 104
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4ae730339c32120800000000000000
+      internalID: 2387973448375641305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_41
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 104
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929172e3cf826dca0800000000000000
+      internalID: -5992557190330246871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 73
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5995f073ed1c3b8e0800000000000000
+      internalID: -1678785075928409707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 85
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6c7aef9eb341470800000000000000
+      internalID: 8364376284119680711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_44
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 85
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4067641648154ae60800000000000000
+      internalID: 7972586869362161156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_45
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 77
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364420fe2ea983ae0800000000000000
+      internalID: -1569334170675428253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_46
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 77
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a65cae9184023f0800000000000000
+      internalID: -927662247088133616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_47
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 85
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94376465003706b30800000000000000
+      internalID: 4278546091286623049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_48
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 80
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf04d4f4774354b0800000000000000
+      internalID: -5452936156166221890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_49
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 83
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c99d8b41739f2c0800000000000000
+      internalID: -4397422999010436068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 63
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0383bf2d7617b370800000000000000
+      internalID: 8338157962026779406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 63
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e945dd97fc586e0800000000000000
+      internalID: -1835833150772306291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_52
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 40
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a54ffcc4b46a160800000000000000
+      internalID: 7036394261091473962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_53
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 47
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ca1b27914bf070800000000000000
+      internalID: 8141172868921346558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_54
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 24
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063a16f06891120c0800000000000000
+      internalID: -4602369280621567136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_55
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 6
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b209e23327192f0800000000000000
+      internalID: -967866880757847159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_56
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fad7ec5ea4256f0800000000000000
+      internalID: -697412641416695973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_57
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8941cbceb139c30800000000000000
+      internalID: 4364863167433840820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 3
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6133ef088d9abce90800000000000000
+      internalID: -7004318048102501610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jalur-level2_59
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 7
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1742ab929d873ee00800000000000000
+      internalID: 1072834010347611249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jalur-level2_0: -541915033901873575
+      jalur-level2_1: 5453313840124905152
+      jalur-level2_10: -2946628566158097274
+      jalur-level2_11: 7996429458048622823
+      jalur-level2_12: -3202861375239696543
+      jalur-level2_13: -3238703003764071855
+      jalur-level2_14: -3461629873648795069
+      jalur-level2_15: -2741951124437498559
+      jalur-level2_16: -5956239135864514094
+      jalur-level2_17: -8620872763007819320
+      jalur-level2_18: -8495686620447697303
+      jalur-level2_19: 8854621336655634410
+      jalur-level2_2: 4721560888013775640
+      jalur-level2_20: 7854923002466307288
+      jalur-level2_21: -6357150102635788733
+      jalur-level2_22: -7219449860601700463
+      jalur-level2_23: -5218215492273589493
+      jalur-level2_24: -3718191423797697374
+      jalur-level2_25: 8124240991710232829
+      jalur-level2_26: 1044899134724879144
+      jalur-level2_27: 8661256121148084356
+      jalur-level2_28: -3585336559384328538
+      jalur-level2_29: 2610869858075808434
+      jalur-level2_3: -230975655671953958
+      jalur-level2_30: 8120377608283852168
+      jalur-level2_31: -910751857862211041
+      jalur-level2_32: -3708089179492686672
+      jalur-level2_33: -650639734266048839
+      jalur-level2_34: 2976117305575627614
+      jalur-level2_35: 3694590672891587043
+      jalur-level2_36: 4019546964299075314
+      jalur-level2_37: 1400198189702585599
+      jalur-level2_38: 5905386566434172646
+      jalur-level2_39: -3382870501061223066
+      jalur-level2_4: -8311340106156704048
+      jalur-level2_40: 2387973448375641305
+      jalur-level2_41: -5992557190330246871
+      jalur-level2_42: -1678785075928409707
+      jalur-level2_43: 8364376284119680711
+      jalur-level2_44: 7972586869362161156
+      jalur-level2_45: -1569334170675428253
+      jalur-level2_46: -927662247088133616
+      jalur-level2_47: 4278546091286623049
+      jalur-level2_48: -5452936156166221890
+      jalur-level2_49: -4397422999010436068
+      jalur-level2_5: -3158691137569540046
+      jalur-level2_50: 8338157962026779406
+      jalur-level2_51: -1835833150772306291
+      jalur-level2_52: 7036394261091473962
+      jalur-level2_53: 8141172868921346558
+      jalur-level2_54: -4602369280621567136
+      jalur-level2_55: -967866880757847159
+      jalur-level2_56: -697412641416695973
+      jalur-level2_57: 4364863167433840820
+      jalur-level2_58: -7004318048102501610
+      jalur-level2_59: 1072834010347611249
+      jalur-level2_6: 4317009115040001296
+      jalur-level2_7: -8828472390905515124
+      jalur-level2_8: -6329032967679257374
+      jalur-level2_9: 2208359392744501978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

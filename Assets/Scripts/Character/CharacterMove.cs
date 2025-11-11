@@ -25,7 +25,7 @@ public class CharacterMove : MonoBehaviour
 
     void Update()
     {
-
+         if (!GameManager.Instance.isPlay) return;
         if (!isCanMove)
             return;
         // Ambil input player
@@ -51,6 +51,7 @@ public class CharacterMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!GameManager.Instance.isPlay) return;
         if (isDashing) // jika isDashing true
         {
             rb.linearVelocity = movement * getDashSpeed(moveSpeed);
