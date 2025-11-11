@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ball
-  - brick
-  - wall
-  - ship
-  - shield
+  - Ball
+  - Wall
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Wall
   - 
   - 
   - 

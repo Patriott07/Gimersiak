@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beed356278f1a6946ba325d02cd88a31, type: 3}
+  m_Name: BeamAttack
+  m_EditorClassIdentifier: Assembly-CSharp::BeamAttack
+  enabled: 1
+  damage: 10
+  beamPillarPrefab: {fileID: 2924430295178421321, guid: 6ff0199ad88f1ee4391d938da5ebdeb9, type: 3}
+  sparkUpPrefab: {fileID: 2551159922634494201, guid: 90f3546bd99bdf044b7389e5c1807c88, type: 3}
+  sparkDownPrefab: {fileID: 960483943156646201, guid: 32a8a7286db50fa48b732c2fc87aa997, type: 3}
+  beamDuration: 3
+  cleanupDelay: 1
+  maxBeamDistance: 50
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
