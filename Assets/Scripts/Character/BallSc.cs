@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallSc : MonoBehaviour
 {
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     void Start()
     {
@@ -12,11 +12,13 @@ public class BallSc : MonoBehaviour
     }
     IEnumerator OnTouchBrick(GameObject noteblock)
     {
-
+        
         // Freeze time (pause effect)
-        Camera.main.DOShakePosition(0.2f, 0.3f, 10, 60, true);
+        Camera.main.DOShakePosition(0.2f, 0.5f, 10, 60, false);
+        NoteBalok noteBalokSc = noteblock.GetComponent<NoteBalok>();
 
-        noteblock.GetComponent<NoteBalok>().Life--;
+        noteBalokSc.Life--;
+        StartCoroutine(noteBalokSc.HitEffect());
 
         GameManager.Instance.AddScore();
         GameManager.Instance.Ultimate += 0.02f;
@@ -27,7 +29,7 @@ public class BallSc : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.05f); // Real time delay, tetap jalan walaupun timescale = 0
 
         // Kembalikan time scale ke normal
-        Time.timeScale = 0.5f;
+        Time.timeScale = 0.7f;
         yield return new WaitForSecondsRealtime(0.5f);
         Camera.main.transform.position = new Vector3(-1.05f, 0, -10);
 
@@ -52,22 +54,31 @@ public class BallSc : MonoBehaviour
 
         if (collider.gameObject.CompareTag("brick"))
         {
+            if (!GameManager.Instance.isPlay) return;
             Debug.Log("kena brick");
+            GameManager.Instance.SpawnVfxExplode(transform.position);
             // Time.timeScale = 0.7f;
             StartCoroutine(OnTouchBrick(collider.gameObject));
-
         }
 
         if (collider.gameObject.CompareTag("shield"))
         {
-
+            if (!GameManager.Instance.isPlay) return;
+            ShieldScript shieldScript = collider.gameObject.GetComponent<ShieldScript>();
+            shieldScript.shield--;
         }
 
         if (collider.gameObject.CompareTag("ship"))
         {
-            Camera.main.DOShakePosition(0.2f, 0.3f, 10, 60, true);
+            if (!GameManager.Instance.isPlay) return;
+
+            PPScript.Instance.HitEffect();
+
+            Camera.main.DOShakePosition(0.2f, 0.5f, 10, 60, false);
             GameManager.Instance.health--;
             HUDManager.Instance.UpdateBarHealth(GameManager.Instance.health / 5f);
+
+            rb.AddForce(new Vector2(0, 90f));
 
             HUDManager.Instance.HideCombo();
             HUDManager.Instance.textCombo.text = 0.ToString();

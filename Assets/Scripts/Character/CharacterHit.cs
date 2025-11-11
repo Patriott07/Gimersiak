@@ -35,6 +35,7 @@ public class CharacterHit : MonoBehaviour
 
     void AddForceToBall()
     {
+         if (!GameManager.Instance.isPlay) return;
         if (detectorBallSc.rbBall == null) return;
         if (!isCanHit) return;
         isCanHit = false;
@@ -42,7 +43,7 @@ public class CharacterHit : MonoBehaviour
     }
     IEnumerator IenumaratorAddForceToBall()
     {
-
+        
         Time.timeScale = 1f;
         // Sebelum freeze, lakukan hit
         Debug.Log("Hitting toll 2");
