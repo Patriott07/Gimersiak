@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 282419d7a570d4941827a02e4cfb4bd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7820778515650385199
+    second: BaAsteroid-Sheet_0
+  - first:
+      213: -162391240178547474
+    second: BaAsteroid-Sheet_1
+  - first:
+      213: -6268187846370687477
+    second: BaAsteroid-Sheet_2
+  - first:
+      213: -5960522102015341987
+    second: BaAsteroid-Sheet_3
+  - first:
+      213: -3685237783467406005
+    second: BaAsteroid-Sheet_4
+  - first:
+      213: -4684337177973706042
+    second: BaAsteroid-Sheet_5
+  - first:
+      213: -3439209691284354307
+    second: BaAsteroid-Sheet_6
+  - first:
+      213: -7614190589105302312
+    second: BaAsteroid-Sheet_7
+  - first:
+      213: -5846059469032517272
+    second: BaAsteroid-Sheet_8
+  - first:
+      213: -9096142942783761715
+    second: BaAsteroid-Sheet_9
+  - first:
+      213: 7729362078145318565
+    second: BaAsteroid-Sheet_10
+  - first:
+      213: -4556776101532786113
+    second: BaAsteroid-Sheet_11
+  - first:
+      213: -4435595814671464875
+    second: BaAsteroid-Sheet_12
+  - first:
+      213: 1577304965610287868
+    second: BaAsteroid-Sheet_13
+  - first:
+      213: -2896762985274096553
+    second: BaAsteroid-Sheet_14
+  - first:
+      213: -9092947244867084379
+    second: BaAsteroid-Sheet_15
+  - first:
+      213: 8459754286883676344
+    second: BaAsteroid-Sheet_16
+  - first:
+      213: -8011000808637173892
+    second: BaAsteroid-Sheet_17
+  - first:
+      213: -8058132778274283535
+    second: BaAsteroid-Sheet_18
+  - first:
+      213: -769764679047789300
+    second: BaAsteroid-Sheet_19
+  - first:
+      213: 18241804751311844
+    second: BaAsteroid-Sheet_20
+  - first:
+      213: 7755772683039692300
+    second: BaAsteroid-Sheet_21
+  - first:
+      213: 2526980730393857915
+    second: BaAsteroid-Sheet_22
+  - first:
+      213: -3507546418980704758
+    second: BaAsteroid-Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 459
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dae6a35063077390800000000000000
+      internalID: -7820778515650385199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 447
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c58607021fbdf0800000000000000
+      internalID: -162391240178547474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 459
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0687af2d5ce209a0800000000000000
+      internalID: -6268187846370687477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 467
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ac2897ab8f74da0800000000000000
+      internalID: -5960522102015341987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dc39bd2c76bdcc0800000000000000
+      internalID: -3685237783467406005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 299
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2b8b2c724edfeb0800000000000000
+      internalID: -4684337177973706042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 311
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa4aeae1097540d0800000000000000
+      internalID: -3439209691284354307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 319
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4914c3006f45690800000000000000
+      internalID: -7614190589105302312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 175
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861128cf2ef9edea0800000000000000
+      internalID: -5846059469032517272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 167
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2923ddf2204c180800000000000000
+      internalID: -9096142942783761715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 175
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae0a30bbd5344b60800000000000000
+      internalID: 7729362078145318565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 183
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32262b474413c0c0800000000000000
+      internalID: -4556776101532786113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 15
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5564c4b7b199172c0800000000000000
+      internalID: -4435595814671464875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 83
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf239a16286b3e510800000000000000
+      internalID: 1577304965610287868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 75
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754cc30a961acc7d0800000000000000
+      internalID: -2896762985274096553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 15
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af945448ac5fc180800000000000000
+      internalID: -9092947244867084379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 83
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b02ac4c3b5176570800000000000000
+      internalID: 8459754286883676344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 15
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f60d9653533d090800000000000000
+      internalID: -8011000808637173892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 27
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff97069ee2cb2090800000000000000
+      internalID: -8058132778274283535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 95
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05c6b05a1f3155f0800000000000000
+      internalID: -769764679047789300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 7
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3934423dec04000800000000000000
+      internalID: 18241804751311844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 0
+        width: 106
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c065243d92a02ab60800000000000000
+      internalID: 7755772683039692300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 7
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f0265f593a11320800000000000000
+      internalID: 2526980730393857915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaAsteroid-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 7
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e267f9d11b25fc0800000000000000
+      internalID: -3507546418980704758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BaAsteroid-Sheet_0: -7820778515650385199
+      BaAsteroid-Sheet_1: -162391240178547474
+      BaAsteroid-Sheet_10: 7729362078145318565
+      BaAsteroid-Sheet_11: -4556776101532786113
+      BaAsteroid-Sheet_12: -4435595814671464875
+      BaAsteroid-Sheet_13: 1577304965610287868
+      BaAsteroid-Sheet_14: -2896762985274096553
+      BaAsteroid-Sheet_15: -9092947244867084379
+      BaAsteroid-Sheet_16: 8459754286883676344
+      BaAsteroid-Sheet_17: -8011000808637173892
+      BaAsteroid-Sheet_18: -8058132778274283535
+      BaAsteroid-Sheet_19: -769764679047789300
+      BaAsteroid-Sheet_2: -6268187846370687477
+      BaAsteroid-Sheet_20: 18241804751311844
+      BaAsteroid-Sheet_21: 7755772683039692300
+      BaAsteroid-Sheet_22: 2526980730393857915
+      BaAsteroid-Sheet_23: -3507546418980704758
+      BaAsteroid-Sheet_3: -5960522102015341987
+      BaAsteroid-Sheet_4: -3685237783467406005
+      BaAsteroid-Sheet_5: -4684337177973706042
+      BaAsteroid-Sheet_6: -3439209691284354307
+      BaAsteroid-Sheet_7: -7614190589105302312
+      BaAsteroid-Sheet_8: -5846059469032517272
+      BaAsteroid-Sheet_9: -9096142942783761715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

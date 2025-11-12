@@ -23,8 +23,18 @@ public class SettingScri : MonoBehaviour
     public void SetMusicVolume()
     {
         float value = sliders[1].value;
-        audioMixer.SetFloat("volume_music", value);
-        PlayerPrefs.SetFloat("music", value);
+        if (value == sliders[2].minValue)
+        {
+            audioMixer.SetFloat("volume_music", -80);
+            PlayerPrefs.SetFloat("music", -80);
+        }
+        else
+        {
+            audioMixer.SetFloat("volume_music", value);
+            PlayerPrefs.SetFloat("music", value);
+        }
+
+
         PlayerPrefs.Save();
 
         Debug.Log("music Volume Saved: " + PlayerPrefs.GetFloat("music"));
@@ -33,10 +43,18 @@ public class SettingScri : MonoBehaviour
     public void SetSfxVolume()
     {
         float value = sliders[2].value;
-        audioMixer.SetFloat("volume_sfx", value);
-        PlayerPrefs.SetFloat("sfx", value);
-        PlayerPrefs.Save();
+        if (value == sliders[2].minValue)
+        {
+            audioMixer.SetFloat("volume_sfx", -80f);
+            PlayerPrefs.SetFloat("sfx", -80f);
+        }
+        else
+        {
+            audioMixer.SetFloat("volume_sfx", value);
+            PlayerPrefs.SetFloat("sfx", value);
+        }
 
+        PlayerPrefs.Save();
         Debug.Log("sfx Volume Saved: " + PlayerPrefs.GetFloat("sfx"));
     }
 
@@ -45,8 +63,19 @@ public class SettingScri : MonoBehaviour
         float value = sliders[0].value;
         audioMixer.SetFloat("volume_master", value);
         PlayerPrefs.SetFloat("master", value);
-        PlayerPrefs.Save();
 
+        if (value == sliders[2].minValue)
+        {
+            audioMixer.SetFloat("volume_master", -80);
+            PlayerPrefs.SetFloat("master", -80);
+        }
+        else
+        {
+            audioMixer.SetFloat("volume_master", value);
+            PlayerPrefs.SetFloat("master", value);
+        }
+
+        PlayerPrefs.Save();
         Debug.Log("Master Volume Saved: " + PlayerPrefs.GetFloat("master"));
     }
 

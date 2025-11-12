@@ -52,11 +52,6 @@ public class SpaceToStart : MonoBehaviour
                 textMesh.color = Color.Lerp(pulseColorMin, pulseColorMax, oscillation);
             }
 
-            // --- CEK INPUT SPACE ---
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                StartGame();
-            }
         }
     }
 

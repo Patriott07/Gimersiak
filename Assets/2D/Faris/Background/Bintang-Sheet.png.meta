@@ -1,0 +1,5889 @@
+fileFormatVersion: 2
+guid: 147f3c5871f719741a583dd799ec9df2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3438219410342480005
+    second: Bintang-Sheet_0
+  - first:
+      213: 9096012171485239859
+    second: Bintang-Sheet_1
+  - first:
+      213: 5381826524852113471
+    second: Bintang-Sheet_2
+  - first:
+      213: -6106647483616447695
+    second: Bintang-Sheet_3
+  - first:
+      213: -6056586849821889549
+    second: Bintang-Sheet_4
+  - first:
+      213: 5230950541284086722
+    second: Bintang-Sheet_5
+  - first:
+      213: 4495272135639447357
+    second: Bintang-Sheet_6
+  - first:
+      213: -503288772102207373
+    second: Bintang-Sheet_7
+  - first:
+      213: -9133494896556730400
+    second: Bintang-Sheet_8
+  - first:
+      213: -2182605894000890789
+    second: Bintang-Sheet_9
+  - first:
+      213: -8598045241334858856
+    second: Bintang-Sheet_10
+  - first:
+      213: 3537090737826836280
+    second: Bintang-Sheet_11
+  - first:
+      213: -5521510667387850511
+    second: Bintang-Sheet_12
+  - first:
+      213: 1390809156095477961
+    second: Bintang-Sheet_13
+  - first:
+      213: -7542749354113932326
+    second: Bintang-Sheet_14
+  - first:
+      213: 3470112577311380527
+    second: Bintang-Sheet_15
+  - first:
+      213: 513471103423649292
+    second: Bintang-Sheet_16
+  - first:
+      213: -7317312285491471324
+    second: Bintang-Sheet_17
+  - first:
+      213: 380160071916985540
+    second: Bintang-Sheet_18
+  - first:
+      213: -232995800589602054
+    second: Bintang-Sheet_19
+  - first:
+      213: -4634248477234111573
+    second: Bintang-Sheet_20
+  - first:
+      213: -950244302443180409
+    second: Bintang-Sheet_21
+  - first:
+      213: -201873141249181397
+    second: Bintang-Sheet_22
+  - first:
+      213: 7899759818694842190
+    second: Bintang-Sheet_23
+  - first:
+      213: -1338275405697331165
+    second: Bintang-Sheet_24
+  - first:
+      213: 3030940791647161001
+    second: Bintang-Sheet_25
+  - first:
+      213: -7881022885409021236
+    second: Bintang-Sheet_26
+  - first:
+      213: 5139355044494041635
+    second: Bintang-Sheet_27
+  - first:
+      213: 8130454229999697451
+    second: Bintang-Sheet_28
+  - first:
+      213: -8596464178239224142
+    second: Bintang-Sheet_29
+  - first:
+      213: -1661796231548027449
+    second: Bintang-Sheet_30
+  - first:
+      213: 5328505575284109768
+    second: Bintang-Sheet_31
+  - first:
+      213: -7940032828504250115
+    second: Bintang-Sheet_32
+  - first:
+      213: -7448965446037530651
+    second: Bintang-Sheet_33
+  - first:
+      213: -9177892324519608581
+    second: Bintang-Sheet_34
+  - first:
+      213: -409836604730071424
+    second: Bintang-Sheet_35
+  - first:
+      213: 8795861329361663634
+    second: Bintang-Sheet_36
+  - first:
+      213: 6680653697973471861
+    second: Bintang-Sheet_37
+  - first:
+      213: -6865825543171944161
+    second: Bintang-Sheet_38
+  - first:
+      213: -8766887937066166881
+    second: Bintang-Sheet_39
+  - first:
+      213: -4029207868961823264
+    second: Bintang-Sheet_40
+  - first:
+      213: -6106590944047619835
+    second: Bintang-Sheet_41
+  - first:
+      213: -3547648276287567763
+    second: Bintang-Sheet_42
+  - first:
+      213: 5813971887890410943
+    second: Bintang-Sheet_43
+  - first:
+      213: -3740588472603523871
+    second: Bintang-Sheet_44
+  - first:
+      213: -4536738644524484069
+    second: Bintang-Sheet_45
+  - first:
+      213: -499096462970572603
+    second: Bintang-Sheet_46
+  - first:
+      213: 4987706255724061526
+    second: Bintang-Sheet_47
+  - first:
+      213: -4681475154799570453
+    second: Bintang-Sheet_48
+  - first:
+      213: -7667699769448471642
+    second: Bintang-Sheet_49
+  - first:
+      213: -3785011659788385000
+    second: Bintang-Sheet_50
+  - first:
+      213: -5867445234214483253
+    second: Bintang-Sheet_51
+  - first:
+      213: -1559863473335933894
+    second: Bintang-Sheet_52
+  - first:
+      213: 6081827741606056819
+    second: Bintang-Sheet_53
+  - first:
+      213: 783173169654970133
+    second: Bintang-Sheet_54
+  - first:
+      213: 2665147512246025356
+    second: Bintang-Sheet_55
+  - first:
+      213: -3251660160498403260
+    second: Bintang-Sheet_56
+  - first:
+      213: -5567217674411553161
+    second: Bintang-Sheet_57
+  - first:
+      213: 2497137298581259912
+    second: Bintang-Sheet_58
+  - first:
+      213: -1570956396603168957
+    second: Bintang-Sheet_59
+  - first:
+      213: 451326855656956492
+    second: Bintang-Sheet_60
+  - first:
+      213: -5302094927831265724
+    second: Bintang-Sheet_61
+  - first:
+      213: -7818174964079252715
+    second: Bintang-Sheet_62
+  - first:
+      213: 5665709315133404101
+    second: Bintang-Sheet_63
+  - first:
+      213: 5273430288370178791
+    second: Bintang-Sheet_64
+  - first:
+      213: 1435990334621772777
+    second: Bintang-Sheet_65
+  - first:
+      213: -138755434787764335
+    second: Bintang-Sheet_66
+  - first:
+      213: -841068684729525746
+    second: Bintang-Sheet_67
+  - first:
+      213: 5206218420379296673
+    second: Bintang-Sheet_68
+  - first:
+      213: 8091649140523620640
+    second: Bintang-Sheet_69
+  - first:
+      213: -4145073871396886033
+    second: Bintang-Sheet_70
+  - first:
+      213: 6786442761967341552
+    second: Bintang-Sheet_71
+  - first:
+      213: 6523918755748875686
+    second: Bintang-Sheet_72
+  - first:
+      213: -5180972580821415824
+    second: Bintang-Sheet_73
+  - first:
+      213: -130370198315612685
+    second: Bintang-Sheet_74
+  - first:
+      213: -7286865142300537703
+    second: Bintang-Sheet_75
+  - first:
+      213: -6232450027789238572
+    second: Bintang-Sheet_76
+  - first:
+      213: -2148928358916173982
+    second: Bintang-Sheet_77
+  - first:
+      213: -4034404550097080319
+    second: Bintang-Sheet_78
+  - first:
+      213: -314823031593463393
+    second: Bintang-Sheet_79
+  - first:
+      213: 4362499817686009211
+    second: Bintang-Sheet_80
+  - first:
+      213: -6504411097737156239
+    second: Bintang-Sheet_81
+  - first:
+      213: -4490861765017381701
+    second: Bintang-Sheet_82
+  - first:
+      213: 1241256573377386678
+    second: Bintang-Sheet_83
+  - first:
+      213: -3163353052652863309
+    second: Bintang-Sheet_84
+  - first:
+      213: 1481431004322723502
+    second: Bintang-Sheet_85
+  - first:
+      213: -8692076729228854088
+    second: Bintang-Sheet_86
+  - first:
+      213: 7646693502421259999
+    second: Bintang-Sheet_87
+  - first:
+      213: 3412938352071923983
+    second: Bintang-Sheet_88
+  - first:
+      213: -7119314620745721251
+    second: Bintang-Sheet_89
+  - first:
+      213: -2113122967168567279
+    second: Bintang-Sheet_90
+  - first:
+      213: 5333214371563934979
+    second: Bintang-Sheet_91
+  - first:
+      213: -7492465055899313806
+    second: Bintang-Sheet_92
+  - first:
+      213: 6211058880206722295
+    second: Bintang-Sheet_93
+  - first:
+      213: 7345024871406606089
+    second: Bintang-Sheet_94
+  - first:
+      213: -3930227551951332943
+    second: Bintang-Sheet_95
+  - first:
+      213: 8104164627829439286
+    second: Bintang-Sheet_96
+  - first:
+      213: 2208467345106983288
+    second: Bintang-Sheet_97
+  - first:
+      213: 4415666962056115286
+    second: Bintang-Sheet_98
+  - first:
+      213: -6152003379880608052
+    second: Bintang-Sheet_99
+  - first:
+      213: -8451515240454763930
+    second: Bintang-Sheet_100
+  - first:
+      213: -4225956691864858202
+    second: Bintang-Sheet_101
+  - first:
+      213: 2395114579840536449
+    second: Bintang-Sheet_102
+  - first:
+      213: 947551945742766941
+    second: Bintang-Sheet_103
+  - first:
+      213: 3626318133218729649
+    second: Bintang-Sheet_104
+  - first:
+      213: -3547309402284708206
+    second: Bintang-Sheet_105
+  - first:
+      213: -6137942657493640469
+    second: Bintang-Sheet_106
+  - first:
+      213: -250588416112059210
+    second: Bintang-Sheet_107
+  - first:
+      213: -2867195926607692013
+    second: Bintang-Sheet_108
+  - first:
+      213: -397505273553700197
+    second: Bintang-Sheet_109
+  - first:
+      213: 7016773059241995349
+    second: Bintang-Sheet_110
+  - first:
+      213: -2765417784695878653
+    second: Bintang-Sheet_111
+  - first:
+      213: 6056688450952232325
+    second: Bintang-Sheet_112
+  - first:
+      213: 9200122917831153017
+    second: Bintang-Sheet_113
+  - first:
+      213: -6612259645414373029
+    second: Bintang-Sheet_114
+  - first:
+      213: -7877001824929709880
+    second: Bintang-Sheet_115
+  - first:
+      213: 3530337426253171340
+    second: Bintang-Sheet_116
+  - first:
+      213: 6371191664990281212
+    second: Bintang-Sheet_117
+  - first:
+      213: 8890618520316275366
+    second: Bintang-Sheet_118
+  - first:
+      213: -1207075727424668600
+    second: Bintang-Sheet_119
+  - first:
+      213: -398703403228908780
+    second: Bintang-Sheet_120
+  - first:
+      213: -4022852006267853143
+    second: Bintang-Sheet_121
+  - first:
+      213: 5025862922236730512
+    second: Bintang-Sheet_122
+  - first:
+      213: 399024984856740064
+    second: Bintang-Sheet_123
+  - first:
+      213: -3225399396364573683
+    second: Bintang-Sheet_124
+  - first:
+      213: 7290176679562858317
+    second: Bintang-Sheet_125
+  - first:
+      213: 1005965064950595697
+    second: Bintang-Sheet_126
+  - first:
+      213: -7364249348430672258
+    second: Bintang-Sheet_127
+  - first:
+      213: 2335950950842377303
+    second: Bintang-Sheet_128
+  - first:
+      213: 7966798215631181557
+    second: Bintang-Sheet_129
+  - first:
+      213: -3513721886357938631
+    second: Bintang-Sheet_130
+  - first:
+      213: -1911560617540126948
+    second: Bintang-Sheet_131
+  - first:
+      213: 7730668550047781857
+    second: Bintang-Sheet_132
+  - first:
+      213: -1347618594600358068
+    second: Bintang-Sheet_133
+  - first:
+      213: -4940925548639857869
+    second: Bintang-Sheet_134
+  - first:
+      213: 6450666079692127335
+    second: Bintang-Sheet_135
+  - first:
+      213: -7724107496835953403
+    second: Bintang-Sheet_136
+  - first:
+      213: -3230342090465029382
+    second: Bintang-Sheet_137
+  - first:
+      213: -974573586232518120
+    second: Bintang-Sheet_138
+  - first:
+      213: -4211381319782636661
+    second: Bintang-Sheet_139
+  - first:
+      213: -9073483798448418269
+    second: Bintang-Sheet_140
+  - first:
+      213: 8749870499859367303
+    second: Bintang-Sheet_141
+  - first:
+      213: -482506390753619340
+    second: Bintang-Sheet_142
+  - first:
+      213: 7932885500802077297
+    second: Bintang-Sheet_143
+  - first:
+      213: -5026940301982164317
+    second: Bintang-Sheet_144
+  - first:
+      213: 3336219042399318611
+    second: Bintang-Sheet_145
+  - first:
+      213: 7666075121626557970
+    second: Bintang-Sheet_146
+  - first:
+      213: -7346054873907212198
+    second: Bintang-Sheet_147
+  - first:
+      213: 1293492925536621933
+    second: Bintang-Sheet_148
+  - first:
+      213: 8618904808224558128
+    second: Bintang-Sheet_149
+  - first:
+      213: 1820391491966876286
+    second: Bintang-Sheet_150
+  - first:
+      213: 8987837445706695185
+    second: Bintang-Sheet_151
+  - first:
+      213: -7803685025641769947
+    second: Bintang-Sheet_152
+  - first:
+      213: -8922590305378323238
+    second: Bintang-Sheet_153
+  - first:
+      213: -7227013114313554366
+    second: Bintang-Sheet_154
+  - first:
+      213: -4182761107859066914
+    second: Bintang-Sheet_155
+  - first:
+      213: -9127465946935933054
+    second: Bintang-Sheet_156
+  - first:
+      213: 2422092121351191036
+    second: Bintang-Sheet_157
+  - first:
+      213: -7863687632187973971
+    second: Bintang-Sheet_158
+  - first:
+      213: -4780208630472393385
+    second: Bintang-Sheet_159
+  - first:
+      213: 7023756650213204117
+    second: Bintang-Sheet_160
+  - first:
+      213: -709729585824496605
+    second: Bintang-Sheet_161
+  - first:
+      213: -4724552449884473674
+    second: Bintang-Sheet_162
+  - first:
+      213: -2153194793123087329
+    second: Bintang-Sheet_163
+  - first:
+      213: 747246174718050562
+    second: Bintang-Sheet_164
+  - first:
+      213: 4917044272623295803
+    second: Bintang-Sheet_165
+  - first:
+      213: 6525273714649070249
+    second: Bintang-Sheet_166
+  - first:
+      213: -5516128119530018026
+    second: Bintang-Sheet_167
+  - first:
+      213: -1757479611240833522
+    second: Bintang-Sheet_168
+  - first:
+      213: -8308125585335199606
+    second: Bintang-Sheet_169
+  - first:
+      213: -6358729798790503632
+    second: Bintang-Sheet_170
+  - first:
+      213: -6272307568442906065
+    second: Bintang-Sheet_171
+  - first:
+      213: -6528062750419953847
+    second: Bintang-Sheet_172
+  - first:
+      213: 5092987556979091430
+    second: Bintang-Sheet_173
+  - first:
+      213: -7594836789629561573
+    second: Bintang-Sheet_174
+  - first:
+      213: -4884787919765578165
+    second: Bintang-Sheet_175
+  - first:
+      213: -5509203687523309330
+    second: Bintang-Sheet_176
+  - first:
+      213: -2502646235227497924
+    second: Bintang-Sheet_177
+  - first:
+      213: -2192832641604429914
+    second: Bintang-Sheet_178
+  - first:
+      213: 6016563305261411116
+    second: Bintang-Sheet_179
+  - first:
+      213: -2435607041003247176
+    second: Bintang-Sheet_180
+  - first:
+      213: 6030707328298905093
+    second: Bintang-Sheet_181
+  - first:
+      213: -3883131632682139433
+    second: Bintang-Sheet_182
+  - first:
+      213: 6730342015960349600
+    second: Bintang-Sheet_183
+  - first:
+      213: -4467927648003432238
+    second: Bintang-Sheet_184
+  - first:
+      213: 8321542517489546733
+    second: Bintang-Sheet_185
+  - first:
+      213: -1938610831667197364
+    second: Bintang-Sheet_186
+  - first:
+      213: 3216433861398227026
+    second: Bintang-Sheet_187
+  - first:
+      213: 4765375773543448178
+    second: Bintang-Sheet_188
+  - first:
+      213: -8212667192319884399
+    second: Bintang-Sheet_189
+  - first:
+      213: -8052965982640193806
+    second: Bintang-Sheet_190
+  - first:
+      213: -5681829132856802821
+    second: Bintang-Sheet_191
+  - first:
+      213: 1607258326873630507
+    second: Bintang-Sheet_192
+  - first:
+      213: 7798555778255669913
+    second: Bintang-Sheet_193
+  - first:
+      213: -6250738864462690052
+    second: Bintang-Sheet_194
+  - first:
+      213: -7437778329604747223
+    second: Bintang-Sheet_195
+  - first:
+      213: -1738236770243107021
+    second: Bintang-Sheet_196
+  - first:
+      213: -4182282040129769147
+    second: Bintang-Sheet_197
+  - first:
+      213: 4693169938106345421
+    second: Bintang-Sheet_198
+  - first:
+      213: -2588916255447860873
+    second: Bintang-Sheet_199
+  - first:
+      213: 2849408012592924413
+    second: Bintang-Sheet_200
+  - first:
+      213: -1255333319979207262
+    second: Bintang-Sheet_201
+  - first:
+      213: 9017327573462474573
+    second: Bintang-Sheet_202
+  - first:
+      213: -4526346898723373098
+    second: Bintang-Sheet_203
+  - first:
+      213: -4790441865430402358
+    second: Bintang-Sheet_204
+  - first:
+      213: 6247792807426697787
+    second: Bintang-Sheet_205
+  - first:
+      213: 6041564573332451837
+    second: Bintang-Sheet_206
+  - first:
+      213: -8746611418247102333
+    second: Bintang-Sheet_207
+  - first:
+      213: -4033158741858634554
+    second: Bintang-Sheet_208
+  - first:
+      213: -6293984231479801174
+    second: Bintang-Sheet_209
+  - first:
+      213: 1911967990099061011
+    second: Bintang-Sheet_210
+  - first:
+      213: 7780596851679846014
+    second: Bintang-Sheet_211
+  - first:
+      213: -7436481222760959690
+    second: Bintang-Sheet_212
+  - first:
+      213: 4334869952626933662
+    second: Bintang-Sheet_213
+  - first:
+      213: 849462386680733892
+    second: Bintang-Sheet_214
+  - first:
+      213: 8697058894201040674
+    second: Bintang-Sheet_215
+  - first:
+      213: -579799951540404514
+    second: Bintang-Sheet_216
+  - first:
+      213: -2361814181250267689
+    second: Bintang-Sheet_217
+  - first:
+      213: -8924877144247175061
+    second: Bintang-Sheet_218
+  - first:
+      213: 8271895699008514037
+    second: Bintang-Sheet_219
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bintang-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 451
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5880155565207bf20800000000000000
+      internalID: 3438219410342480005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 459
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ad10290e68b3e70800000000000000
+      internalID: 9096012171485239859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 447
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30d590d5b610ba40800000000000000
+      internalID: 5381826524852113471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 455
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333282d774d04ba0800000000000000
+      internalID: -6106647483616447695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 451
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb6019695ea2fba0800000000000000
+      internalID: -6056586849821889549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 459
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c310e27dc1189840800000000000000
+      internalID: 5230950541284086722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 451
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37308db03a626e30800000000000000
+      internalID: 4495272135639447357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 459
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378c76f3785f309f0800000000000000
+      internalID: -503288772102207373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e794ec68ce4f3180800000000000000
+      internalID: -9133494896556730400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c276bd083d5b1e0800000000000000
+      internalID: -2182605894000890789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b7f7b486b9da880800000000000000
+      internalID: -8598045241334858856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f2e762945461130800000000000000
+      internalID: 3537090737826836280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f031de5d47af53b0800000000000000
+      internalID: -5521510667387850511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c88e630f852d4310800000000000000
+      internalID: 1390809156095477961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2967
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad36b36fc65c25790800000000000000
+      internalID: -7542749354113932326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 423
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24924de001582030800000000000000
+      internalID: 3470112577311380527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c069ef18f37302700800000000000000
+      internalID: 513471103423649292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cdda0ce3fa37a90800000000000000
+      internalID: -7317312285491471324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc166c3299964500800000000000000
+      internalID: 380160071916985540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2f2b7cd8b34ccf0800000000000000
+      internalID: -232995800589602054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babd0913097dfafb0800000000000000
+      internalID: -4634248477234111573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e090f67dd00d2f0800000000000000
+      internalID: -950244302443180409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b297626927dc23df0800000000000000
+      internalID: -201873141249181397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4079
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47d53c43b591ad60800000000000000
+      internalID: 7899759818694842190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320d4c7eb9d7d6de0800000000000000
+      internalID: -1338275405697331165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 359
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aace556790101a20800000000000000
+      internalID: 3030940791647161001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a870f07bf0a290800000000000000
+      internalID: -7881022885409021236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322eda9fe28a25740800000000000000
+      internalID: 5139355044494041635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e34b19b0d25d070800000000000000
+      internalID: 8130454229999697451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 375
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b64eab306933b880800000000000000
+      internalID: -8596464178239224142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3f79c12d10f8e0800000000000000
+      internalID: -1661796231548027449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 391
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c17f7ec697a2f940800000000000000
+      internalID: 5328505575284109768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 355
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df86018e5365fc190800000000000000
+      internalID: -7940032828504250115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e716c4a465ff9890800000000000000
+      internalID: -7448965446037530651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 391
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe7932be8391a080800000000000000
+      internalID: -9177892324519608581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 375
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086ac1787c7ff4af0800000000000000
+      internalID: -409836604730071424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296723ec64d211a70800000000000000
+      internalID: 8795861329361663634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 391
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57acb17842376bc50800000000000000
+      internalID: 6680653697973471861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 375
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11de619b00b7b0a0800000000000000
+      internalID: -6865825543171944161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f959385ced1c55680800000000000000
+      internalID: -8766887937066166881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 391
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e562547ac06518c0800000000000000
+      internalID: -4029207868961823264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 363
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501ac67f3e7014ba0800000000000000
+      internalID: -6106590944047619835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d684adf50b834cec0800000000000000
+      internalID: -3547648276287567763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbda0d7d0a06fa050800000000000000
+      internalID: 5813971887890410943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4cb874a92c61cc0800000000000000
+      internalID: -3740588472603523871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ab45e4d344a01c0800000000000000
+      internalID: -4536738644524484069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 363
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c03cf7496ad219f0800000000000000
+      internalID: -499096462970572603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6532d60e964e73540800000000000000
+      internalID: 4987706255724061526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1da55762f080fb0800000000000000
+      internalID: -4681475154799570453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 363
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3eda55fabd69590800000000000000
+      internalID: -7667699769448471642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8150a9303ffe87bc0800000000000000
+      internalID: -3785011659788385000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca469385a5a29ea0800000000000000
+      internalID: -5867445234214483253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 371
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3464bd7f604a5ae0800000000000000
+      internalID: -1559863473335933894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 371
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3739b8bab1ef66450800000000000000
+      internalID: 6081827741606056819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 335
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517b6ee29d36eda00800000000000000
+      internalID: 783173169654970133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 371
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cb075ba818cf420800000000000000
+      internalID: 2665147512246025356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 371
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448f333ef48cfd2d0800000000000000
+      internalID: -3251660160498403260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4c6185054db2b0800000000000000
+      internalID: -5567217674411553161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 343
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8868055842d97a220800000000000000
+      internalID: 2497137298581259912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 339
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34727d60b77d23ae0800000000000000
+      internalID: -1570956396603168957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42e60d426f634600800000000000000
+      internalID: 451326855656956492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 331
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e873d31cc2b66b0800000000000000
+      internalID: -5302094927831265724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b243aea43408390800000000000000
+      internalID: -7818174964079252715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 343
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f5299a94a0ae40800000000000000
+      internalID: 5665709315133404101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 339
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea171e48ecfe2940800000000000000
+      internalID: 5273430288370178791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb6604e999ade310800000000000000
+      internalID: 1435990334621772777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 343
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19702decaaa031ef0800000000000000
+      internalID: -138755434787764335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 339
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0addf6cc7ce354f0800000000000000
+      internalID: -841068684729525746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3adc1d114304840800000000000000
+      internalID: 5206218420379296673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029510c95005b4070800000000000000
+      internalID: 8091649140523620640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9a2a7864db976c0800000000000000
+      internalID: -4145073871396886033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff85936cb94e2e50800000000000000
+      internalID: 6786442761967341552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 323
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad8beb0b8d998a50800000000000000
+      internalID: 6523918755748875686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078c91143ec7918b0800000000000000
+      internalID: -5180972580821415824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 323
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5c910def4d03ef0800000000000000
+      internalID: -130370198315612685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 299
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c0003b2cadfda90800000000000000
+      internalID: -7286865142300537703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 323
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4debf3d78b3e189a0800000000000000
+      internalID: -6232450027789238572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fc9070b097d22e0800000000000000
+      internalID: -2148928358916173982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 323
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1007e37df6ae208c0800000000000000
+      internalID: -4034404550097080319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 303
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9192caee1681abf0800000000000000
+      internalID: -314823031593463393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7581ed7876ba8c30800000000000000
+      internalID: 4362499817686009211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179a4468190bbb5a0800000000000000
+      internalID: -6504411097737156239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb451c0b4014da1c0800000000000000
+      internalID: -4490861765017381701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8174be644d93110800000000000000
+      internalID: 1241256573377386678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b08a75a8238914d0800000000000000
+      internalID: -3163353052652863309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6f7e346a91f8410800000000000000
+      internalID: 1481431004322723502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcffd1744a8f5780800000000000000
+      internalID: -8692076729228854088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd65b1ef9338e1a60800000000000000
+      internalID: 7646693502421259999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 299
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09dd8349513d5f20800000000000000
+      internalID: 3412938352071923983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 299
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ad43a721d133d90800000000000000
+      internalID: -7119314620745721251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 299
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118b23f6bddaca2e0800000000000000
+      internalID: -2113122967168567279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 299
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3059310e632630a40800000000000000
+      internalID: 5333214371563934979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279181b7aba650890800000000000000
+      internalID: -7492465055899313806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 275
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4d1c9d42d123650800000000000000
+      internalID: 6211058880206722295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90799967435cee560800000000000000
+      internalID: 7345024871406606089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 271
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9dc7f5dd60579c0800000000000000
+      internalID: -3930227551951332943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b3f039ac6c77070800000000000000
+      internalID: 8104164627829439286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 275
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879d623795d06ae10800000000000000
+      internalID: 2208467345106983288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65478cfe4b9974d30800000000000000
+      internalID: 4415666962056115286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 275
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceb63d4581bf9aa0800000000000000
+      internalID: -6152003379880608052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ac4e6baaf26ba80800000000000000
+      internalID: -8451515240454763930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1d53167c26a55c0800000000000000
+      internalID: -4225956691864858202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f01cf35082d3120800000000000000
+      internalID: 2395114579840536449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d535a3c6971662d00800000000000000
+      internalID: 947551945742766941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be5f0d0125435230800000000000000
+      internalID: 3626318133218729649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 259
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eaa60a4ec65cec0800000000000000
+      internalID: -3547309402284708206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beadf585ca5a1daa0800000000000000
+      internalID: -6137942657493640469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc10d8c92bb58cf0800000000000000
+      internalID: -250588416112059210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 259
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ff91dee7ca538d0800000000000000
+      internalID: -2867195926607692013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9abc7d4f07cb7af0800000000000000
+      internalID: -397505273553700197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c66a1cbe5906160800000000000000
+      internalID: 7016773059241995349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 259
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c87a73d234f99d0800000000000000
+      internalID: -2765417784695878653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58df7327e0ead0450800000000000000
+      internalID: 6056688450952232325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9759147ac076daf70800000000000000
+      internalID: 9200122917831153017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 259
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b590d60c2e88c34a0800000000000000
+      internalID: -6612259645414373029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c006f903944fa290800000000000000
+      internalID: -7877001824929709880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a46154f274ef030800000000000000
+      internalID: 3530337426253171340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 231
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfddca330150b6850800000000000000
+      internalID: 6371191664990281212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aae5f09072d16b70800000000000000
+      internalID: 8890618520316275366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 227
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c3bd1750b9f3fe0800000000000000
+      internalID: -1207075727424668600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4133dcffd55877af0800000000000000
+      internalID: -398703403228908780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 231
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6ef6e0a65fb28c0800000000000000
+      internalID: -4022852006267853143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c1ab913b37fb540800000000000000
+      internalID: 5025862922236730512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 231
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e044ee0c1f998500800000000000000
+      internalID: 399024984856740064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042ee086541d33d0800000000000000
+      internalID: -3225399396364573683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4e27a019eb2560800000000000000
+      internalID: 7290176679562858317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17045d095e7e5fd00800000000000000
+      internalID: 1005965064950595697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e436d2c3eecc990800000000000000
+      internalID: -7364249348430672258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75422bd6307fa6020800000000000000
+      internalID: 2335950950842377303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f699e764c0cf8e60800000000000000
+      internalID: 7966798215631181557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e9e149f80cc3fc0800000000000000
+      internalID: -3513721886357938631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17f4e80fb5c875e0800000000000000
+      internalID: -1911560617540126948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3d1e1661ad84b60800000000000000
+      internalID: 7730668550047781857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f6228370c4c4de0800000000000000
+      internalID: -1347618594600358068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335ba3446e4e6bb0800000000000000
+      internalID: -4940925548639857869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 215
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cf5b45f9e558950800000000000000
+      internalID: 6450666079692127335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d492cd7257ec490800000000000000
+      internalID: -7724107496835953403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 187
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2d6dadbf48b23d0800000000000000
+      internalID: -3230342090465029382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ad121ac7e9972f0800000000000000
+      internalID: -974573586232518120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 179
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83e3a4a00b2e85c0800000000000000
+      internalID: -4211381319782636661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32258360f82841280800000000000000
+      internalID: -9073483798448418269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 187
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78589ce5cd8cd6970800000000000000
+      internalID: 8749870499859367303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47256497efacd49f0800000000000000
+      internalID: -482506390753619340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 187
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172972f2555471e60800000000000000
+      internalID: 7932885500802077297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa1241ed68bc3ab0800000000000000
+      internalID: -5026940301982164317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352fa130b81ac4e20800000000000000
+      internalID: 3336219042399318611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ea20ed4be536a60800000000000000
+      internalID: 7666075121626557970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50db3463029d0a90800000000000000
+      internalID: -7346054873907212198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65571a66f863f110800000000000000
+      internalID: 1293492925536621933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c812712408c9770800000000000000
+      internalID: 8618904808224558128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a34d6ca64534910800000000000000
+      internalID: 1820391491966876286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1124d4a89863bbc70800000000000000
+      internalID: 8987837445706695185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524569b90ddb3b390800000000000000
+      internalID: -7803685025641769947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4b49324679c2480800000000000000
+      internalID: -8922590305378323238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2464046ecdd74bb90800000000000000
+      internalID: -7227013114313554366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfadb10fe8d3f5c0800000000000000
+      internalID: -4182761107859066914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 95
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287c865a41ab45180800000000000000
+      internalID: -9127465946935933054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 111
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9f86a93fffc9120800000000000000
+      internalID: 2422092121351191036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae9dca13c19ed290800000000000000
+      internalID: -7863687632187973971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 87
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dbf64c39949adb0800000000000000
+      internalID: -4780208630472393385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 103
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590eebcb575697160800000000000000
+      internalID: 7023756650213204117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 95
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3248856b3b88626f0800000000000000
+      internalID: -709729585824496605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 111
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b63fed14940f6eb0800000000000000
+      internalID: -4724552449884473674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 95
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c7da76eb05e12e0800000000000000
+      internalID: -2153194793123087329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 111
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c6d3df60ce5a00800000000000000
+      internalID: 747246174718050562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d949ed6b9dc3440800000000000000
+      internalID: 4917044272623295803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaf9dffedd6e8a50800000000000000
+      internalID: 6525273714649070249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61baed373b6c273b0800000000000000
+      internalID: -5516128119530018026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e9ff7ea9d2c97e0800000000000000
+      internalID: -1757479611240833522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 79
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d2c86ccb93bc80800000000000000
+      internalID: -8308125585335199606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a66020f041c7a0800000000000000
+      internalID: -6358729798790503632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a67f4af7944f8a0800000000000000
+      internalID: -6272307568442906065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94752c10489a765a0800000000000000
+      internalID: -6528062750419953847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e72933033deda640800000000000000
+      internalID: 5092987556979091430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15df03dd28b99690800000000000000
+      internalID: -7594836789629561573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 83
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ed047844fb53cb0800000000000000
+      internalID: -4884787919765578165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8a6e96f606b83b0800000000000000
+      internalID: -5509203687523309330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3adbc63280d44dd0800000000000000
+      internalID: -2502646235227497924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a75941a45e7191e0800000000000000
+      internalID: -2192832641604429914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba1c2f2702f7350800000000000000
+      internalID: 6016563305261411116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9af84fc4cf23ed0800000000000000
+      internalID: -2435607041003247176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ee99fec5061b350800000000000000
+      internalID: 6030707328298905093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d006e19a585c1ac0800000000000000
+      internalID: -3883131632682139433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abf336976af66d50800000000000000
+      internalID: 6730342015960349600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 43
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0eb9ae97bbef1c0800000000000000
+      internalID: -4467927648003432238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5364a84de0c7370800000000000000
+      internalID: 8321542517489546733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a80c448bba815e0800000000000000
+      internalID: -1938610831667197364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258ed283e8113ac20800000000000000
+      internalID: 3216433861398227026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3f4b9404022240800000000000000
+      internalID: 4765375773543448178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193c44f73beb60e80800000000000000
+      internalID: -8212667192319884399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 47
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe3d60fa1e1e3090800000000000000
+      internalID: -8052965982640193806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1ca9dd1861621b0800000000000000
+      internalID: -5681829132856802821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b276793cee02e4610800000000000000
+      internalID: 1607258326873630507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99acffb69290a3c60800000000000000
+      internalID: 7798555778255669913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 19
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf809ffde1ae049a0800000000000000
+      internalID: -6250738864462690052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9209fc92404b7c890800000000000000
+      internalID: -7437778329604747223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372326fdda80e7e0800000000000000
+      internalID: -1738236770243107021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541b197a4ac85f5c0800000000000000
+      internalID: -4182282040129769147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7ee57713d712140800000000000000
+      internalID: 4693169938106345421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779bbc0e162521cd0800000000000000
+      internalID: -2588916255447860873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 23
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6c0ca9d712b8720800000000000000
+      internalID: 2849408012592924413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a57deb1ff8249ee0800000000000000
+      internalID: -1255333319979207262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fd097f6abf32d70800000000000000
+      internalID: 9017327573462474573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff66b2a7f2f21c0800000000000000
+      internalID: -4526346898723373098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7cd5118ee48db0800000000000000
+      internalID: -4790441865430402358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aa8e4c47e94b650800000000000000
+      internalID: 6247792807426697787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1b01948f2f7d350800000000000000
+      internalID: 6041564573332451837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 23
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3808103b14bcd9680800000000000000
+      internalID: -8746611418247102333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c431cc2e775708c0800000000000000
+      internalID: -4033158741858634554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa8cbc30b647a8a0800000000000000
+      internalID: -6293984231479801174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a5c7c1cca88a10800000000000000
+      internalID: 1911967990099061011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 23
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e56ecfc9b3afb60800000000000000
+      internalID: 7780596851679846014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63178726abf4cc890800000000000000
+      internalID: -7436481222760959690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fb7d9314d882c30800000000000000
+      internalID: 4334869952626933662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 15
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c029204a85e9cb00800000000000000
+      internalID: 849462386680733892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f218b3cf822b870800000000000000
+      internalID: 8697058894201040674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede35a7140324f7f0800000000000000
+      internalID: -579799951540404514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5091df386293fd0800000000000000
+      internalID: -2361814181250267689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f429f587742480800000000000000
+      internalID: -8924877144247175061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bintang-Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7eb76df4dabc270800000000000000
+      internalID: 8271895699008514037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bintang-Sheet_0: 3438219410342480005
+      Bintang-Sheet_1: 9096012171485239859
+      Bintang-Sheet_10: -8598045241334858856
+      Bintang-Sheet_100: -8451515240454763930
+      Bintang-Sheet_101: -4225956691864858202
+      Bintang-Sheet_102: 2395114579840536449
+      Bintang-Sheet_103: 947551945742766941
+      Bintang-Sheet_104: 3626318133218729649
+      Bintang-Sheet_105: -3547309402284708206
+      Bintang-Sheet_106: -6137942657493640469
+      Bintang-Sheet_107: -250588416112059210
+      Bintang-Sheet_108: -2867195926607692013
+      Bintang-Sheet_109: -397505273553700197
+      Bintang-Sheet_11: 3537090737826836280
+      Bintang-Sheet_110: 7016773059241995349
+      Bintang-Sheet_111: -2765417784695878653
+      Bintang-Sheet_112: 6056688450952232325
+      Bintang-Sheet_113: 9200122917831153017
+      Bintang-Sheet_114: -6612259645414373029
+      Bintang-Sheet_115: -7877001824929709880
+      Bintang-Sheet_116: 3530337426253171340
+      Bintang-Sheet_117: 6371191664990281212
+      Bintang-Sheet_118: 8890618520316275366
+      Bintang-Sheet_119: -1207075727424668600
+      Bintang-Sheet_12: -5521510667387850511
+      Bintang-Sheet_120: -398703403228908780
+      Bintang-Sheet_121: -4022852006267853143
+      Bintang-Sheet_122: 5025862922236730512
+      Bintang-Sheet_123: 399024984856740064
+      Bintang-Sheet_124: -3225399396364573683
+      Bintang-Sheet_125: 7290176679562858317
+      Bintang-Sheet_126: 1005965064950595697
+      Bintang-Sheet_127: -7364249348430672258
+      Bintang-Sheet_128: 2335950950842377303
+      Bintang-Sheet_129: 7966798215631181557
+      Bintang-Sheet_13: 1390809156095477961
+      Bintang-Sheet_130: -3513721886357938631
+      Bintang-Sheet_131: -1911560617540126948
+      Bintang-Sheet_132: 7730668550047781857
+      Bintang-Sheet_133: -1347618594600358068
+      Bintang-Sheet_134: -4940925548639857869
+      Bintang-Sheet_135: 6450666079692127335
+      Bintang-Sheet_136: -7724107496835953403
+      Bintang-Sheet_137: -3230342090465029382
+      Bintang-Sheet_138: -974573586232518120
+      Bintang-Sheet_139: -4211381319782636661
+      Bintang-Sheet_14: -7542749354113932326
+      Bintang-Sheet_140: -9073483798448418269
+      Bintang-Sheet_141: 8749870499859367303
+      Bintang-Sheet_142: -482506390753619340
+      Bintang-Sheet_143: 7932885500802077297
+      Bintang-Sheet_144: -5026940301982164317
+      Bintang-Sheet_145: 3336219042399318611
+      Bintang-Sheet_146: 7666075121626557970
+      Bintang-Sheet_147: -7346054873907212198
+      Bintang-Sheet_148: 1293492925536621933
+      Bintang-Sheet_149: 8618904808224558128
+      Bintang-Sheet_15: 3470112577311380527
+      Bintang-Sheet_150: 1820391491966876286
+      Bintang-Sheet_151: 8987837445706695185
+      Bintang-Sheet_152: -7803685025641769947
+      Bintang-Sheet_153: -8922590305378323238
+      Bintang-Sheet_154: -7227013114313554366
+      Bintang-Sheet_155: -4182761107859066914
+      Bintang-Sheet_156: -9127465946935933054
+      Bintang-Sheet_157: 2422092121351191036
+      Bintang-Sheet_158: -7863687632187973971
+      Bintang-Sheet_159: -4780208630472393385
+      Bintang-Sheet_16: 513471103423649292
+      Bintang-Sheet_160: 7023756650213204117
+      Bintang-Sheet_161: -709729585824496605
+      Bintang-Sheet_162: -4724552449884473674
+      Bintang-Sheet_163: -2153194793123087329
+      Bintang-Sheet_164: 747246174718050562
+      Bintang-Sheet_165: 4917044272623295803
+      Bintang-Sheet_166: 6525273714649070249
+      Bintang-Sheet_167: -5516128119530018026
+      Bintang-Sheet_168: -1757479611240833522
+      Bintang-Sheet_169: -8308125585335199606
+      Bintang-Sheet_17: -7317312285491471324
+      Bintang-Sheet_170: -6358729798790503632
+      Bintang-Sheet_171: -6272307568442906065
+      Bintang-Sheet_172: -6528062750419953847
+      Bintang-Sheet_173: 5092987556979091430
+      Bintang-Sheet_174: -7594836789629561573
+      Bintang-Sheet_175: -4884787919765578165
+      Bintang-Sheet_176: -5509203687523309330
+      Bintang-Sheet_177: -2502646235227497924
+      Bintang-Sheet_178: -2192832641604429914
+      Bintang-Sheet_179: 6016563305261411116
+      Bintang-Sheet_18: 380160071916985540
+      Bintang-Sheet_180: -2435607041003247176
+      Bintang-Sheet_181: 6030707328298905093
+      Bintang-Sheet_182: -3883131632682139433
+      Bintang-Sheet_183: 6730342015960349600
+      Bintang-Sheet_184: -4467927648003432238
+      Bintang-Sheet_185: 8321542517489546733
+      Bintang-Sheet_186: -1938610831667197364
+      Bintang-Sheet_187: 3216433861398227026
+      Bintang-Sheet_188: 4765375773543448178
+      Bintang-Sheet_189: -8212667192319884399
+      Bintang-Sheet_19: -232995800589602054
+      Bintang-Sheet_190: -8052965982640193806
+      Bintang-Sheet_191: -5681829132856802821
+      Bintang-Sheet_192: 1607258326873630507
+      Bintang-Sheet_193: 7798555778255669913
+      Bintang-Sheet_194: -6250738864462690052
+      Bintang-Sheet_195: -7437778329604747223
+      Bintang-Sheet_196: -1738236770243107021
+      Bintang-Sheet_197: -4182282040129769147
+      Bintang-Sheet_198: 4693169938106345421
+      Bintang-Sheet_199: -2588916255447860873
+      Bintang-Sheet_2: 5381826524852113471
+      Bintang-Sheet_20: -4634248477234111573
+      Bintang-Sheet_200: 2849408012592924413
+      Bintang-Sheet_201: -1255333319979207262
+      Bintang-Sheet_202: 9017327573462474573
+      Bintang-Sheet_203: -4526346898723373098
+      Bintang-Sheet_204: -4790441865430402358
+      Bintang-Sheet_205: 6247792807426697787
+      Bintang-Sheet_206: 6041564573332451837
+      Bintang-Sheet_207: -8746611418247102333
+      Bintang-Sheet_208: -4033158741858634554
+      Bintang-Sheet_209: -6293984231479801174
+      Bintang-Sheet_21: -950244302443180409
+      Bintang-Sheet_210: 1911967990099061011
+      Bintang-Sheet_211: 7780596851679846014
+      Bintang-Sheet_212: -7436481222760959690
+      Bintang-Sheet_213: 4334869952626933662
+      Bintang-Sheet_214: 849462386680733892
+      Bintang-Sheet_215: 8697058894201040674
+      Bintang-Sheet_216: -579799951540404514
+      Bintang-Sheet_217: -2361814181250267689
+      Bintang-Sheet_218: -8924877144247175061
+      Bintang-Sheet_219: 8271895699008514037
+      Bintang-Sheet_22: -201873141249181397
+      Bintang-Sheet_23: 7899759818694842190
+      Bintang-Sheet_24: -1338275405697331165
+      Bintang-Sheet_25: 3030940791647161001
+      Bintang-Sheet_26: -7881022885409021236
+      Bintang-Sheet_27: 5139355044494041635
+      Bintang-Sheet_28: 8130454229999697451
+      Bintang-Sheet_29: -8596464178239224142
+      Bintang-Sheet_3: -6106647483616447695
+      Bintang-Sheet_30: -1661796231548027449
+      Bintang-Sheet_31: 5328505575284109768
+      Bintang-Sheet_32: -7940032828504250115
+      Bintang-Sheet_33: -7448965446037530651
+      Bintang-Sheet_34: -9177892324519608581
+      Bintang-Sheet_35: -409836604730071424
+      Bintang-Sheet_36: 8795861329361663634
+      Bintang-Sheet_37: 6680653697973471861
+      Bintang-Sheet_38: -6865825543171944161
+      Bintang-Sheet_39: -8766887937066166881
+      Bintang-Sheet_4: -6056586849821889549
+      Bintang-Sheet_40: -4029207868961823264
+      Bintang-Sheet_41: -6106590944047619835
+      Bintang-Sheet_42: -3547648276287567763
+      Bintang-Sheet_43: 5813971887890410943
+      Bintang-Sheet_44: -3740588472603523871
+      Bintang-Sheet_45: -4536738644524484069
+      Bintang-Sheet_46: -499096462970572603
+      Bintang-Sheet_47: 4987706255724061526
+      Bintang-Sheet_48: -4681475154799570453
+      Bintang-Sheet_49: -7667699769448471642
+      Bintang-Sheet_5: 5230950541284086722
+      Bintang-Sheet_50: -3785011659788385000
+      Bintang-Sheet_51: -5867445234214483253
+      Bintang-Sheet_52: -1559863473335933894
+      Bintang-Sheet_53: 6081827741606056819
+      Bintang-Sheet_54: 783173169654970133
+      Bintang-Sheet_55: 2665147512246025356
+      Bintang-Sheet_56: -3251660160498403260
+      Bintang-Sheet_57: -5567217674411553161
+      Bintang-Sheet_58: 2497137298581259912
+      Bintang-Sheet_59: -1570956396603168957
+      Bintang-Sheet_6: 4495272135639447357
+      Bintang-Sheet_60: 451326855656956492
+      Bintang-Sheet_61: -5302094927831265724
+      Bintang-Sheet_62: -7818174964079252715
+      Bintang-Sheet_63: 5665709315133404101
+      Bintang-Sheet_64: 5273430288370178791
+      Bintang-Sheet_65: 1435990334621772777
+      Bintang-Sheet_66: -138755434787764335
+      Bintang-Sheet_67: -841068684729525746
+      Bintang-Sheet_68: 5206218420379296673
+      Bintang-Sheet_69: 8091649140523620640
+      Bintang-Sheet_7: -503288772102207373
+      Bintang-Sheet_70: -4145073871396886033
+      Bintang-Sheet_71: 6786442761967341552
+      Bintang-Sheet_72: 6523918755748875686
+      Bintang-Sheet_73: -5180972580821415824
+      Bintang-Sheet_74: -130370198315612685
+      Bintang-Sheet_75: -7286865142300537703
+      Bintang-Sheet_76: -6232450027789238572
+      Bintang-Sheet_77: -2148928358916173982
+      Bintang-Sheet_78: -4034404550097080319
+      Bintang-Sheet_79: -314823031593463393
+      Bintang-Sheet_8: -9133494896556730400
+      Bintang-Sheet_80: 4362499817686009211
+      Bintang-Sheet_81: -6504411097737156239
+      Bintang-Sheet_82: -4490861765017381701
+      Bintang-Sheet_83: 1241256573377386678
+      Bintang-Sheet_84: -3163353052652863309
+      Bintang-Sheet_85: 1481431004322723502
+      Bintang-Sheet_86: -8692076729228854088
+      Bintang-Sheet_87: 7646693502421259999
+      Bintang-Sheet_88: 3412938352071923983
+      Bintang-Sheet_89: -7119314620745721251
+      Bintang-Sheet_9: -2182605894000890789
+      Bintang-Sheet_90: -2113122967168567279
+      Bintang-Sheet_91: 5333214371563934979
+      Bintang-Sheet_92: -7492465055899313806
+      Bintang-Sheet_93: 6211058880206722295
+      Bintang-Sheet_94: 7345024871406606089
+      Bintang-Sheet_95: -3930227551951332943
+      Bintang-Sheet_96: 8104164627829439286
+      Bintang-Sheet_97: 2208467345106983288
+      Bintang-Sheet_98: 4415666962056115286
+      Bintang-Sheet_99: -6152003379880608052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

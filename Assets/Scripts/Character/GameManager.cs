@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
@@ -18,9 +19,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] HUDManager hUDManager;
     [SerializeField] BallSc ballSc;
 
+    // light
+    [SerializeField] GameObject LightUltimate, fireKiri, fireKanan;
+
+    // SpriteRendered
+    [SerializeField] List<SpriteRenderer> spriteRenderersShield;
+
     // variabel
     public int health = 5, score, combo, level, totalBlock, totalHealthBoss;
-    public bool isCombo = false, isPlay = false, isHaveBoss = false, isFirstPlay = true, isLoose = false, isCanPlay = false;
+    public bool isCombo = false, isPlay = false, isHaveBoss = false, isFirstPlay = true, isLoose = false, isCanPlay = false, isWinning = false, isCanUlt = false, isCanGetHit = true, isHUDUlt = false, isCanRestoreUltimate = true;
 
     public int bintangSatu_Menit, bintangDua_Menit, bintangTiga_Menit;
 
@@ -64,9 +71,24 @@ public class GameManager : MonoBehaviour
         audioSourceBox.Play();
     }
 
+
+    /// <summary>
+    /// ultimate
+    /// </summary>
+    /// 
+    // fragment (ball split) settings
+    [SerializeField] GameObject ballFragmentPrefab;
+    [SerializeField] int fragmentCount = 8;
+    [SerializeField] float fragmentForce = 200f;
+    [SerializeField] float fragmentLifetime = 2f;
+    [SerializeField] float originalBallDisableDuration = 1f;
+
+
     void Start()
     {
         Instance = this;
+        PlayerPrefs.SetInt("last_level", level);
+        SaveTargetScoreToPlayerPref();
 
         for (int i = 0; i < 20; i++)
         {
@@ -96,6 +118,21 @@ public class GameManager : MonoBehaviour
 
             isCanPlay = true;
         }));
+    }
+
+    void ChangeAllColorShield(Color32 color)
+    {
+        foreach (SpriteRenderer spriteRendererShield in spriteRenderersShield)
+        {
+            spriteRendererShield.color = color;
+        }
+    }
+
+    void SaveTargetScoreToPlayerPref()
+    {
+        PlayerPrefs.SetString("bintang1", $"Clear Level in  {bintangSatu_Menit} minute");
+        PlayerPrefs.SetString("bintang2", $"Clear Level in  {bintangDua_Menit} minute");
+        PlayerPrefs.SetString("bintang3", $"Clear Level in  {bintangTiga_Menit} minute");
     }
 
     public void SpawnVfxExplode(Vector3 position)
@@ -128,6 +165,12 @@ public class GameManager : MonoBehaviour
         characterMoveSc.isCanMove = true;
         ballSc.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
+
+    bool CheckIsCanUltimate()
+    {
+        if (Ultimate >= 1) return true;
+        else return false;
+    }
     void Update()
     {
         if (isLoose)
@@ -149,6 +192,35 @@ public class GameManager : MonoBehaviour
             KeyAnyForStart();
         }
 
+        if (IsLevelCompleted() && !isWinning)
+        {
+            isWinning = true;
+            characterMoveSc.isCanMove = false;
+            ballSc.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            isPlay = false;
+            StageWasClear();
+        }
+
+
+
+        if (CheckIsCanUltimate())
+        {
+            // ngapain
+            isCanUlt = true;
+
+            if (isCanUlt && Input.GetKeyDown(KeyCode.K) && DetectorBall.Instance.rbBall != null)
+            {
+                Ultimate = 0;
+                isCanUlt = false;
+                StartCoroutine(UltimateActive());
+            }
+        }
+
+        if (!isHUDUlt && Ultimate >= 1)
+        {
+            isHUDUlt = true;
+            ChangeEnvToStateUltReady();
+        }
 
         if (isPlay && Input.GetKeyDown(KeyCode.Escape))
         {
@@ -165,10 +237,7 @@ public class GameManager : MonoBehaviour
         totalPlaySeconds += Time.unscaledDeltaTime;
         UpdateUITimer();
 
-        if (IsLevelCompleted())
-        {
-            StageWasClear();
-        }
+
 
         if (health <= 0 && !isLoose)
         {
@@ -180,6 +249,118 @@ public class GameManager : MonoBehaviour
         }
 
 
+
+
+    }
+
+    IEnumerator UltimateActive()
+    {
+        isCanRestoreUltimate = false;
+        LightUltimate.SetActive(true);
+        HUDManager.Instance.StartAnimationUlt(); // ui
+        CharacterMove.Instance.isCanMove = false;
+
+        // stop karakter & bola sementara
+        CharacterMove.Instance.rb.linearVelocity = Vector2.zero;
+        if (DetectorBall.Instance?.rbBall != null)
+            DetectorBall.Instance.rbBall.linearVelocity = Vector2.zero;
+
+        // freeze ball physics while playing ultimate intro
+        if (DetectorBall.Instance?.rbBall != null)
+        {
+            DetectorBall.Instance.rbBall.bodyType = RigidbodyType2D.Kinematic;
+            DetectorBall.Instance.rbBall.constraints = RigidbodyConstraints2D.FreezePosition;
+        }
+
+        yield return new WaitForSecondsRealtime(2f);
+
+        if (DetectorBall.Instance?.rbBall != null)
+        {
+            DetectorBall.Instance.rbBall.bodyType = RigidbodyType2D.Dynamic;
+            DetectorBall.Instance.rbBall.constraints = RigidbodyConstraints2D.None;
+        }
+
+        // kebal shield, ship
+        isCanGetHit = false;
+        ChangeAllColorShield(new Color32(61, 225, 227, 255));
+
+        // belah -> apply a short push then split into fragments
+        CharacterHit.Instance.AddForceToBallCustomStrength(200f);
+        Time.timeScale = 3f;
+        StartCoroutine(SplitBall());
+
+        yield return new WaitForSecondsRealtime(1f);
+        CharacterMove.Instance.isCanMove = true;
+
+        yield return new WaitForSecondsRealtime(5f);
+        LightUltimate.SetActive(false);
+        isCanGetHit = true;
+        ChangeAllColorShield(new Color32(255, 225, 255, 255));
+
+        isHUDUlt = false;
+        isCanRestoreUltimate = true;
+        ChangeEnvToStateIdle();
+    }
+    IEnumerator SplitBall()
+    {
+        if (ballFragmentPrefab == null || DetectorBall.Instance == null || DetectorBall.Instance.rbBall == null)
+            yield break;
+
+        Rigidbody2D ballRb = DetectorBall.Instance.rbBall;
+        GameObject ballGO = ballRb.gameObject;
+
+        if (ballRb == null) Debug.LogWarning("BALL RBNULL");
+        if (ballGO == null) Debug.LogWarning("BALL GO NULL");
+
+        // cache state
+        Vector3 savedPos = ballGO.transform.position;
+        Vector2 savedVel = ballRb.linearVelocity;
+        float savedAngularVel = ballRb.angularVelocity;
+        bool wasActive = ballGO.activeSelf;
+
+        // deactivate original ball (safer than messing with constraints)
+        // ballGO.SetActive(false);
+
+        // spawn fragments and apply impulse
+        for (int i = 0; i < fragmentCount; i++)
+        {
+            GameObject frag = Instantiate(ballFragmentPrefab, savedPos, Quaternion.identity);
+            Rigidbody2D rb = frag.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                Vector2 dir = Random.insideUnitCircle.normalized;
+                rb.AddForce(dir * fragmentForce, ForceMode2D.Impulse);
+                // rb.AddTorque(Random.Range(-200f, 200f));
+            }
+            Destroy(frag, fragmentLifetime);
+        }
+
+        // wait before restoring original ball
+        yield return new WaitForSecondsRealtime(originalBallDisableDuration);
+
+        // restore original ball
+        Time.timeScale = 1f;
+        ballGO.SetActive(wasActive);
+        ballGO.transform.position = savedPos;
+        ballRb.bodyType = RigidbodyType2D.Dynamic;
+        ballRb.linearVelocity = savedVel;
+        ballRb.angularVelocity = savedAngularVel;
+    }
+
+    public void ChangeEnvToStateUltReady()
+    {
+        fireKiri.SetActive(true);
+        fireKanan.SetActive(true);
+
+        HUDManager.Instance.ChangeAvatarToUltimateMode();
+    }
+
+    public void ChangeEnvToStateIdle()
+    {
+        fireKiri.SetActive(false);
+        fireKanan.SetActive(false);
+
+        HUDManager.Instance.ChangeAvatarToidle();
     }
 
     public void ReloadScene()
@@ -201,14 +382,25 @@ public class GameManager : MonoBehaviour
     {
         if (isHaveBoss)
         {
+
             // berdasarkan boss
             if (totalHealthBoss <= 0)
+            {
+                Debug.Log("masuk boss");
                 return true;
+            }
+
         }
         else
         {
             // berdasarkan balok
-            if (totalBlock <= 0) return true;
+            if (totalBlock <= 0)
+            {
+
+                Debug.Log("masuk balok");
+                return true;
+            }
+
         }
 
         return false;
@@ -216,12 +408,16 @@ public class GameManager : MonoBehaviour
 
     void StageWasClear()
     {
-        hUDManager.ShowCompletedStage(GetTextGrading(totalPlaySeconds), 4f, () =>
+        Debug.Log("STAGE WAS CLEAR RUNN");
+        PlayerPrefs.SetInt("myBintang", GetCountStar(totalPlaySeconds));
+        PlayerPrefs.SetInt("last_score", Score);
+
+        StartCoroutine(hUDManager.ShowCompletedStage(GetTextGrading(totalPlaySeconds), 4f, () =>
         {
             // Show UI Scoring
-            SceneManager.LoadSceneAsync("Scoring", LoadSceneMode.Additive);
-            Debug.Log("Load scene scoring");
-        });
+            SceneManager.LoadSceneAsync("MissionComplete", LoadSceneMode.Additive);
+            Debug.LogWarning("Load scene scoring");
+        }));
     }
 
     public int GetCountStar(float second)

@@ -15,7 +15,7 @@ public class TextHoverCombinedEffect : MonoBehaviour, IPointerEnterHandler, IPoi
 
     // --- Variabel Internal ---
     private TextMeshProUGUI textMesh;
-    
+
     // Nilai Asli
     private Color originalColor;
     private Vector3 originalScale;
@@ -28,7 +28,7 @@ public class TextHoverCombinedEffect : MonoBehaviour, IPointerEnterHandler, IPoi
     {
         // 1. Ambil komponen TextMeshPro
         textMesh = GetComponent<TextMeshProUGUI>();
-        
+
         // 2. Simpan nilai-nilai aslinya
         if (textMesh != null)
         {
@@ -45,12 +45,12 @@ public class TextHoverCombinedEffect : MonoBehaviour, IPointerEnterHandler, IPoi
     {
         // Fungsi ini akan berjalan setiap frame
         // Kita akan gerakkan nilai saat ini (current) menuju nilai target (target)
-        
+
         float t = Time.deltaTime * animationSpeed;
 
         // Animasikan skala secara halus (Lerp)
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, t);
-        
+
         // Animasikan warna secara halus (Lerp)
         if (textMesh != null)
         {
@@ -61,6 +61,11 @@ public class TextHoverCombinedEffect : MonoBehaviour, IPointerEnterHandler, IPoi
     // Fungsi ini dipanggil saat mouse MASUK area teks
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (HomeSceneSc.Instance != null)
+            HomeSceneSc.Instance.PlayAudio();
+
+        if (ScoreSceneSc.Instance != null)
+            ScoreSceneSc.Instance.PlayAudio();
         // Set nilai TARGET ke nilai hover
         targetScale = originalScale * hoverScaleFactor;
         targetColor = hoverColor;

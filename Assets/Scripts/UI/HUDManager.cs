@@ -11,13 +11,16 @@ public class HUDManager : MonoBehaviour
     // TMp
     public TMP_Text textScore, textCombo, textTypingPrePlay, textTypingCompleted, textTimer;
 
+    // image & texture
+    public RawImage imageAvatarHud;
+    public List<Texture2D> avatarCharacters;
 
     // Component
-    public CanvasGroup comboUI, leftUI, rightUI, preplayUI, completedUI, pauseUI, gameOverUI, tutorialUI;
+    public CanvasGroup comboUI, leftUI, rightUI, preplayUI, completedUI, pauseUI, gameOverUI, tutorialUI, fireAvatarCG;
     public Image healthFill, ultimateFill;
 
     // Animator
-    public Animator animatorCombo;
+    public Animator animatorCombo, animatorUltimate;
     public enum StateComboAnimator
     {
         Idle, ScoreHide, ScoreShow
@@ -31,6 +34,28 @@ public class HUDManager : MonoBehaviour
     {
         Instance = this;
     }
+
+    public void ChangeAvatarToUltimateMode()
+    {
+        if (imageAvatarHud.mainTexture == avatarCharacters[1]) return;
+        imageAvatarHud.texture = avatarCharacters[1];
+        fireAvatarCG.alpha = 1;
+
+    }
+
+    public void ChangeAvatarToidle()
+    {
+        if (imageAvatarHud.mainTexture == avatarCharacters[0]) return;
+        imageAvatarHud.texture = avatarCharacters[0];
+        fireAvatarCG.alpha = 0;
+    }
+
+    public void StartAnimationUlt()
+    {
+        animatorUltimate.Play("main", 0, 0f);
+    }
+
+
 
     public IEnumerator ShowPrePlay(string text, int level, float delay, Action OnSuccess)
     {
@@ -54,6 +79,7 @@ public class HUDManager : MonoBehaviour
 
     public IEnumerator ShowCompletedStage(string text, float delay, Action OnSuccess)
     {
+        Debug.LogWarning("AKU UDAH KELUAR COMPLETE STAGE");
         textTypingCompleted.text = "";
         completedUI.DOFade(1, 1f);
 
@@ -99,7 +125,7 @@ public class HUDManager : MonoBehaviour
 
         Time.timeScale = 0f;
     }
-    
+
     public void HidePause()
     {
         pauseUI.alpha = 0;

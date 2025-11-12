@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 1346d4f2e4fdcb5458d6c57329f12b2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4729217430159028656
+    second: Sheet(GA KEPAKE)_0
+  - first:
+      213: 7834637552080231821
+    second: Sheet(GA KEPAKE)_1
+  - first:
+      213: -3888689303690114452
+    second: Sheet(GA KEPAKE)_2
+  - first:
+      213: -4257029113360212652
+    second: Sheet(GA KEPAKE)_3
+  - first:
+      213: 1868861733163282073
+    second: Sheet(GA KEPAKE)_4
+  - first:
+      213: -4911658487873742426
+    second: Sheet(GA KEPAKE)_5
+  - first:
+      213: 8751296324958925043
+    second: Sheet(GA KEPAKE)_6
+  - first:
+      213: -498941866732996005
+    second: Sheet(GA KEPAKE)_7
+  - first:
+      213: -3148178964672887830
+    second: Sheet(GA KEPAKE)_8
+  - first:
+      213: 6213842796009878120
+    second: Sheet(GA KEPAKE)_9
+  - first:
+      213: -2211373635555488249
+    second: Sheet(GA KEPAKE)_10
+  - first:
+      213: -6727911134189882489
+    second: Sheet(GA KEPAKE)_11
+  - first:
+      213: 8094535138198338626
+    second: Sheet(GA KEPAKE)_12
+  - first:
+      213: -4241521286110158707
+    second: Sheet(GA KEPAKE)_13
+  - first:
+      213: -5171016730938163216
+    second: Sheet(GA KEPAKE)_14
+  - first:
+      213: -4364753385056427565
+    second: Sheet(GA KEPAKE)_15
+  - first:
+      213: 489239717051909562
+    second: Sheet(GA KEPAKE)_16
+  - first:
+      213: 2410127356861396276
+    second: Sheet(GA KEPAKE)_17
+  - first:
+      213: 8320877869301869009
+    second: Sheet(GA KEPAKE)_18
+  - first:
+      213: 148913860775835917
+    second: Sheet(GA KEPAKE)_19
+  - first:
+      213: 7338556563578862039
+    second: Sheet(GA KEPAKE)_20
+  - first:
+      213: 1083948743993165891
+    second: Sheet(GA KEPAKE)_21
+  - first:
+      213: -6473477418858385625
+    second: Sheet(GA KEPAKE)_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 147
+        width: 290
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e09c1cdc17e5eb0800000000000000
+      internalID: -4729217430159028656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 147
+        width: 290
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d9dab08593abc60800000000000000
+      internalID: 7834637552080231821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_2
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 135
+        width: 314
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a80b37ea9980ac0800000000000000
+      internalID: -3888689303690114452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_3
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 175
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d1bab739efbe4c0800000000000000
+      internalID: -4257029113360212652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_4
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 123
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ea48b38d78fe910800000000000000
+      internalID: 1868861733163282073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_5
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9d04cd0a846dbb0800000000000000
+      internalID: -4911658487873742426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_6
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 175
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0bb5524a9d27970800000000000000
+      internalID: 8751296324958925043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_7
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 123
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3fc504076319f0800000000000000
+      internalID: -498941866732996005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_8
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c05159eb6f44d0800000000000000
+      internalID: -3148178964672887830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_9
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 175
+        width: 234
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862f942c9110c3650800000000000000
+      internalID: 6213842796009878120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_10
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 123
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e0d03156f9f41e0800000000000000
+      internalID: -2211373635555488249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_11
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783773e2878a1a2a0800000000000000
+      internalID: -6727911134189882489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_12
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 175
+        width: 234
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cba3e42d0955070800000000000000
+      internalID: 8094535138198338626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_13
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 123
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d806522ecd61325c0800000000000000
+      internalID: -4241521286110158707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_14
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff34d03eabdc38b0800000000000000
+      internalID: -5171016730938163216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_15
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 195
+        width: 250
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d12787fbe74d63c0800000000000000
+      internalID: -4364753385056427565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_16
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 123
+        width: 226
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab544e83ee02ac600800000000000000
+      internalID: 489239717051909562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_17
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435bc29cf0e727120800000000000000
+      internalID: 2410127356861396276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_18
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 243
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9a5231652b97370800000000000000
+      internalID: 8320877869301869009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_19
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 207
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09fcad0e5c011200800000000000000
+      internalID: 148913860775835917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_20
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9ba30305ac7d560800000000000000
+      internalID: 7338556563578862039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_21
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 187
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3488170c3a5fa0f00800000000000000
+      internalID: 1083948743993165891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet(GA KEPAKE)_22
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 179
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fee63e5969926a0800000000000000
+      internalID: -6473477418858385625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sheet(GA KEPAKE)_0: -4729217430159028656
+      Sheet(GA KEPAKE)_1: 7834637552080231821
+      Sheet(GA KEPAKE)_10: -2211373635555488249
+      Sheet(GA KEPAKE)_11: -6727911134189882489
+      Sheet(GA KEPAKE)_12: 8094535138198338626
+      Sheet(GA KEPAKE)_13: -4241521286110158707
+      Sheet(GA KEPAKE)_14: -5171016730938163216
+      Sheet(GA KEPAKE)_15: -4364753385056427565
+      Sheet(GA KEPAKE)_16: 489239717051909562
+      Sheet(GA KEPAKE)_17: 2410127356861396276
+      Sheet(GA KEPAKE)_18: 8320877869301869009
+      Sheet(GA KEPAKE)_19: 148913860775835917
+      Sheet(GA KEPAKE)_2: -3888689303690114452
+      Sheet(GA KEPAKE)_20: 7338556563578862039
+      Sheet(GA KEPAKE)_21: 1083948743993165891
+      Sheet(GA KEPAKE)_22: -6473477418858385625
+      Sheet(GA KEPAKE)_3: -4257029113360212652
+      Sheet(GA KEPAKE)_4: 1868861733163282073
+      Sheet(GA KEPAKE)_5: -4911658487873742426
+      Sheet(GA KEPAKE)_6: 8751296324958925043
+      Sheet(GA KEPAKE)_7: -498941866732996005
+      Sheet(GA KEPAKE)_8: -3148178964672887830
+      Sheet(GA KEPAKE)_9: 6213842796009878120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

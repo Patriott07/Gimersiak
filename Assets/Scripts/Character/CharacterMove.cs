@@ -34,7 +34,7 @@ public class CharacterMove : MonoBehaviour
         movement = movement.normalized;
 
         // Dash input
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0)
+        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.L)) && !isDashing && dashCooldownTimer <= 0)
         {
             isDashing = true;
             dashTime = dashDuration;

@@ -41,7 +41,7 @@ AudioSource:
   m_GameObject: {fileID: 6394504725555167753}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -187016561908736569, guid: bf6093d408f379d47a39d478661e4db8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -156,9 +156,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8614607823738765748}
   serializedVersion: 2
+<<<<<<< HEAD:Assets/Other/brick.prefab
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0021757, y: 9, z: 0}
+  m_LocalScale: {x: 0.022115232, y: 0.050712306, z: 0.1}
+=======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.99, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6673857192549948634}
@@ -210,8 +216,13 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD:Assets/Other/brick.prefab
+  m_SortingOrder: 4
+  m_Sprite: {fileID: -922039899351004537, guid: 3e1c7136b3a4d324b8f2fb9398c962c0, type: 3}
+=======
   m_SortingOrder: 0
   m_Sprite: {fileID: 8961090413319157468, guid: 3257b1fb9b177b64e971b0cf5d321a03, type: 3}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -256,17 +267,25 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.32969475, y: 0.107154846}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Other/brick.prefab
+    oldSize: {x: 45, y: 16}
+=======
     oldSize: {x: 2.88, y: 1.024}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< HEAD:Assets/Other/brick.prefab
+  m_Size: {x: 45.17864, y: 15.786667}
+=======
   m_Size: {x: 2.9, y: 1}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_EdgeRadius: 0
 --- !u!114 &4803339373926507121
 MonoBehaviour:
