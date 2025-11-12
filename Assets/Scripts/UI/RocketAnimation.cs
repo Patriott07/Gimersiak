@@ -5,6 +5,8 @@ public class RocketAnimation : MonoBehaviour
     [Header("Pengaturan Guncangan (Shake)")]
     public float shakeIntensity = 0.2f;     // Intensitas guncangan (dikurangi untuk lebih santai)
     public float shakeSpeed = 8f;           // Kecepatan guncangan (dikurangi untuk lebih santai)
+    [Tooltip("Faktor pengurangan getaran pada sumbu X (0-1). 0 = tidak bergerak horizontal, 1 = full.")]
+    public float horizontalShakeFactor = 0.4f; // Kurangi getaran di X
     
     [Header("Pengaturan Rotasi")]
     public float rotationAmount = 1.5f;     // Sudut rotasi maksimal (dikurangi untuk lebih santai)
@@ -18,6 +20,11 @@ public class RocketAnimation : MonoBehaviour
     public bool enableShake = true;         // Aktifkan guncangan
     public bool enableRotation = true;      // Aktifkan rotasi
     public bool enableVerticalMove = true;  // Aktifkan gerakan vertikal
+    [Tooltip("Skala tambahan untuk rotasi Z (0-1). Gunakan nilai kecil untuk mengurangi efek rotasi yang membuat kamera bergetar")]
+    public float rotationFactor = 0.5f;     // Kurangi efek rotasi
+    [Header("Rotasi ke Child (opsional)")]
+    [Tooltip("Jika di-set, rotasi akan diterapkan pada transform visual ini, bukan pada root. Membantu mencegah pengaruh rotasi terhadap posisi/physics.")]
+    public Transform visualTransform;       // Jika ingin hanya merotate visual child
     
     [Header("Pengaturan Credit Scene (30 detik)")]
     public float creditDuration = 30f;      // Durasi total credit scene
@@ -27,6 +34,7 @@ public class RocketAnimation : MonoBehaviour
     // --- Variabel Internal ---
     private Vector3 originalPosition;
     private Quaternion originalRotation;
+    private Quaternion originalVisualRotation;
     
     // Untuk randomisasi guncangan
     private float shakeOffsetX;
@@ -41,6 +49,10 @@ public class RocketAnimation : MonoBehaviour
         // Simpan posisi dan rotasi asli
         originalPosition = transform.localPosition;
         originalRotation = transform.localRotation;
+        if (visualTransform != null)
+        {
+            originalVisualRotation = visualTransform.localRotation;
+        }
         
         // Buat offset random untuk variasi guncangan
         shakeOffsetX = Random.Range(0f, 100f);
@@ -88,7 +100,7 @@ public class RocketAnimation : MonoBehaviour
         if (enableShake)
         {
             // Gunakan Perlin Noise untuk guncangan yang lebih natural
-            float shakeX = (Mathf.PerlinNoise(Time.time * shakeSpeed + shakeOffsetX, 0f) - 0.5f) * 2f * shakeIntensity * currentIntensityMultiplier;
+            float shakeX = (Mathf.PerlinNoise(Time.time * shakeSpeed + shakeOffsetX, 0f) - 0.5f) * 2f * shakeIntensity * currentIntensityMultiplier * horizontalShakeFactor;
             float shakeY = (Mathf.PerlinNoise(0f, Time.time * shakeSpeed + shakeOffsetY) - 0.5f) * 2f * shakeIntensity * currentIntensityMultiplier;
             
             newPosition.x += shakeX;
@@ -99,8 +111,18 @@ public class RocketAnimation : MonoBehaviour
         if (enableRotation)
         {
             // Gunakan Sin untuk rotasi smooth bolak-balik
-            float rotation = Mathf.Sin(Time.time * rotationSpeed) * rotationAmount * currentIntensityMultiplier;
-            newRotation.z += rotation;
+            // Terapkan rotationFactor untuk mengurangi efek rotasi yang menyebabkan kamera "bergetar"
+            float rotation = Mathf.Sin(Time.time * rotationSpeed) * rotationAmount * currentIntensityMultiplier * rotationFactor;
+
+            if (visualTransform != null)
+            {
+                // Terapkan rotasi hanya pada visual child agar root (yang di-follow camera) tidak berotasi
+                visualTransform.localRotation = Quaternion.Euler(originalVisualRotation.eulerAngles + new Vector3(0f, 0f, rotation));
+            }
+            else
+            {
+                newRotation.z += rotation;
+            }
         }
         
         // --- 3. GERAKAN VERTIKAL (NAIK-TURUN) ---
@@ -113,7 +135,15 @@ public class RocketAnimation : MonoBehaviour
         
         // Terapkan transformasi
         transform.localPosition = newPosition;
-        transform.localRotation = Quaternion.Euler(newRotation);
+        // Jika rotasi diterapkan pada visualTransform, tetap kembalikan root ke rotasi asli
+        if (visualTransform != null)
+        {
+            transform.localRotation = originalRotation;
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Euler(newRotation);
+        }
     }
     
     // --- FUNGSI HELPER (Opsional) ---
