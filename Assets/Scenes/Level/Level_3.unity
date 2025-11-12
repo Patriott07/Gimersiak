@@ -6177,6 +6177,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7555174008661457889, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
+      propertyPath: deathTriggerName
+      value: Boss_Death
+      objectReference: {fileID: 0}
     - target: {fileID: 8615895415407371855, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
       propertyPath: leftBound
       value: -15
@@ -8079,6 +8083,22 @@ PrefabInstance:
       propertyPath: bossAnimationController
       value: 
       objectReference: {fileID: 1037290748}
+    - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: deathDialogs.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: entranceDialogs.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: deathDialogs.Array.data[0].text
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: entranceDialogs.Array.data[0].text
+      value: test
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
