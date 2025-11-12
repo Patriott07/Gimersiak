@@ -637,8 +637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &245820637
 GameObject:
@@ -1199,8 +1199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &467459114
 GameObject:
@@ -1352,8 +1352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &534350923
 GameObject:
@@ -1857,8 +1857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &705541921
 GameObject:
@@ -2094,8 +2094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &779012596
 GameObject:
@@ -2552,8 +2552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &1110263264
 GameObject:
@@ -2705,8 +2705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &1191236011
 GameObject:
@@ -3072,8 +3072,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &1348131259
 GameObject:
@@ -3225,8 +3225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!114 &1352516151 stripped
 MonoBehaviour:
@@ -3703,8 +3703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &1705022711
 GameObject:
@@ -3969,8 +3969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1 &1779667398
 GameObject:
@@ -4122,8 +4122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1001 &1884286238
 PrefabInstance:
@@ -4400,8 +4400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 25
-  shield: 15
+  maxShield: 15
+  shield: 5
   durationCooldown: 25
 --- !u!1001 &2000304425
 PrefabInstance:
@@ -4525,7 +4525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8357396159586217314, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
       propertyPath: maxHealth
-      value: 500
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8615895415407371855, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
       propertyPath: leftBound
@@ -5342,6 +5342,10 @@ PrefabInstance:
     - target: {fileID: 7457682721694258022, guid: 9206b68581afdd44c8cd879ac080be98, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 3.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730127097512450069, guid: 9206b68581afdd44c8cd879ac080be98, type: 3}
+      propertyPath: dashAccelerationTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
