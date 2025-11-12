@@ -5310,11 +5310,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 577889877850807399, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
       propertyPath: enemyDamage
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2100022207473514730, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
       propertyPath: m_BodyType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845663176959989240, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
+      propertyPath: minVelocity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845663176959989240, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
+      propertyPath: stuckCheckInterval
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845663176959989240, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
+      propertyPath: stuckVelocityThreshold
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3013395625466212281, guid: dc1becbdb5ab0e94885a420f99ca7a60, type: 3}
       propertyPath: m_Name

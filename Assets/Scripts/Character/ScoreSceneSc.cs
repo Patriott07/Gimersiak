@@ -89,7 +89,14 @@ public class ScoreSceneSc : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene($"Level_{last_level + 1}");
+        if (last_level >= 3)
+        {
+            SceneManager.LoadScene("CreditScene");
+        }
+        else
+        {
+            SceneManager.LoadScene($"Level_{last_level + 1}");
+        }
     }
 
     public void Retry()
