@@ -627,6 +627,7 @@ GameObject:
   - component: {fileID: 266219843}
   - component: {fileID: 266219840}
   - component: {fileID: 266219842}
+  - component: {fileID: 266219845}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -817,6 +818,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &266219845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266219838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f46e4594d9fab04cb96606ee9c48cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHitResponse
+  shakeDuration: 0.25
+  shakeStrength: 0.4
+  shakeVibrato: 15
+  shakeRandomness: 80
+  slowMotionScale: 0.2
+  slowMotionDuration: 0.3
+  recoverySpeed: 2
+  invincibilityDuration: 1
+  playerSprite: {fileID: 266219844}
+  blinkSpeed: 0.08
+  hitVFX: {fileID: 0}
+  vfxLifetime: 0.5
 --- !u!1 &300520098
 GameObject:
   m_ObjectHideFlags: 0
