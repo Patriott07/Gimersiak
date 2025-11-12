@@ -2814,8 +2814,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 477, y: 82}
-  m_SizeDelta: {x: 344.103, y: 344.103}
+  m_AnchoredPosition: {x: 450, y: 75}
+  m_SizeDelta: {x: 500, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125655387
 MonoBehaviour:
@@ -2837,7 +2837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -8490745816856966508, guid: 67fe0fffc290c034c808985272f3f3a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3536,6 +3536,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1423186032}
+  - component: {fileID: 1423186033}
   m_Layer: 5
   m_Name: Dialog
   m_TagString: Untagged
@@ -3566,6 +3567,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1423186033
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423186031}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1432878828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3699,6 +3712,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2000304427}
     - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
+      propertyPath: dialogCanvasGroup
+      value: 
+      objectReference: {fileID: 1423186033}
+    - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: bossSpawnPosition.y
       value: 8
       objectReference: {fileID: 0}
@@ -3712,19 +3729,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: entranceDialogs.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: deathDialogs.Array.data[0].text
-      value: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      value: Cuih kamu Hama
       objectReference: {fileID: 0}
     - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: entranceDialogs.Array.data[0].text
-<<<<<<< HEAD
-      value: gygy7g7g7
-=======
-      value: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
->>>>>>> main
+      value: Hay kawan
       objectReference: {fileID: 0}
     - target: {fileID: 6450382316672645996, guid: 97334de1e0a96964dbd32ce201e9f325, type: 3}
       propertyPath: deathDialogs.Array.data[0].portrait
@@ -3876,7 +3889,7 @@ MonoBehaviour:
   combo: 0
   level: 1
   totalBlock: 0
-  totalHealthBoss: 1
+  totalHealthBoss: 0
   isCombo: 0
   isPlay: 0
   isHaveBoss: 0
@@ -4999,7 +5012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7555174008661457889, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
       propertyPath: useAnimationEvent
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7777148420213470314, guid: 75de630ebd43b6c4b8c4b537668e8047, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6008,6 +6021,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7120252065130128030, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209006298698360881, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8386353558134367158, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8499107070059855938, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
