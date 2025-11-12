@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6703163671775662179
+--- !u!1 &6394504725555167753
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8937884152981650009}
-  - component: {fileID: 5811489496411251287}
+  - component: {fileID: 6673857192549948634}
+  - component: {fileID: 9037309403384523051}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -17,34 +17,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8937884152981650009
+--- !u!4 &6673857192549948634
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703163671775662179}
+  m_GameObject: {fileID: 6394504725555167753}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5056589820318340411}
+  m_Father: {fileID: 4366676416489221464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &5811489496411251287
+--- !u!82 &9037309403384523051
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703163671775662179}
+  m_GameObject: {fileID: 6394504725555167753}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -187016561908736569, guid: bf6093d408f379d47a39d478661e4db8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -129,7 +129,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &6785324218565149078
+--- !u!1 &8614607823738765748
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,10 +137,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5056589820318340411}
-  - component: {fileID: 165460779417360029}
-  - component: {fileID: 7461657794877781116}
-  - component: {fileID: 2624978174517453953}
+  - component: {fileID: 4366676416489221464}
+  - component: {fileID: 3717801300918317811}
+  - component: {fileID: 3330787104065547531}
+  - component: {fileID: 4803339373926507121}
   m_Layer: 0
   m_Name: brick
   m_TagString: brick
@@ -148,29 +148,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5056589820318340411
+--- !u!4 &4366676416489221464
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785324218565149078}
+  m_GameObject: {fileID: 8614607823738765748}
   serializedVersion: 2
+<<<<<<< HEAD:Assets/Other/brick.prefab
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0021757, y: 9, z: 0}
   m_LocalScale: {x: 0.022115232, y: 0.050712306, z: 0.1}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.99, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8937884152981650009}
+  - {fileID: 6673857192549948634}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &165460779417360029
+--- !u!212 &3717801300918317811
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785324218565149078}
+  m_GameObject: {fileID: 8614607823738765748}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -184,6 +190,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -205,10 +213,16 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD:Assets/Other/brick.prefab
   m_SortingOrder: 4
   m_Sprite: {fileID: -922039899351004537, guid: 3e1c7136b3a4d324b8f2fb9398c962c0, type: 3}
+=======
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8961090413319157468, guid: 3257b1fb9b177b64e971b0cf5d321a03, type: 3}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -219,17 +233,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7461657794877781116
+--- !u!61 &3330787104065547531
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785324218565149078}
+  m_GameObject: {fileID: 8614607823738765748}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 5bedabd9bef9e6e4780d4c6615683865, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -257,27 +271,35 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Other/brick.prefab
     oldSize: {x: 45, y: 16}
+=======
+    oldSize: {x: 2.88, y: 1.024}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< HEAD:Assets/Other/brick.prefab
   m_Size: {x: 45.17864, y: 15.786667}
+=======
+  m_Size: {x: 2.9, y: 1}
+>>>>>>> 704a5ed773142ab4579fe08d91be69d9932e3115:Assets/2D/Prefab/Env/brick.prefab
   m_EdgeRadius: 0
---- !u!114 &2624978174517453953
+--- !u!114 &4803339373926507121
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785324218565149078}
+  m_GameObject: {fileID: 8614607823738765748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40082dfdd4a82fd4e80555ff6d20aa15, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ab77376983a9d848b53fc62c2775a1e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  life: 3
-  audioSource: {fileID: 5811489496411251287}
+  m_EditorClassIdentifier: Assembly-CSharp::NoteBalok
+  life: 1
+  audioSource: {fileID: 9037309403384523051}
   audioClip: {fileID: 8300000, guid: 2375478cbe4f7e246a70929d3ccce3c3, type: 3}
   baseColor: {r: 0, g: 0, b: 0, a: 0}

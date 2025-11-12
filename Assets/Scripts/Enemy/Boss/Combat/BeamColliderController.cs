@@ -18,9 +18,12 @@ public class BeamColliderController : MonoBehaviour
     
     [Header("References")]
     [SerializeField] Collider2D triggerCollider;
+    [SerializeField] Transform beamVisual;
     
-    [Header("Debug")]
-    [SerializeField] bool showDebugGizmo = true;
+    [Header("Beam Scaling")]
+    [SerializeField] bool autoScaleBeam = true;
+    [SerializeField] float beamWidth = 2f;
+    [SerializeField] bool staticBeam = false;
     
     Vector3 startPosition;
     GameObject currentSpark;
@@ -29,25 +32,42 @@ public class BeamColliderController : MonoBehaviour
     Vector3 wallHitPosition;
     Vector3 targetGroundPosition;
     bool hasTargetPosition = false;
+    Vector3 initialScale;
+    float groundDistance;
+    float currentExtension;
+    float targetExtension;
     
     void Start()
     {
         startPosition = transform.position;
         
-        RaycastHit2D hit = Physics2D.Raycast(
-            startPosition, 
-            Vector2.down, 
-            raycastDistance, 
-            groundLayer
-        );
+        if (beamVisual == null)
+        {
+            beamVisual = transform.GetChild(0);
+        }
+        
+        if (beamVisual != null)
+        {
+            initialScale = beamVisual.localScale;
+        }
+        
+        RaycastHit2D hit = Physics2D.Raycast(startPosition, Vector2.down, raycastDistance, groundLayer);
         
         if (hit.collider != null)
         {
             targetGroundPosition = hit.point;
             targetGroundPosition.y += groundOffset;
-            maxFallDistance = Vector3.Distance(startPosition, targetGroundPosition);
+            groundDistance = Vector3.Distance(startPosition, targetGroundPosition);
             hasTargetPosition = true;
             
+            if (staticBeam)
+            {
+                targetExtension = groundDistance;
+            }
+            else
+            {
+                maxFallDistance = groundDistance;
+            }
         }
         
         if (triggerCollider == null)
@@ -59,25 +79,57 @@ public class BeamColliderController : MonoBehaviour
     
     void Update()
     {
+        if (staticBeam)
+        {
+            UpdateStaticBeam();
+        }
+        else
+        {
+            UpdateFallingBeam();
+        }
+    }
+    
+    void UpdateStaticBeam()
+    {
+        if (!hasHitWall && !isRising)
+        {
+            currentExtension += fallSpeed * Time.deltaTime;
+            
+            if (currentExtension >= targetExtension)
+            {
+                currentExtension = targetExtension;
+                hasHitWall = true;
+                OnHitGround(targetGroundPosition);
+            }
+            
+            UpdateBeamScale(currentExtension);
+        }
+        else if (isRising)
+        {
+            currentExtension -= riseSpeed * Time.deltaTime;
+            
+            if (currentExtension <= 0f)
+            {
+                currentExtension = 0f;
+                enabled = false;
+            }
+            
+            UpdateBeamScale(currentExtension);
+        }
+    }
+    
+    void UpdateFallingBeam()
+    {
         if (!hasHitWall && !isRising)
         {
             float moveDistance = fallSpeed * Time.deltaTime;
             Vector3 newPosition = transform.position + Vector3.down * moveDistance;
             
-            RaycastHit2D hit = Physics2D.Raycast(
-                transform.position,
-                Vector2.down,
-                moveDistance + 0.5f,
-                groundLayer
-            );
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, moveDistance + 0.5f, groundLayer);
             
             if (hit.collider != null)
             {
-                transform.position = new Vector3(
-                    transform.position.x, 
-                    hit.point.y + groundOffset, 
-                    transform.position.z
-                );
+                transform.position = new Vector3(transform.position.x, hit.point.y + groundOffset, transform.position.z);
                 OnHitGround(hit.point);
                 hasHitWall = true;
             }
@@ -94,11 +146,13 @@ public class BeamColliderController : MonoBehaviour
                     else
                     {
                         transform.position = newPosition;
+                        UpdateBeamScale(Mathf.Abs(transform.position.y - startPosition.y));
                     }
                 }
                 else
                 {
                     transform.position = newPosition;
+                    UpdateBeamScale(Mathf.Abs(transform.position.y - startPosition.y));
                     
                     if (Vector3.Distance(startPosition, transform.position) > maxFallDistance)
                     {
@@ -111,6 +165,7 @@ public class BeamColliderController : MonoBehaviour
         else if (isRising)
         {
             transform.position += Vector3.up * riseSpeed * Time.deltaTime;
+            UpdateBeamScale(Mathf.Abs(transform.position.y - startPosition.y));
             
             if (transform.position.y >= startPosition.y)
             {
@@ -120,9 +175,29 @@ public class BeamColliderController : MonoBehaviour
         }
     }
     
+    void UpdateBeamScale(float distance)
+    {
+        if (!autoScaleBeam || beamVisual == null) return;
+        
+        beamVisual.localScale = new Vector3(beamWidth, distance, initialScale.z);
+        
+        Vector3 visualOffset = beamVisual.localPosition;
+        visualOffset.y = -distance * 0.5f;
+        beamVisual.localPosition = visualOffset;
+    }
+    
     void OnHitGround(Vector3 hitPoint)
     {
         wallHitPosition = hitPoint;
+        
+        if (staticBeam)
+        {
+            UpdateBeamScale(currentExtension);
+        }
+        else
+        {
+            UpdateBeamScale(Mathf.Abs(transform.position.y - startPosition.y));
+        }
         
         if (sparkUpPrefab != null)
         {
@@ -133,7 +208,6 @@ public class BeamColliderController : MonoBehaviour
             {
                 sparkAnim.Play("SparkUp");
             }
-            
         }
     }
     
@@ -143,7 +217,6 @@ public class BeamColliderController : MonoBehaviour
         
         if (other.CompareTag("Wall") || other.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            
             hasHitWall = true;
             OnHitGround(transform.position);
         }
@@ -166,7 +239,6 @@ public class BeamColliderController : MonoBehaviour
                 {
                     sparkAnim.Play("SparkDown");
                 }
-                
             }
         }
     }
@@ -175,23 +247,5 @@ public class BeamColliderController : MonoBehaviour
     {
         if (currentSpark != null)
             Destroy(currentSpark);
-    }
-    
-    void OnDrawGizmos()
-    {
-        if (!showDebugGizmo) return;
-        
-        Gizmos.color = Color.red;
-        if (triggerCollider != null)
-        {
-            Gizmos.DrawWireCube(transform.position, triggerCollider.bounds.size);
-        }
-        
-        if (Application.isPlaying && hasTargetPosition)
-        {
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(targetGroundPosition, 0.5f);
-            Gizmos.DrawLine(startPosition, targetGroundPosition);
-        }
     }
 }

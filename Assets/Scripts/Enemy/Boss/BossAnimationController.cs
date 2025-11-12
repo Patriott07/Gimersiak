@@ -24,7 +24,9 @@ public class BossAnimationController : MonoBehaviour
     [SerializeField] private Vector3 explosionOffset = Vector3.zero;
     
     [Header("Death Timing")]
-    [SerializeField] private float preExplosionDelay = 0.15f;
+    [SerializeField] private bool useAnimationEvent = false;
+    [Tooltip("Delay sebelum explosion muncul (hanya jika tidak pakai Animation Event)")]
+    [SerializeField] private float preExplosionDelay = 0f;
     [SerializeField] private float postExplosionFadeDelay = 0.3f;
     [SerializeField] private float finalDestroyDelay = 2f;
     
@@ -38,6 +40,7 @@ public class BossAnimationController : MonoBehaviour
 
     #region Private Fields
     private bool isDead;
+    private bool explosionSpawned;
     private Coroutine currentDeathSequence;
     #endregion
 
@@ -124,6 +127,12 @@ public class BossAnimationController : MonoBehaviour
     #region Death Handling
     private void HandleBossDeath()
     {
+        if (BossSceneManager.Instance != null)
+        {
+            BossSceneManager.Instance.TriggerBossDeathSequence();
+            return; // Jangan langsung execute death sequence
+        }
+
         if (isDead) return;
 
         isDead = true;
@@ -137,14 +146,27 @@ public class BossAnimationController : MonoBehaviour
         DisablePhysics();
         DisableCollisions();
 
-        yield return new WaitForSeconds(preExplosionDelay);
-
-        SpawnExplosionEffect();
-        OnExplosionTriggered?.Invoke();
-
-        if (spawnDebris && debrisConfig != null)
+        if (useAnimationEvent)
         {
-            SpawnDebrisEffects();
+            while (!explosionSpawned)
+            {
+                yield return null;
+            }
+        }
+        else
+        {
+            if (preExplosionDelay > 0f)
+            {
+                yield return new WaitForSeconds(preExplosionDelay);
+            }
+            
+            SpawnExplosionEffect();
+            OnExplosionTriggered?.Invoke();
+
+            if (spawnDebris && debrisConfig != null)
+            {
+                SpawnDebrisEffects();
+            }
         }
 
         yield return new WaitForSeconds(postExplosionFadeDelay);
@@ -155,6 +177,20 @@ public class BossAnimationController : MonoBehaviour
 
         OnDeathAnimationComplete?.Invoke();
         DestroyBoss();
+    }
+
+    public void TriggerExplosion()
+    {
+        if (explosionSpawned) return;
+        
+        explosionSpawned = true;
+        SpawnExplosionEffect();
+        OnExplosionTriggered?.Invoke();
+
+        if (spawnDebris && debrisConfig != null)
+        {
+            SpawnDebrisEffects();
+        }
     }
 
     private void TriggerDeathAnimation()
@@ -251,6 +287,15 @@ public class BossAnimationController : MonoBehaviour
         }
 
         isDead = false;
+        explosionSpawned = false;   
+    }
+
+    public void ExecuteDeathWithoutDialog()
+    {
+        if (isDead) return;
+        
+        isDead = true;
+        currentDeathSequence = StartCoroutine(ExecuteDeathSequence());
     }
 
     public bool IsPlayingDeathSequence()

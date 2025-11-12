@@ -15,14 +15,18 @@ public class BossController : MonoBehaviour
     EnemyHealth health;
     float moveDirection = 1f;
     bool isPaused;
+    float lockedY;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<EnemyHealth>();
         
+        rb.bodyType = RigidbodyType2D.Dynamic;
         rb.gravityScale = 0f;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        
+        lockedY = transform.position.y;
     }
 
     void Update()
@@ -36,8 +40,9 @@ public class BossController : MonoBehaviour
     {
         if (isPaused) return;
         
-        Vector2 pos = rb.position;
+        Vector3 pos = transform.position;
         pos.x += moveDirection * moveSpeed * Time.deltaTime;
+        pos.y = lockedY;
         
         if (pos.x <= leftBound)
         {
@@ -52,7 +57,7 @@ public class BossController : MonoBehaviour
             StartCoroutine(Pause());
         }
         
-        rb.MovePosition(pos);
+        transform.position = pos;
     }
 
     IEnumerator Pause()

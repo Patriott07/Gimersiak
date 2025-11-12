@@ -15,11 +15,5 @@ MonoBehaviour:
   enabled: 1
   damage: 10
   beamPillarPrefab: {fileID: 2924430295178421321, guid: 6ff0199ad88f1ee4391d938da5ebdeb9, type: 3}
-  sparkUpPrefab: {fileID: 2551159922634494201, guid: 90f3546bd99bdf044b7389e5c1807c88, type: 3}
-  sparkDownPrefab: {fileID: 960483943156646201, guid: 32a8a7286db50fa48b732c2fc87aa997, type: 3}
-  beamDuration: 3
+  beamDuration: 2
   cleanupDelay: 1
-  maxBeamDistance: 50
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64

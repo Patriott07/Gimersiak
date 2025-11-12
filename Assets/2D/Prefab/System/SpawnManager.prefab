@@ -10,13 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 3618096675046598903}
   - component: {fileID: 596016037142301092}
+  - component: {fileID: 6450382316672645996}
   m_Layer: 0
-  m_Name: Spawn_Minion
+  m_Name: SpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3618096675046598903
 Transform:
   m_ObjectHideFlags: 0
@@ -44,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0015984da50a694dbda26fa364a8667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinionSpawner
-  minionPrefab: {fileID: 8403081046068011398, guid: 3baeee327a64c1f4f841d9fa61251201, type: 3}
+  minionPrefabs: []
   rows: 5
   columns: 5
   spacingX: 3
@@ -55,3 +56,37 @@ MonoBehaviour:
   spawnRight: {x: 10, y: 6}
   autoWave: 1
   waveDelay: 5
+  hitSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  soundVolume: 0.8
+--- !u!114 &6450382316672645996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674142110448062398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128de29f121225a428b0dc3423eb72d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossSceneManager
+  bossObject: {fileID: 0}
+  bossController: {fileID: 0}
+  bossAttackManager: {fileID: 0}
+  bossAnimationController: {fileID: 0}
+  delayBeforeBossAppears: 20
+  entranceDialogDuration: 3
+  deathDialogDuration: 3
+  dialogPanel: {fileID: 0}
+  dialogText: {fileID: 0}
+  bossPortrait: {fileID: 0}
+  textSpeed: 0.05
+  entranceDialog: Finally... you dare challenge me!
+  entrancePortrait: {fileID: 0}
+  deathDialog: Impossible... I cannot be defeated!
+  deathPortrait: {fileID: 0}
+  bossEntranceVFX: {fileID: 0}
+  bossSpawnPosition: {x: 0, y: 0, z: 0}
+  entranceShakeDuration: 0.5
+  entranceShakeStrength: 0.8

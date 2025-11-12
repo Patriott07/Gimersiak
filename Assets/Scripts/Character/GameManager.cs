@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
         characterMoveSc.isCanMove = false;
         isPlay = false;
 
-        List<NoteBalok> noteComps = FindObjectsOfType<NoteBalok>().ToList();
+        List<NoteBalok> noteComps = FindObjectsByType<NoteBalok>(FindObjectsSortMode.None).ToList();
         totalBlock = noteComps.Count;
 
         StartCoroutine(hUDManager.ShowPrePlay("Clear The Stage And Protect Our Ship", level, 3f, () =>
@@ -309,6 +309,9 @@ public class GameManager : MonoBehaviour
         Rigidbody2D ballRb = DetectorBall.Instance.rbBall;
         GameObject ballGO = ballRb.gameObject;
 
+        if (ballRb == null) Debug.LogWarning("BALL RBNULL");
+        if (ballGO == null) Debug.LogWarning("BALL GO NULL");
+
         // cache state
         Vector3 savedPos = ballGO.transform.position;
         Vector2 savedVel = ballRb.linearVelocity;
@@ -316,7 +319,7 @@ public class GameManager : MonoBehaviour
         bool wasActive = ballGO.activeSelf;
 
         // deactivate original ball (safer than messing with constraints)
-        ballGO.SetActive(false);
+        // ballGO.SetActive(false);
 
         // spawn fragments and apply impulse
         for (int i = 0; i < fragmentCount; i++)
@@ -333,9 +336,10 @@ public class GameManager : MonoBehaviour
         }
 
         // wait before restoring original ball
-        yield return new WaitForSeconds(originalBallDisableDuration);
+        yield return new WaitForSecondsRealtime(originalBallDisableDuration);
 
         // restore original ball
+        Time.timeScale = 1f;
         ballGO.SetActive(wasActive);
         ballGO.transform.position = savedPos;
         ballRb.bodyType = RigidbodyType2D.Dynamic;

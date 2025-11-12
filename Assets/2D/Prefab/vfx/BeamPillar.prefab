@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7619117060047492463}
   - component: {fileID: 1614644188338755656}
   - component: {fileID: 3676529850551792595}
-  - component: {fileID: 8549900932431534242}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Untagged
@@ -107,30 +106,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.005}
   m_EdgeRadius: 0
---- !u!114 &8549900932431534242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785236228813084950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50afbcdcb1832314c9a4acebe6e2a3b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeamColliderController
-  fallSpeed: 10
-  riseSpeed: 8
-  maxFallDistance: 50
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  raycastDistance: 100
-  groundOffset: 0.1
-  sparkUpPrefab: {fileID: 2551159922634494201, guid: 90f3546bd99bdf044b7389e5c1807c88, type: 3}
-  sparkDownPrefab: {fileID: 960483943156646201, guid: 32a8a7286db50fa48b732c2fc87aa997, type: 3}
-  triggerCollider: {fileID: 3676529850551792595}
-  showDebugGizmo: 0
 --- !u!1 &2924430295178421321
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,6 +117,7 @@ GameObject:
   - component: {fileID: 330494299455296302}
   - component: {fileID: 8218426578118141706}
   - component: {fileID: 3803678390270873219}
+  - component: {fileID: 9072659046853886169}
   m_Layer: 0
   m_Name: BeamPillar
   m_TagString: Untagged
@@ -245,3 +221,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9072659046853886169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924430295178421321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50afbcdcb1832314c9a4acebe6e2a3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeamColliderController
+  fallSpeed: 10
+  riseSpeed: 8
+  maxFallDistance: 50
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  raycastDistance: 100
+  groundOffset: 0.1
+  sparkUpPrefab: {fileID: 2551159922634494201, guid: 90f3546bd99bdf044b7389e5c1807c88, type: 3}
+  sparkDownPrefab: {fileID: 960483943156646201, guid: 32a8a7286db50fa48b732c2fc87aa997, type: 3}
+  triggerCollider: {fileID: 3676529850551792595}
+  beamVisual: {fileID: 7619117060047492463}
+  autoScaleBeam: 1
+  beamWidth: 5
+  staticBeam: 1

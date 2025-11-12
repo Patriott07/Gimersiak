@@ -5,16 +5,21 @@ using UnityEngine;
 public class PulseDamage : MonoBehaviour
 {
     [Header("Damage")]
-    [SerializeField] float damage = 10f;
+    [SerializeField] float damage = 1f;
     
     [Header("Targets")]
     [SerializeField] string[] targetTags = { "Player" };
-    [SerializeField] bool damageEnemies = false;
+    [SerializeField] bool canDamageEnemies = false;
     
     [Header("Collision Behavior")]
-    [SerializeField] bool destroyOnHit = false;
+    [SerializeField] bool destroyOnHit = true;
     [SerializeField] bool destroyOnWall = true;
     [SerializeField] LayerMask wallLayers;
+    
+    [Header("Slow Effect")]
+    [SerializeField] bool applySlowToPlayer = false;
+    [SerializeField] float slowDuration = 2f;
+    [SerializeField] float slowMultiplier = 0.5f;
     
     bool hasDealtDamage;
     float originalDamage;
@@ -60,15 +65,41 @@ public class PulseDamage : MonoBehaviour
         
         if (!IsValidTarget(target)) return;
         
-        EnemyHealth targetHealth = target.GetComponent<EnemyHealth>();
-        if (targetHealth != null)
+        if (target.CompareTag("Player"))
         {
-            targetHealth.TakeDamage(damage);
-            
-            if (destroyOnHit)
+            PlayerHitResponse hitResponse = target.GetComponent<PlayerHitResponse>();
+            if (hitResponse != null)
             {
-                hasDealtDamage = true;
-                ReturnToPoolOrDestroy();
+                hitResponse.OnHit(damage);
+                
+                if (applySlowToPlayer)
+                {
+                    PlayerSlowEffect slowEffect = target.GetComponent<PlayerSlowEffect>();
+                    if (slowEffect != null)
+                    {
+                        slowEffect.ApplySlow(slowDuration, slowMultiplier);
+                    }
+                }
+                
+                if (destroyOnHit)
+                {
+                    hasDealtDamage = true;
+                    ReturnToPoolOrDestroy();
+                }
+            }
+        }
+        else
+        {
+            EnemyHealth targetHealth = target.GetComponent<EnemyHealth>();
+            if (targetHealth != null)
+            {
+                targetHealth.TakeDamage(damage);
+                
+                if (destroyOnHit)
+                {
+                    hasDealtDamage = true;
+                    ReturnToPoolOrDestroy();
+                }
             }
         }
     }
@@ -87,7 +118,7 @@ public class PulseDamage : MonoBehaviour
     {
         if (targetTags == null || targetTags.Length == 0) return true;
         
-        if (!damageEnemies && target.CompareTag("Enemy") && gameObject.CompareTag("Enemy"))
+        if (!canDamageEnemies && target.CompareTag("Enemy") && gameObject.CompareTag("Enemy"))
             return false;
         
         foreach (string tag in targetTags)

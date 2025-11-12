@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7852b82fbadf76a409b1e6efbf447395, type: 3}
   m_Name: ZigzagAttack_Boss
   m_EditorClassIdentifier: Assembly-CSharp::ZigzagAttack
-  enabled: 0
+  enabled: 1
   damage: 10
   bulletPrefab: {fileID: 56758889346395131, guid: 83526545a6ef578468d5bdff767e06f9, type: 3}
   bulletCount: 7

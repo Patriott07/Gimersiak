@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a8abeea21de02742820f655fdf34c59, type: 3}
   m_Name: BurstAttack
   m_EditorClassIdentifier: Assembly-CSharp::BurstAttack
-  enabled: 0
+  enabled: 1
   damage: 10
   bulletPrefab: {fileID: 56758889346395131, guid: 83526545a6ef578468d5bdff767e06f9, type: 3}
   rounds: 3

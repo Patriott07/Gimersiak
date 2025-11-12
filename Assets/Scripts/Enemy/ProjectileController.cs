@@ -13,9 +13,14 @@ public class ProjectileController : MonoBehaviour
     [SerializeField] float pulseMinScale = 0.8f;
     [SerializeField] float pulseMaxScale = 1.2f;
     
+    [Header("Freeze Behavior")]
+    [SerializeField] bool stopDuringFreeze = false;
+    
     Rigidbody2D rb;
     float spawnTime;
     Vector3 originalScale;
+    Vector2 velocityBeforeFreeze;
+    bool wasFrozen = false;
     
     void Awake()
     {
@@ -28,6 +33,7 @@ public class ProjectileController : MonoBehaviour
     {
         spawnTime = Time.time;
         transform.localScale = originalScale;
+        wasFrozen = false;
     }
     
     void Update()
@@ -36,6 +42,24 @@ public class ProjectileController : MonoBehaviour
         {
             ReturnToPool();
             return;
+        }
+        
+        if (stopDuringFreeze && GameManager.Instance != null && !GameManager.Instance.isPlay)
+        {
+            if (!wasFrozen)
+            {
+                velocityBeforeFreeze = rb.linearVelocity;
+                rb.linearVelocity = Vector2.zero;
+                wasFrozen = true;
+            }
+        }
+        else
+        {
+            if (wasFrozen)
+            {
+                rb.linearVelocity = velocityBeforeFreeze;
+                wasFrozen = false;
+            }
         }
         
         if (enablePulse)
