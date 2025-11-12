@@ -89,12 +89,12 @@ public class ScoreSceneSc : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene($"Game{last_level + 1}");
+        SceneManager.LoadScene($"Level_{last_level + 1}");
     }
 
     public void Retry()
     {
-        SceneManager.LoadScene($"Game{last_level}");
+        SceneManager.LoadScene($"Level_{last_level}");
     }
 
     public void BackToMainMenu()

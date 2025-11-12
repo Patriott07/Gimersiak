@@ -57,7 +57,7 @@ public class HomeSceneSc : MonoBehaviour
 
     public void ContinueGame()
     {
-        SceneManager.LoadScene($"Game{lastLevel}");
+        SceneManager.LoadScene($"Level_{lastLevel}");
     }
 
     public void SettingGame()
