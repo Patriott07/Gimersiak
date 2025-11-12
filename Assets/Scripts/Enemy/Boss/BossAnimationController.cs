@@ -5,12 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class BossAnimationController : MonoBehaviour
 {
-    #region Events
     public event Action OnDeathAnimationComplete;
     public event Action OnExplosionTriggered;
-    #endregion
 
-    #region Inspector Fields
     [Header("Core References")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -23,9 +20,13 @@ public class BossAnimationController : MonoBehaviour
     [SerializeField] private float explosionScale = 1f;
     [SerializeField] private Vector3 explosionOffset = Vector3.zero;
     
+    [Header("Death Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip explosionSound;
+    [SerializeField] [Range(0f, 1f)] private float explosionVolume = 1f;
+    
     [Header("Death Timing")]
     [SerializeField] private bool useAnimationEvent = false;
-    [Tooltip("Delay sebelum explosion muncul (hanya jika tidak pakai Animation Event)")]
     [SerializeField] private float preExplosionDelay = 0f;
     [SerializeField] private float postExplosionFadeDelay = 0.3f;
     [SerializeField] private float finalDestroyDelay = 2f;
@@ -36,19 +37,12 @@ public class BossAnimationController : MonoBehaviour
     
     [Header("Animation Parameters")]
     [SerializeField] private string deathTriggerName = "Death";
-    #endregion
 
-    #region Private Fields
     private bool isDead;
     private bool explosionSpawned;
     private Coroutine currentDeathSequence;
-    #endregion
-
-    #region Constants
     private const float EXPLOSION_DESTROY_TIME = 3f;
-    #endregion
 
-    #region Unity Lifecycle
     private void Awake()
     {
         ValidateAndCacheReferences();
@@ -68,50 +62,22 @@ public class BossAnimationController : MonoBehaviour
             StopCoroutine(currentDeathSequence);
         }
     }
-    #endregion
 
-    #region Initialization
     private void ValidateAndCacheReferences()
     {
-        if (animator == null)
-        {
-            animator = GetComponent<Animator>();
-            if (animator == null)
-            {
-                Debug.LogError($"[BossAnimationController] No Animator found on {gameObject.name}", this);
-            }
-        }
-
-        if (spriteRenderer == null)
-        {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-        }
-
-        if (health == null)
-        {
-            health = GetComponent<EnemyHealth>();
-            if (health == null)
-            {
-                Debug.LogError($"[BossAnimationController] No EnemyHealth found on {gameObject.name}", this);
-            }
-        }
-
-        if (controller == null)
-        {
-            controller = GetComponent<BossController>();
-        }
-
-        if (attackManager == null)
-        {
-            attackManager = GetComponent<BossAttackManager>();
-        }
+        if (animator == null) animator = GetComponent<Animator>();
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        if (health == null) health = GetComponent<EnemyHealth>();
+        if (controller == null) controller = GetComponent<BossController>();
+        if (attackManager == null) attackManager = GetComponent<BossAttackManager>();
+        if (audioSource == null) audioSource = GetComponent<AudioSource>();
     }
 
     private void SubscribeToEvents()
     {
         if (health != null)
         {
-            health.OnDeath += HandleBossDeath;
+            health.OnNearDeath += HandleBossNearDeath;
         }
     }
 
@@ -119,22 +85,19 @@ public class BossAnimationController : MonoBehaviour
     {
         if (health != null)
         {
-            health.OnDeath -= HandleBossDeath;
+            health.OnNearDeath -= HandleBossNearDeath;
         }
     }
-    #endregion
 
-    #region Death Handling
-    private void HandleBossDeath()
+    private void HandleBossNearDeath()
     {
         if (BossSceneManager.Instance != null)
         {
             BossSceneManager.Instance.TriggerBossDeathSequence();
-            return; // Jangan langsung execute death sequence
+            return;
         }
 
         if (isDead) return;
-
         isDead = true;
         currentDeathSequence = StartCoroutine(ExecuteDeathSequence());
     }
@@ -161,6 +124,7 @@ public class BossAnimationController : MonoBehaviour
             }
             
             SpawnExplosionEffect();
+            PlayExplosionSound();
             OnExplosionTriggered?.Invoke();
 
             if (spawnDebris && debrisConfig != null)
@@ -170,6 +134,11 @@ public class BossAnimationController : MonoBehaviour
         }
 
         yield return new WaitForSeconds(postExplosionFadeDelay);
+
+        if (health != null)
+        {
+            health.ForceBossDeath();
+        }
 
         HideBossSprite();
 
@@ -185,6 +154,7 @@ public class BossAnimationController : MonoBehaviour
         
         explosionSpawned = true;
         SpawnExplosionEffect();
+        PlayExplosionSound();
         OnExplosionTriggered?.Invoke();
 
         if (spawnDebris && debrisConfig != null)
@@ -203,15 +173,8 @@ public class BossAnimationController : MonoBehaviour
 
     private void DisableBossComponents()
     {
-        if (controller != null)
-        {
-            controller.enabled = false;
-        }
-
-        if (attackManager != null)
-        {
-            attackManager.enabled = false;
-        }
+        if (controller != null) controller.enabled = false;
+        if (attackManager != null) attackManager.enabled = false;
     }
 
     private void DisablePhysics()
@@ -252,6 +215,20 @@ public class BossAnimationController : MonoBehaviour
         Destroy(explosion, EXPLOSION_DESTROY_TIME);
     }
 
+    private void PlayExplosionSound()
+    {
+        if (explosionSound == null) return;
+
+        if (audioSource != null)
+        {
+            audioSource.PlayOneShot(explosionSound, explosionVolume);
+        }
+        else
+        {
+            AudioSource.PlayClipAtPoint(explosionSound, transform.position, explosionVolume);
+        }
+    }
+
     private void SpawnDebrisEffects()
     {
         if (debrisConfig == null) return;
@@ -275,9 +252,7 @@ public class BossAnimationController : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    #endregion
 
-    #region Public API
     public void ForceStopDeathSequence()
     {
         if (currentDeathSequence != null)
@@ -287,7 +262,7 @@ public class BossAnimationController : MonoBehaviour
         }
 
         isDead = false;
-        explosionSpawned = false;   
+        explosionSpawned = false;
     }
 
     public void ExecuteDeathWithoutDialog()
@@ -302,9 +277,7 @@ public class BossAnimationController : MonoBehaviour
     {
         return isDead && currentDeathSequence != null;
     }
-    #endregion
 
-    #region Editor
     private void OnDrawGizmosSelected()
     {
         if (deathExplosionPrefab == null) return;
@@ -316,10 +289,8 @@ public class BossAnimationController : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, explosionPos);
     }
-    #endregion
 }
 
-#region Supporting Classes
 [Serializable]
 public class BossDebrisConfig
 {
@@ -406,4 +377,3 @@ public static class BossDebrisSpawner
         UnityEngine.Object.Destroy(debris, config.debrisLifetime);
     }
 }
-#endregion

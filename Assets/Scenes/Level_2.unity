@@ -722,9 +722,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 206049273}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &245820637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,9 +1356,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 464857980}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &467459114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,9 +1514,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 467459116}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &482434352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2424,9 +2439,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 665343180}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &701955174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2847,9 +2867,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 738684328}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &765469893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3401,9 +3426,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1080402747}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1097733474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3616,9 +3646,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1110263266}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1123380625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4382,9 +4417,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1331789232}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1335956263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4597,9 +4637,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1348131261}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!114 &1352516151 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3663378646488153537, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
@@ -4872,10 +4917,10 @@ MonoBehaviour:
   combo: 0
   level: 2
   totalBlock: 0
-  totalHealthBoss: 0
+  totalHealthEnemy: 0
   isCombo: 0
   isPlay: 0
-  isHaveBoss: 0
+  isHaveEnemy: 0
   isFirstPlay: 1
   isLoose: 0
   isCanPlay: 0
@@ -5107,9 +5152,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1540119311}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1542172512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5621,9 +5671,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1758460295}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &1779667398
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,9 +5829,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1779667399}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1786701545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6530,9 +6590,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 15
+  maxShield: 10
+  spriteRenderer: {fileID: 1985326022}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &2010023818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7410,6 +7475,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 381221592135242671, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 381221592135242671, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757328061268284624, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757328061268284624, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1043205245826982061, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7422,6 +7503,14 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1491524518}
+    - target: {fileID: 2382335901275468261, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382335901275468261, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2785907625083000485, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7430,6 +7519,18 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1491524518}
+    - target: {fileID: 3067889304740608836, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067889304740608836, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663378646488153537, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: textTypingPrePlay
+      value: 
+      objectReference: {fileID: 1877095069}
     - target: {fileID: 3686152068361537483, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -7508,6 +7609,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3686152068361537483, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618768909053439665, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618768909053439665, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189753627168623275, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189753627168623275, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120252065130128030, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120252065130128030, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7209006298698360881, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}

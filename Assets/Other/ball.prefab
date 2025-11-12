@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 4792205983198012627}
   - component: {fileID: 2100022207473514730}
   - component: {fileID: 577889877850807399}
+  - component: {fileID: 2845663176959989240}
   m_Layer: 0
   m_Name: ball
   m_TagString: ball
@@ -324,6 +325,25 @@ MonoBehaviour:
   rb: {fileID: 0}
   IsFragment: 1
   enemyDamage: 25
+--- !u!114 &2845663176959989240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3013395625466212281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53dab97b52b0fcc4eaca2ebde62531da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallBouncer
+  minBounceAngle: 30
+  maxBounceAngle: 150
+  bounceForceMultiplier: 1.2
+  minVelocity: 5
+  stuckCheckInterval: 2
+  stuckVelocityThreshold: 2
+  randomForceAmount: 50
 --- !u!1 &8286965374968337112
 GameObject:
   m_ObjectHideFlags: 0

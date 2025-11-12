@@ -58,7 +58,7 @@ public class CharacterHit : MonoBehaviour
 
         Time.timeScale = 1f;
         // Sebelum freeze, lakukan hit
-        Debug.Log("Hitting toll 2");
+        //Debug.Log("Hitting toll 2");
         detectorBallSc.rbBall.AddForce(new Vector2(CharacterMove.Instance.movement.x * 15f, strengthHit), ForceMode2D.Impulse);
         Camera.main.DOShakePosition(0.2f, 0.3f, 10, 60, true);
 
@@ -79,7 +79,7 @@ public class CharacterHit : MonoBehaviour
 
         Time.timeScale = 1f;
         // Sebelum freeze, lakukan hit
-        Debug.Log("Hitting toll 2");
+        //Debug.Log("Hitting toll 2");
         detectorBallSc.rbBall.AddForce(new Vector2(CharacterMove.Instance.movement.x * 15f, strengthHitCustom), ForceMode2D.Impulse);
         Camera.main.DOShakePosition(0.2f, 0.3f, 10, 60, true);
 

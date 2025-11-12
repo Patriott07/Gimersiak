@@ -5,14 +5,18 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public event Action OnDeath;
+    public event Action OnNearDeath;
     public event Action<float> OnDamageTaken;
     
     [Header("Health")]
     [SerializeField] float maxHealth = 100f;
     
     [Header("Enemy Type")]
-    [SerializeField] bool isBoss = false;
+    [SerializeField] EnemyType enemyType = EnemyType.Minion;
     [SerializeField] int scoreReward = 10;
+    
+    [Header("Boss Settings")]
+    [SerializeField] float bossImmuneThreshold = 1f;
     
     [Header("Visual Feedback")]
     [SerializeField] bool flashOnHit = true;
@@ -25,6 +29,9 @@ public class EnemyHealth : MonoBehaviour
     
     float currentHealth;
     bool isDead;
+    bool isImmune;
+    bool hasTriggeredNearDeath;
+    bool hasReducedTotalHealth;
     SpriteRenderer spriteRenderer;
     Color originalColor;
     Coroutine flashCoroutine;
@@ -33,6 +40,8 @@ public class EnemyHealth : MonoBehaviour
     public float MaxHealth => maxHealth;
     public bool IsAlive => !isDead && currentHealth > 0;
     public float HealthPercentage => maxHealth > 0 ? currentHealth / maxHealth : 0f;
+    public bool IsBoss => enemyType == EnemyType.Boss;
+    public bool IsMinion => enemyType == EnemyType.Minion;
 
     void Awake()
     {
@@ -45,10 +54,17 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         
-        if (isBoss && GameManager.Instance != null)
+        if (GameManager.Instance == null) return;
+
+        if (IsBoss)
         {
-            GameManager.Instance.totalHealthBoss += (int)maxHealth;
-            GameManager.Instance.isHaveBoss = true;
+            GameManager.Instance.totalHealthEnemy += (int)maxHealth;
+            GameManager.Instance.isHaveEnemy = true;
+        }
+        else if (IsMinion)
+        {
+            GameManager.Instance.totalHealthEnemy += (int)maxHealth;
+            GameManager.Instance.isHaveEnemy = true;
         }
     }
 
@@ -56,18 +72,68 @@ public class EnemyHealth : MonoBehaviour
     {
         if (isDead || amount <= 0) return;
         
+        if (IsBoss && isImmune)
+        {
+            return;
+        }
+        
         float previousHealth = currentHealth;
         currentHealth -= amount;
+        
+        if (IsBoss)
+        {
+            if (currentHealth <= bossImmuneThreshold && previousHealth > bossImmuneThreshold)
+            {
+                currentHealth = bossImmuneThreshold;
+                
+                if (!hasTriggeredNearDeath)
+                {
+                    hasTriggeredNearDeath = true;
+                    isImmune = true;
+                    
+                    if (!hasReducedTotalHealth)
+                    {
+                        float damageToThreshold = previousHealth - bossImmuneThreshold;
+                        if (GameManager.Instance != null)
+                        {
+                            GameManager.Instance.totalHealthEnemy -= (int)damageToThreshold;
+                            GameManager.Instance.totalHealthEnemy = Mathf.Max(0, GameManager.Instance.totalHealthEnemy);
+                        }
+                        hasReducedTotalHealth = true;
+                    }
+                    
+                    OnNearDeath?.Invoke();
+                }
+                
+                if (flashOnHit && spriteRenderer != null)
+                {
+                    if (flashCoroutine != null)
+                        StopCoroutine(flashCoroutine);
+                    
+                    flashCoroutine = StartCoroutine(FlashEffect());
+                }
+                
+                OnDamageTaken?.Invoke(previousHealth - currentHealth);
+                return;
+            }
+            
+            if (isImmune)
+            {
+                currentHealth = bossImmuneThreshold;
+                return;
+            }
+        }
+        
         currentHealth = Mathf.Max(0f, currentHealth);
         
         float actualDamage = previousHealth - currentHealth;
         
         OnDamageTaken?.Invoke(actualDamage);
         
-        if (isBoss && GameManager.Instance != null)
+        if (GameManager.Instance != null)
         {
-            GameManager.Instance.totalHealthBoss -= (int)actualDamage;
-            GameManager.Instance.totalHealthBoss = Mathf.Max(0, GameManager.Instance.totalHealthBoss);
+            GameManager.Instance.totalHealthEnemy -= (int)actualDamage;
+            GameManager.Instance.totalHealthEnemy = Mathf.Max(0, GameManager.Instance.totalHealthEnemy);
         }
         
         if (flashOnHit && spriteRenderer != null)
@@ -78,10 +144,27 @@ public class EnemyHealth : MonoBehaviour
             flashCoroutine = StartCoroutine(FlashEffect());
         }
         
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !IsBoss)
         {
             Die();
         }
+    }
+
+    public void ForceBossDeath()
+    {
+        if (!IsBoss) return;
+        
+        isImmune = false;
+        
+        if (GameManager.Instance != null && currentHealth > 0)
+        {
+            GameManager.Instance.totalHealthEnemy -= (int)currentHealth;
+            GameManager.Instance.totalHealthEnemy = Mathf.Max(0, GameManager.Instance.totalHealthEnemy);
+        }
+        
+        currentHealth = 0f;
+        
+        Die();
     }
 
     public void Heal(float amount)
@@ -92,9 +175,9 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
         float actualHeal = currentHealth - previousHealth;
         
-        if (isBoss && GameManager.Instance != null)
+        if (GameManager.Instance != null)
         {
-            GameManager.Instance.totalHealthBoss += (int)actualHeal;
+            GameManager.Instance.totalHealthEnemy += (int)actualHeal;
         }
     }
 
@@ -166,4 +249,10 @@ public class EnemyHealth : MonoBehaviour
         if (flashCoroutine != null)
             StopCoroutine(flashCoroutine);
     }
+}
+
+public enum EnemyType
+{
+    Minion,
+    Boss
 }

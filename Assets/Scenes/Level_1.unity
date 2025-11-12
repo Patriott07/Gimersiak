@@ -722,9 +722,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 206049273}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &245820637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,9 +1480,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 464857980}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &467459114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,9 +1638,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 467459116}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &511706271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2319,9 +2334,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 464857980}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &705541921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2618,9 +2638,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 738684328}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &765766579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3322,9 +3347,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1080402747}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1087592569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3537,9 +3567,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1110263266}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1139657218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4028,9 +4063,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1331789232}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1347935746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4243,9 +4283,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1348131261}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!114 &1352516151 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3663378646488153537, guid: b0e9fb85d938a8c45a319b8d36842407, type: 3}
@@ -4580,10 +4625,10 @@ MonoBehaviour:
   combo: 0
   level: 1
   totalBlock: 0
-  totalHealthBoss: 0
+  totalHealthEnemy: 0
   isCombo: 0
   isPlay: 0
-  isHaveBoss: 0
+  isHaveEnemy: 0
   isFirstPlay: 1
   isLoose: 0
   isCanPlay: 0
@@ -4815,9 +4860,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1540119311}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1570867391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5267,9 +5317,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1758460295}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &1779667398
 GameObject:
   m_ObjectHideFlags: 0
@@ -5420,9 +5475,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1779667399}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1001 &1810119120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5817,9 +5877,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33e150da74ef2a47af0dc21db553cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxShield: 5
-  shield: 0
-  durationCooldown: 35
+  shield: 10
+  maxShield: 15
+  spriteRenderer: {fileID: 1985326022}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  hitDuration: 0.2
+  shakeStrength: 0.3
+  shakeVibrato: 10
+  shieldBreakVFX: {fileID: 0}
 --- !u!1 &2018324066
 GameObject:
   m_ObjectHideFlags: 0

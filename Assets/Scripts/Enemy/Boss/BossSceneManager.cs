@@ -91,7 +91,11 @@ public class BossSceneManager : MonoBehaviour
 
     void InitializeBoss()
     {
-        if (bossObject != null) bossObject.SetActive(false);
+        if (bossObject != null) 
+        {
+            bossObject.SetActive(false);
+        }
+        
         if (dialogPanel != null) dialogPanel.SetActive(false);
         if (dialogCanvasGroup != null) dialogCanvasGroup.alpha = 0f;
         if (bossAnimationController != null) bossAnimationController.OnDeathAnimationComplete += HandleBossDeathComplete;
@@ -124,7 +128,6 @@ public class BossSceneManager : MonoBehaviour
             StartCoroutine(ShakeCamera(entranceShakeDuration, entranceShakeStrength));
         }
 
-        DisableBossComponents();
         yield return new WaitForSeconds(0.5f);
         yield return ShowDialogs(entranceDialogs);
 
@@ -145,6 +148,7 @@ public class BossSceneManager : MonoBehaviour
         FreezeAllEnemies(true);
         FreezePlayer(true);
         DisableBossComponents();
+        
         yield return new WaitForSeconds(0.3f);
         yield return ShowDialogs(deathDialogs);
 
@@ -171,7 +175,10 @@ public class BossSceneManager : MonoBehaviour
                 bossAnimationController.OnDeathAnimationComplete -= originalCallback;
             }
         }
-        else yield return new WaitForSeconds(1f);
+        else
+        {
+            yield return new WaitForSeconds(1f);
+        }
 
         HandleBossDeathComplete();
     }
@@ -205,6 +212,7 @@ public class BossSceneManager : MonoBehaviour
         foreach (DialogData dialog in dialogs)
         {
             if (dialog == null || string.IsNullOrEmpty(dialog.text)) continue;
+            
             if (bossPortrait != null && dialog.portrait != null)
             {
                 bossPortrait.sprite = dialog.portrait;
